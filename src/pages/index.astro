@@ -163,7 +163,7 @@ const partners = [
       <ul class="grid-testimonials">
         {testimonials.map((t) => (
           <li>
-            <a href={t.video} target="_blank" rel="noopener" class="video" style={`background-image:url(/assets/${t.img})`} aria-label={`Voir le témoignage de ${t.name}`}>
+            <a href={t.video} target="_blank" rel="noopener" class="video video-link" style={`background-image:url(/assets/${t.img})`} aria-label={`Voir le témoignage de ${t.name}`}>
               <span class="play" aria-hidden="true">▶</span>
             </a>
             <p class="name">{t.name}</p>

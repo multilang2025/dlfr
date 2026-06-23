@@ -30,6 +30,10 @@ const nav = [
     z-index: 20;
     border-bottom: 1px solid var(--color-border);
     background: var(--color-bg);
+    transition: box-shadow var(--dur) var(--ease);
+  }
+  .site-header.scrolled {
+    box-shadow: var(--shadow-sm);
   }
   .header-inner {
     display: flex;
@@ -65,3 +69,10 @@ const nav = [
     color: var(--color-accent-dark);
   }
 </style>
+
+<script>
+  const hdr = document.querySelector('.site-header');
+  const onScroll = () => hdr && hdr.classList.toggle('scrolled', window.scrollY > 8);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+</script>

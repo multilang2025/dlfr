@@ -21,7 +21,7 @@ export interface Silo {
 export const silos: Silo[] = [
   {
     slug: 's-installer-en-espagne',
-    title: "S'installer & vivre en Espagne",
+    title: "S'installer et vivre en Espagne",
     short: "S'installer en Espagne",
     intro:
       "Toutes les démarches pour vous installer, vivre et prendre votre retraite en Espagne en toute sérénité.",
@@ -73,7 +73,7 @@ export const silos: Silo[] = [
   },
   {
     slug: 'entreprendre',
-    title: 'Entreprendre & droit des affaires',
+    title: 'Entreprendre et droit des affaires',
     short: 'Entreprendre',
     intro: "Créez et développez votre entreprise en Espagne avec un accompagnement juridique complet.",
     subservices: [
@@ -102,8 +102,8 @@ export const silos: Silo[] = [
   },
   {
     slug: 'emploi-rh',
-    title: 'Emploi & ressources humaines',
-    short: 'Emploi & RH',
+    title: 'Emploi et ressources humaines',
+    short: 'Emploi et RH',
     intro: 'Recrutement, contrats et conformité sociale pour vos équipes en Espagne.',
     subservices: [
       {
@@ -146,7 +146,7 @@ export const silos: Silo[] = [
   },
   {
     slug: 'litiges',
-    title: 'Litiges & médiation',
+    title: 'Litiges et médiation',
     short: 'Litiges',
     intro: "Résolvez vos différends en Espagne par la médiation ou la voie contentieuse.",
     subservices: [
