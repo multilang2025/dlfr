@@ -1,0 +1,46 @@
+{
+  "heroSub": "Résidence fiscale, double imposition, déclarations : un conseil fiscal sur mesure.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+      ],
+      "bullets": [
+        "Détermination de votre résidence fiscale",
+        "Application de la convention de non double imposition",
+        "Déclarations d'impôts en France et en Espagne",
+        "Optimisation et conformité fiscale"
+      ],
+      "image": "impatries-en-espagne.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "RUBÉN DALVA",
+    "role": "Délégué de la Chambre de commerce de Belgique et du Luxembourg",
+    "img": "testimonio2.jpg",
+    "video": "https://youtu.be/HWZ4_EgKh50"
+  },
+  "faq": [
+    {
+      "q": "Comment est déterminée ma résidence fiscale ?",
+      "a": "Elle dépend notamment de la durée de séjour (183 jours), du centre de vos intérêts économiques et de votre foyer. Nous analysons votre situation au regard de la convention franco-espagnole."
+    },
+    {
+      "q": "Vais-je être imposé deux fois, en France et en Espagne ?",
+      "a": "Non : la convention de non double imposition entre la France et l'Espagne évite cela. Nous l'appliquons pour répartir correctement l'imposition de vos revenus."
+    },
+    {
+      "q": "Qu'est-ce que le régime des impatriés (loi Beckham) ?",
+      "a": "C'est un régime fiscal avantageux pour certains nouveaux résidents en Espagne. Nous évaluons votre éligibilité et gérons la demande."
+    },
+    {
+      "q": "Dois-je déclarer mes comptes et biens à l'étranger ?",
+      "a": "Oui, l'Espagne impose des obligations déclaratives (ex. Modelo 720). Nous veillons à votre conformité pour éviter les sanctions."
+    }
+  ]
+}

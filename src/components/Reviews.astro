@@ -1,0 +1,79 @@
+---
+// Carrousel d'avis Google (avis réels du cabinet). Partagé par les pages de services.
+const reviews = [
+  { name: 'François G.', text: "Étant français, mon dossier a été géré par une avocate espagnole efficace, Sonia Garras Gonzales, accompagnée d'une collègue française. Rapides, disponibles et efficaces." },
+  { name: 'Jacques Z.', text: "Excellente prestation. Écoute des désidératas. Je recommande fortement ce cabinet sur Valencia." },
+  { name: 'Jean-Paul D.', text: "Le 8/4 à 18h15 j'ai envoyé une demande de renseignements d'ordre fiscal et je recevais le même jour à 22h22 une réponse claire et précise, reprenant point par point mes questions. Je remercie vivement Monsieur Felix de Guía Muñoz pour sa disponibilité et la qualité de sa réponse." },
+  { name: 'Sarh F.', text: "Cabinet très sérieux et réactif ! J'avais besoin d'un avis sur le statut de résidence fiscale en Espagne. Ils m'ont répondu le lendemain par mail avec beaucoup de précisions. Je recommande leur sérieux et leur compétence à 100 % !" },
+  { name: 'Sébastien L.', text: "Réactif et professionnel ! Notre expatriation prévue en Espagne cet été sera une réussite sans aucun doute avec l'aide du cabinet !" },
+  { name: 'Mass M.', text: "Excellent contact et excellente réactivité des collaborateurs de ce cabinet d'avocats réputé de Valencia ! À solliciter pour les vérifications d'usage de votre achat immobilier, votre modelo 720, votre déclaration d'impôts, la comptabilité de votre entreprise autónomo… Je recommande vivement ce cabinet francophone !" },
+  { name: 'Eric V.', text: "Mes premiers contacts avec les associés du cabinet ont été excellents, clairs et honnêtes. Je recommande vivement le cabinet." },
+];
+---
+
+<section class="gbp">
+  <div class="container">
+    <p class="gbp-eyebrow">Avis Google</p>
+    <h2 class="gbp-title">Ils nous recommandent</h2>
+    <div class="gbp-stage">
+      <div class="gbp-track" id="gbpTrack" data-reviews={JSON.stringify(reviews)}></div>
+      <button class="gbp-nav gbp-prev" type="button" aria-label="Avis précédent">‹</button>
+      <button class="gbp-nav gbp-next" type="button" aria-label="Avis suivant">›</button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .gbp { background: #fff; padding-block: var(--space-xl); border-top: 1px solid var(--color-border); }
+  .gbp-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 8px; text-align: center; }
+  .gbp-title { text-align: center; margin: 0 0 40px; }
+  .gbp-stage { position: relative; }
+  .gbp-track { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: center; }
+  .gbp-card { text-align: center; position: relative; border-radius: var(--radius-md); padding: 36px; opacity: .55; transition: opacity .15s, box-shadow .15s; }
+  .gbp-card.is-active { background: #fff; box-shadow: var(--shadow-md); opacity: 1; }
+  .gbp-quote { position: absolute; top: 14px; left: 22px; font-family: var(--font-heading); font-size: 64px; line-height: .9; font-weight: 700; color: var(--color-border-soft); }
+  .gbp-card.is-active .gbp-quote { color: var(--color-brand); }
+  .gbp-av { width: 84px; height: 84px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 20px auto 22px; font-family: var(--font-heading); font-weight: 700; font-size: 28px; background: var(--color-surface); color: var(--color-brand); }
+  .gbp-card.is-active .gbp-av { background: var(--color-brand); color: #fff; }
+  .gbp-text { font-size: 16px; line-height: 1.65; color: var(--color-muted); max-width: 34ch; margin: 0 auto 22px; }
+  .gbp-card.is-active .gbp-text { color: var(--color-text-strong); }
+  .gbp-stars { color: var(--color-border-soft); font-size: 16px; letter-spacing: 2px; }
+  .gbp-card.is-active .gbp-stars { color: var(--color-brand); }
+  .gbp-name { font-weight: 700; margin: 16px 0 2px; color: var(--color-muted); font-family: var(--font-heading); }
+  .gbp-card.is-active .gbp-name { color: var(--color-heading); }
+  .gbp-role { color: var(--color-muted); margin: 0; font-size: 14px; }
+  .gbp-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; cursor: pointer; border: 1px solid var(--color-border-soft); background: #fff; color: var(--color-brand); box-shadow: var(--shadow-sm); display: flex; align-items: center; justify-content: center; font-size: 22px; line-height: 1; z-index: 2; }
+  .gbp-nav:hover { background: var(--color-brand); color: #fff; }
+  .gbp-prev { left: -8px; }
+  .gbp-next { right: -8px; }
+  @media (max-width: 720px) { .gbp-track { grid-template-columns: 1fr; } .gbp-card:not(.is-active) { display: none; } }
+</style>
+
+<script>
+  document.querySelectorAll('.gbp').forEach((root) => {
+    const track = root.querySelector('.gbp-track');
+    const reviews = JSON.parse(track.dataset.reviews || '[]');
+    const n = reviews.length;
+    let center = 1;
+    const at = (i) => ((i % n) + n) % n;
+    const ini = (name) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+    const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    function render() {
+      const idxs = [at(center - 1), center, at(center + 1)];
+      track.innerHTML = idxs.map((i, slot) => {
+        const r = reviews[i];
+        return '<div class="gbp-card' + (slot === 1 ? ' is-active' : '') + '">' +
+          '<span class="gbp-quote">“</span>' +
+          '<div class="gbp-av">' + ini(r.name) + '</div>' +
+          '<p class="gbp-text">' + esc(r.text) + '</p>' +
+          '<div class="gbp-stars">★★★★★</div>' +
+          '<p class="gbp-name">' + esc(r.name) + '</p>' +
+          '<p class="gbp-role">Avis Google</p>' +
+          '</div>';
+      }).join('');
+    }
+    root.querySelector('.gbp-prev').addEventListener('click', () => { center = at(center - 1); render(); });
+    root.querySelector('.gbp-next').addEventListener('click', () => { center = at(center + 1); render(); });
+    render();
+  });
+</script>

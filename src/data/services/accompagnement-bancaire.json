@@ -1,0 +1,46 @@
+{
+  "heroSub": "Ouverture de compte, financement et gestion bancaire pour votre projet espagnol.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-fiscalidad.jpg",
+  "sections": [
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+      ],
+      "bullets": [
+        "Ouverture de compte bancaire en Espagne",
+        "Recherche de solutions de financement",
+        "Gestion bancaire courante",
+        "Interface avec les banques espagnoles"
+      ],
+      "image": "area-auditoria.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "RUBÉN DALVA",
+    "role": "Délégué de la Chambre de commerce de Belgique et du Luxembourg",
+    "img": "testimonio2.jpg",
+    "video": "https://youtu.be/HWZ4_EgKh50"
+  },
+  "faq": [
+    {
+      "q": "Puis-je ouvrir un compte bancaire en tant que non-résident ?",
+      "a": "Oui, des comptes pour non-résidents existent. Nous facilitons l'ouverture et la fourniture des justificatifs requis."
+    },
+    {
+      "q": "Quels documents pour ouvrir un compte en Espagne ?",
+      "a": "Généralement passeport, NIE et justificatifs de revenus/domicile. Nous préparons le dossier avec vous."
+    },
+    {
+      "q": "Pouvez-vous m'aider à obtenir un financement immobilier ?",
+      "a": "Oui, nous vous orientons vers les solutions de financement et faisons l'interface avec les banques espagnoles."
+    },
+    {
+      "q": "Comment gérer mon compte à distance ?",
+      "a": "Nous vous aidons à mettre en place la banque en ligne et à gérer vos opérations courantes depuis la France."
+    }
+  ]
+}

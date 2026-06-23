@@ -1,0 +1,46 @@
+{
+  "heroSub": "Sécurisez vos contrats et vos opérations commerciales en Espagne.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-extranjeria.jpg",
+  "sections": [
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+      ],
+      "bullets": [
+        "Rédaction et négociation de vos contrats",
+        "Sécurisation de vos opérations commerciales",
+        "Conseil juridique au quotidien",
+        "Gestion des litiges commerciaux"
+      ],
+      "image": "area-sucesiones.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "DOMINIQUE",
+    "role": "Chasseur immobilier à Valence",
+    "img": "testimonio3.jpg",
+    "video": "https://youtu.be/ocOfoYCU790"
+  },
+  "faq": [
+    {
+      "q": "Quels contrats commerciaux devez-vous sécuriser ?",
+      "a": "Contrats de distribution, prestation, partenariat, CGV… Nous rédigeons et révisons vos contrats pour limiter les risques juridiques."
+    },
+    {
+      "q": "Mes contrats français sont-ils valables en Espagne ?",
+      "a": "Ils peuvent l'être, mais doivent être adaptés au droit espagnol et à la langue. Nous les révisons pour garantir leur efficacité locale."
+    },
+    {
+      "q": "Que faire en cas de litige commercial ?",
+      "a": "Nous privilégions la négociation et la médiation, puis assurons votre représentation contentieuse si nécessaire."
+    },
+    {
+      "q": "Pouvez-vous m'accompagner sur le développement de franchises ?",
+      "a": "Oui, nous accompagnons la structuration et le développement de réseaux de franchise en Espagne."
+    }
+  ]
+}

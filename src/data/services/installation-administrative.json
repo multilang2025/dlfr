@@ -1,0 +1,75 @@
+{
+  "heroSub": "NIE, empadronamiento, résidence : nous gérons vos démarches administratives en Espagne.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-inmobiliario.jpg",
+  "sections": [
+    {
+      "heading": "NIE et TIE : les deux documents fondamentaux",
+      "body": [
+        "Le NIE (<em>Número de Identidad de Extranjero</em>) est un numéro d'identification unique attribué à tout étranger effectuant des démarches administratives, fiscales ou commerciales en Espagne. Il est notamment indispensable pour acheter un bien immobilier, et reste <strong>valable à vie</strong> — contrairement à la TIE, il n'a pas besoin d'être renouvelé.",
+        "La TIE (<em>Tarjeta de Identidad de Extranjero</em>) est la carte de résidence physique pour les séjours de plus de trois mois. Pour les citoyens de l'Union européenne, c'est le <em>Certificado de Registro</em> (la « carte verte ») qui fait foi ; la TIE concerne les ressortissants hors UE."
+      ],
+      "image": "area-extranjeria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les autres démarches indispensables",
+      "body": [
+        "Au-delà du NIE et du TIE, votre installation complète en Espagne nécessite plusieurs formalités essentielles, aux spécificités différentes du système français :"
+      ],
+      "bullets": [
+        "<strong>Padrón municipal (empadronamiento)</strong> : registre obligatoire des habitants, nécessaire pour la santé, l'école et la TIE",
+        "<strong>Sécurité sociale espagnole</strong> : Régimen General (salariés), RETA (indépendants) ou formulaire S1 (retraités)",
+        "<strong>Compte bancaire espagnol</strong> : pour vos factures, salaires, pensions et prélèvements",
+        "<strong>Résidence fiscale</strong> : déclaration à l'Agencia Tributaria au-delà de 183 jours par an"
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre double expertise franco-espagnole nous permet de comprendre vos besoins spécifiques et de vous guider efficacement dans le système administratif espagnol. Installés à Valence depuis trois générations, notre équipe francophone vous accompagne du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe."
+      ],
+      "bullets": [
+        "Obtention du NIE et de la TIE dans les délais",
+        "Empadronamiento : inscription auprès de la mairie",
+        "Demande et renouvellement de la résidence",
+        "Représentation auprès de l'administration espagnole"
+      ],
+      "image": "equipo.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "STEPAHONE ANOUFA",
+    "role": "Client Delaguía & Luzón",
+    "img": "testimonio1-1.jpg",
+    "video": "https://youtu.be/nQuYISPF9Es"
+  },
+  "faq": [
+    {
+      "q": "Le NIE est-il obligatoire ?",
+      "a": "Le NIE est indispensable pour presque toute démarche en Espagne : travailler, acheter un bien immobilier, ouvrir un compte bancaire ou créer une société. C'est la clé de votre vie administrative, fiscale et économique sur place."
+    },
+    {
+      "q": "Quelle différence entre le NIE et la TIE ?",
+      "a": "Le NIE est un numéro d'identification valable à vie ; la TIE est une carte de résident physique, obligatoire pour les séjours de plus de trois mois. Pour les citoyens de l'UE, le <em>Certificado de Registro</em> remplace la TIE."
+    },
+    {
+      "q": "Puis-je obtenir mon NIE sans me rendre en Espagne ?",
+      "a": "Oui. Les Français peuvent en faire la demande auprès du Consulat d'Espagne en France compétent, sans avoir besoin d'une adresse espagnole. Nous préparons et sécurisons votre dossier."
+    },
+    {
+      "q": "Le NIE est-il payant ?",
+      "a": "Seule la taxe administrative (<em>tasa</em> 790-012) est due, fixée à 9,84 € en 2025. Aucun autre frais n'est légalement exigé pour l'obtention du numéro."
+    },
+    {
+      "q": "Le NIE est-il obligatoire pour louer un logement ?",
+      "a": "Légalement, il n'est pas obligatoire pour une location de courte durée, mais de nombreux propriétaires et agences le demandent pour sécuriser la transaction. Pour une location longue durée, il est généralement exigé."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "heroSub": "Choix de la structure, constitution et formalités pour créer votre société en Espagne.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-sucesiones.jpg",
+  "sections": [
+    {
+      "heading": "Pourquoi choisir l'Espagne pour créer votre entreprise ?",
+      "body": [
+        "L'Espagne propose un cadre attractif pour les entrepreneurs français :"
+      ],
+      "bullets": [
+        "Fiscalité compétitive (régime des impatriés, avantages locaux à Valencia, etc.)",
+        "Accès au marché européen et à une économie dynamique",
+        "Simplification des démarches pour les résidents et non-résidents",
+        "Coût de la vie et des locaux souvent plus avantageux qu'en France"
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": false
+    },
+    {
+      "heading": "Choisir votre statut",
+      "body": [
+        "Que vous souhaitiez créer une S.L. (Société Limitée), vous installer en tant qu'Autónomo à Valencia, ou transformer votre statut d'auto-entrepreneur français en Autónomo espagnol, notre cabinet vous accompagne à chaque étape.",
+        "Pour une <strong>S.L.</strong>, nous gérons l'ensemble des formalités : réservation du nom, ouverture de compte bancaire, rédaction des statuts, obtention du CIF et immatriculation au Registre Mercantil.",
+        "Si vous optez pour le statut <strong>Autónomo</strong>, nous vous aidons à estimer les coûts initiaux et les cotisations sociales, ainsi qu'à compléter toutes les démarches administratives.",
+        "Enfin, pour les <strong>auto-entrepreneurs français</strong>, nous assurons une transition fluide vers le régime espagnol : résiliation du statut français, immatriculation en Espagne, et adaptation de votre comptabilité aux obligations locales.",
+        "Bénéficiez d'un accompagnement complet et personnalisé pour lancer votre activité en Espagne en toute sérénité."
+      ],
+      "bullets": [],
+      "image": "area-laboral.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Obtenir le CIF",
+      "body": [
+        "Le CIF (Código de Identificación Fiscal) est indispensable pour exercer légalement en Espagne. Nos avocats vous accompagnent pour :"
+      ],
+      "bullets": [
+        "Choisir la forme juridique la plus adaptée (S.L., Autónomo, société civile…)",
+        "Préparer et déposer les dossiers auprès de l'Agence Tributaire espagnole",
+        "Obtenir votre CIF rapidement et sans erreur",
+        "Gérer les formalités post-création (déclarations fiscales, contrats, etc.)"
+      ],
+      "image": "area-extranjeria.jpg",
+      "alt": true,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "DOMINIQUE",
+    "role": "Chasseur immobilier à Valence",
+    "img": "testimonio3.jpg",
+    "video": "https://youtu.be/ocOfoYCU790"
+  },
+  "faq": [
+    {
+      "q": "Combien de temps faut-il pour créer une S.L. en Espagne ?",
+      "a": "En général 2 à 4 semaines, selon l'obtention du NIE/CIF et la disponibilité du nom de société. Nous accélérons chaque étape pour vous faire gagner du temps."
+    },
+    {
+      "q": "Quel est le capital social minimum pour une S.L. ?",
+      "a": "Le capital social minimum d'une Sociedad Limitada est de 3 000 €, à déposer lors de la constitution de la société."
+    },
+    {
+      "q": "Vaut-il mieux être Autónomo ou créer une S.L. ?",
+      "a": "Cela dépend de votre activité, de vos revenus prévisionnels et du niveau de responsabilité souhaité. Nous analysons votre situation pour vous conseiller le statut le plus avantageux."
+    },
+    {
+      "q": "Puis-je transformer mon statut d'auto-entrepreneur français en Autónomo espagnol ?",
+      "a": "Oui. Nous assurons toute la transition : résiliation du statut en France, immatriculation en Espagne et adaptation de votre comptabilité aux obligations locales."
+    },
+    {
+      "q": "Qu'est-ce que le CIF et pourquoi est-il indispensable ?",
+      "a": "Le CIF (Código de Identificación Fiscal) identifie votre société auprès de l'administration espagnole. Il est requis pour facturer, ouvrir un compte professionnel et opérer légalement."
+    },
+    {
+      "q": "Dois-je résider en Espagne pour créer ma société ?",
+      "a": "Non, vous pouvez créer une société en tant que non-résident. Le NIE suffit pour démarrer les démarches ; nous vous accompagnons à distance comme sur place."
+    }
+  ]
+}

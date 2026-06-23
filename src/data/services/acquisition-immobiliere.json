@@ -1,0 +1,46 @@
+{
+  "heroSub": "Vérifications, contrats et accompagnement juridique pour votre achat immobilier en Espagne.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-laboral.jpg",
+  "sections": [
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+      ],
+      "bullets": [
+        "Vérifications juridiques (due diligence) du bien",
+        "Rédaction et révision des contrats de vente",
+        "Accompagnement jusqu'à la signature chez le notaire",
+        "Sécurisation de votre acquisition"
+      ],
+      "image": "area-inmobiliario.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "RUBÉN DALVA",
+    "role": "Délégué de la Chambre de commerce de Belgique et du Luxembourg",
+    "img": "testimonio2.jpg",
+    "video": "https://youtu.be/HWZ4_EgKh50"
+  },
+  "faq": [
+    {
+      "q": "Quelles vérifications faire avant d'acheter un bien en Espagne ?",
+      "a": "Il faut vérifier le titre de propriété, les charges, l'urbanisme et l'absence de dettes (nota simple). Nous réalisons cette due diligence avant tout engagement."
+    },
+    {
+      "q": "Qu'est-ce que le contrat d'arras ?",
+      "a": "C'est le compromis de réservation (contrato de arras) qui fixe les conditions et un acompte. Nous le rédigeons ou le révisons pour vous protéger."
+    },
+    {
+      "q": "Quels frais prévoir en plus du prix d'achat ?",
+      "a": "Comptez les impôts de transmission, les frais de notaire et d'enregistrement. Nous établissons une estimation complète en amont."
+    },
+    {
+      "q": "Puis-je acheter en tant que non-résident ?",
+      "a": "Oui. Le NIE suffit pour acheter. Nous vous accompagnons pour toutes les démarches, à distance si nécessaire."
+    }
+  ]
+}

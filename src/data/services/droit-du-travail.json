@@ -1,0 +1,46 @@
+{
+  "heroSub": "Embauche, contrats de travail et relations sociales conformes au droit espagnol.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-fiscal.jpg",
+  "sections": [
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+      ],
+      "bullets": [
+        "Rédaction des contrats de travail",
+        "Embauche et processus de recrutement",
+        "Gestion des relations sociales",
+        "Conformité au droit du travail espagnol"
+      ],
+      "image": "area-laboral.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "RUBÉN DALVA",
+    "role": "Délégué de la Chambre de commerce de Belgique et du Luxembourg",
+    "img": "testimonio2.jpg",
+    "video": "https://youtu.be/HWZ4_EgKh50"
+  },
+  "faq": [
+    {
+      "q": "Quels types de contrats de travail existent en Espagne ?",
+      "a": "Principalement le contrat à durée indéterminée (indefinido) et le contrat temporaire encadré. Nous choisissons et rédigeons le contrat adapté à votre besoin."
+    },
+    {
+      "q": "Quelles sont les charges sociales à prévoir pour un salarié ?",
+      "a": "Les cotisations à la Seguridad Social représentent une part importante du coût. Nous estimons le coût total employeur avant l'embauche."
+    },
+    {
+      "q": "Comment recruter mon premier salarié en Espagne ?",
+      "a": "Nous vous accompagnons de l'affiliation employeur à la déclaration d'embauche, en passant par le contrat et la paie."
+    },
+    {
+      "q": "Qu'est-ce que la compliance du travail ?",
+      "a": "C'est la mise en conformité de vos pratiques RH avec la réglementation espagnole (registre du temps de travail, égalité, prévention). Nous auditons et sécurisons vos process."
+    }
+  ]
+}

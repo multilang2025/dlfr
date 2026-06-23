@@ -1,0 +1,46 @@
+{
+  "heroSub": "Sécurité sociale, retraite et santé : optimisez votre protection sociale entre la France et l'Espagne.",
+  "heroNote": "Un accompagnement franco-espagnol sur mesure, en français, anglais ou russe — à chaque étape de votre projet.",
+  "heroImage": "area-auditoria.jpg",
+  "sections": [
+    {
+      "heading": "Notre accompagnement",
+      "body": [
+        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+      ],
+      "bullets": [
+        "Affiliation à la sécurité sociale espagnole",
+        "Coordination de vos droits à la retraite FR/ES",
+        "Couverture santé et carte sanitaire",
+        "Optimisation de votre protection sociale"
+      ],
+      "image": "expatriation-en-espagne.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "testimonial": {
+    "name": "STEPAHONE ANOUFA",
+    "role": "Client Delaguía & Luzón",
+    "img": "testimonio1-1.jpg",
+    "video": "https://youtu.be/nQuYISPF9Es"
+  },
+  "faq": [
+    {
+      "q": "Ma retraite française est-elle imposée en Espagne ?",
+      "a": "Selon votre résidence fiscale et la nature de la pension, l'imposition varie. Nous appliquons la convention franco-espagnole à votre cas."
+    },
+    {
+      "q": "Comment accéder à la santé publique espagnole ?",
+      "a": "Via l'affiliation à la Seguridad Social ou la carte sanitaire selon votre statut. Nous vous orientons vers la solution adaptée."
+    },
+    {
+      "q": "Mes trimestres français comptent-ils pour ma retraite ?",
+      "a": "Oui, les régimes européens se coordonnent. Nous vous aidons à faire valoir l'ensemble de vos droits FR/ES."
+    },
+    {
+      "q": "Que faire pour ma couverture santé en tant que retraité ?",
+      "a": "Selon votre situation (S1, mutuelle, privé), plusieurs options existent. Nous vous conseillons la couverture la plus adaptée."
+    }
+  ]
+}
