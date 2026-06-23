@@ -1,0 +1,61 @@
+/*
+  Design tokens — palette inspirée de delaguialuzon.com
+  (valeurs approximatives à affiner sur les couleurs exactes du .com)
+*/
+:root {
+  /* Couleurs */
+  --color-bg: #ffffff;
+  --color-surface: #f7f4ee;      /* crème, fonds de section */
+  --color-text: #2a3142;         /* charbon/navy pour le corps */
+  --color-heading: #0f1b2d;      /* navy foncé pour les titres */
+  --color-muted: #6b7280;        /* gris secondaire */
+  --color-accent: #c19a4b;       /* or / ambre */
+  --color-accent-dark: #9a7733;  /* or foncé (hover) */
+  --color-border: #e5e1d8;
+
+  /* Typographie */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: var(--font-sans);
+
+  /* Échelle d'espacement */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+
+  /* Mise en page */
+  --max-width: 1140px;
+  --radius: 6px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  line-height: 1.2;
+}
+
+a {
+  color: var(--color-accent-dark);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: var(--space-3);
+}

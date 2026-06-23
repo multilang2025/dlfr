@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Delaguía y Luzón — Entreprendre ou prendre sa retraite en Espagne"
+  description="Cabinet d'accompagnement juridique, fiscal et administratif pour entreprendre ou prendre sa retraite en Espagne."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>Entreprendre ou prendre sa retraite en Espagne</h1>
+      <p class="lead">
+        65 ans d'expérience, une équipe d'environ 25 professionnels à votre service.
+      </p>
+      <a class="btn" href="/contact/">Nous contacter</a>
+    </div>
+  </section>
+
+  <section class="container intro">
+    <p>
+      Squelette de départ — le contenu réel des pages sera importé à l'identique
+      depuis le site WordPress actuel à l'étape suivante.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    background: var(--color-surface);
+    padding-block: var(--space-8);
+  }
+  .hero h1 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin: 0 0 var(--space-2);
+  }
+  .lead {
+    font-size: 1.2rem;
+    color: var(--color-muted);
+    max-width: 40ch;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: var(--space-3);
+    padding: var(--space-1) var(--space-3);
+    background: var(--color-accent);
+    color: #fff;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background: var(--color-accent-dark);
+  }
+  .intro {
+    padding-block: var(--space-6);
+  }
+</style>
