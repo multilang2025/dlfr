@@ -5,6 +5,17 @@ interface Crumb {
 }
 const { items = [] } = Astro.props as { items: Crumb[] };
 const all: Crumb[] = [{ label: 'Accueil', href: '/' }, ...items];
+const currentUrl = new URL(Astro.url.pathname, Astro.site).href;
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: all.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    item: c.href ? new URL(c.href, Astro.site).href : currentUrl,
+  })),
+};
 ---
 
 <nav class="breadcrumb" aria-label="Fil d'Ariane">
@@ -16,6 +27,7 @@ const all: Crumb[] = [{ label: 'Accueil', href: '/' }, ...items];
     ))}
   </ol>
 </nav>
+<script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
 
 <style>
   .breadcrumb {

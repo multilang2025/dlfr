@@ -11,6 +11,36 @@ interface Props {
 }
 
 const { title, description = '' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+// JSON-LD — entité du cabinet (présent sur toutes les pages)
+const org = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Delaguía y Luzón',
+  legalName: 'Delaguía-Luzón Abogados y Asesores Tributarios, S.L.P.',
+  description:
+    "Cabinet franco-espagnol d'accompagnement juridique, fiscal et administratif pour entreprendre, s'installer ou prendre sa retraite en Espagne.",
+  url: 'https://delaguialuzon.fr',
+  image: 'https://delaguialuzon.fr/assets/Logo-65_610.png',
+  telephone: '+34963741657',
+  email: 'felix.delaguia@delaguialuzon.fr',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '15 Rue de la Montagne, Porte 1, 1er étage',
+    postalCode: '68100',
+    addressLocality: 'Mulhouse',
+    addressCountry: 'FR',
+  },
+  areaServed: ['ES', 'FR'],
+  availableLanguage: ['fr', 'en', 'ru'],
+  sameAs: [
+    'https://www.facebook.com/DelaguiaLuzon/',
+    'https://www.linkedin.com/company/delaguia-luzon/',
+    'https://www.youtube.com/channel/UC4xGIk_KROr6k4t73SGN7ZA',
+    'https://www.instagram.com/delaguialuzon/',
+  ],
+};
 ---
 
 <!doctype html>
@@ -20,8 +50,10 @@ const { title, description = '' } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonical} />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(org)} />
   </head>
   <body>
     <Header />

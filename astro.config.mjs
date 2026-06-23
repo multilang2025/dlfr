@@ -1,9 +1,12 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://delaguialuzon.fr',
+
   // i18n prêt pour EN/RU. FR reste à la racine (pas de préfixe /fr).
   i18n: {
     defaultLocale: 'fr',
@@ -12,8 +15,11 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
+
   build: {
     // URLs propres : /contact/ au lieu de /contact.html
     format: 'directory',
   },
+
+  integrations: [sitemap()],
 });
