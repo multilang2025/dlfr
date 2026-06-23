@@ -1,0 +1,6 @@
+# Force index.html comme page d'accueil par défaut.
+# Évite que la page placeholder de Hostinger (default.php / index.php) masque le site.
+DirectoryIndex index.html index.htm
+
+# Petits réglages utiles
+Options -Indexes
