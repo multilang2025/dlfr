@@ -1,0 +1,44 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SiloGrid from '../../../components/SiloGrid.astro';
+import ContactCTA from '../../../components/ContactCTA.astro';
+import { silos } from '../../../data/silos';
+
+export function getStaticPaths() {
+  return silos.map((s) => ({ params: { silo: s.slug }, props: { silo: s } }));
+}
+
+const { silo } = Astro.props;
+const items = silo.subservices.map((ss) => ({
+  title: ss.title,
+  intro: ss.intro,
+  href: `/domaines/${silo.slug}/${ss.slug}/`,
+}));
+---
+
+<Base title={`${silo.title} — Delaguía y Luzón`} description={silo.intro}>
+  <Breadcrumb
+    items={[{ label: 'Domaines de compétences', href: '/domaines/' }, { label: silo.title }]}
+  />
+  <section class="container intro">
+    <h1>{silo.title}</h1>
+    <p class="lead">{silo.intro}</p>
+  </section>
+  <section class="container">
+    <h2>Nos services</h2>
+    <SiloGrid items={items} />
+  </section>
+  <ContactCTA />
+</Base>
+
+<style>
+  .intro {
+    padding-block: var(--space-6) var(--space-3);
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-muted);
+    max-width: 60ch;
+  }
+</style>

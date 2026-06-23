@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import SiloGrid from '../../components/SiloGrid.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import { silos } from '../../data/silos';
+
+const items = silos.map((s) => ({
+  title: s.title,
+  intro: s.intro,
+  href: `/domaines/${s.slug}/`,
+}));
+---
+
+<Base
+  title="Domaines de compétences — Delaguía y Luzón"
+  description="Nos domaines d'intervention pour entreprendre, vous installer ou prendre votre retraite en Espagne : fiscalité, immobilier, droit des affaires, emploi, litiges."
+>
+  <Breadcrumb items={[{ label: 'Domaines de compétences' }]} />
+  <section class="container intro">
+    <h1>Domaines de compétences</h1>
+    <p class="lead">
+      Un accompagnement juridique, fiscal et administratif complet pour votre projet en Espagne.
+    </p>
+  </section>
+  <section class="container">
+    <SiloGrid items={items} />
+  </section>
+  <ContactCTA />
+</Base>
+
+<style>
+  .intro {
+    padding-block: var(--space-6) var(--space-3);
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-muted);
+    max-width: 60ch;
+  }
+</style>

@@ -1,0 +1,42 @@
+---
+// Les demandes sont centralisées sur l'autre domaine (delaguialuzon.com/fr/).
+const CONTACT_URL = 'https://delaguialuzon.com/fr/';
+---
+
+<section class="cta">
+  <div class="container">
+    <h2>Une question, un projet en Espagne ?</h2>
+    <p>Faites votre demande : notre équipe vous répond en français, anglais ou russe.</p>
+    <a class="btn" href={CONTACT_URL}>Faire une demande</a>
+  </div>
+</section>
+
+<style>
+  .cta {
+    background: var(--color-heading);
+    color: #fff;
+    padding-block: var(--space-6);
+    margin-top: var(--space-8);
+    text-align: center;
+  }
+  .cta h2 {
+    color: #fff;
+    margin: 0 0 var(--space-1);
+  }
+  .cta p {
+    color: #d7dae3;
+    margin: 0 0 var(--space-3);
+  }
+  .cta .btn {
+    display: inline-block;
+    padding: var(--space-1) var(--space-4);
+    background: var(--color-accent);
+    color: #fff;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .cta .btn:hover {
+    background: var(--color-accent-dark);
+  }
+</style>

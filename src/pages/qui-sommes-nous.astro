@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+---
+
+<Base
+  title="Qui sommes-nous ? — Delaguía y Luzón"
+  description="Cabinet franco-espagnol fort de 65 ans d'expérience et d'une équipe d'environ 25 professionnels au service de votre projet en Espagne."
+>
+  <Breadcrumb items={[{ label: 'Qui sommes-nous ?' }]} />
+  <section class="container intro">
+    <h1>Qui sommes-nous ?</h1>
+    <p class="lead">
+      65 ans d'expérience, une équipe d'environ 25 professionnels au service de votre projet en Espagne.
+    </p>
+    <p class="placeholder">Contenu détaillé à importer depuis le site actuel (extraction WordPress).</p>
+  </section>
+  <ContactCTA />
+</Base>
+
+<style>
+  .intro { padding-block: var(--space-6) var(--space-3); }
+  .lead { font-size: 1.15rem; color: var(--color-muted); max-width: 60ch; }
+  .placeholder { color: var(--color-muted); font-style: italic; }
+</style>

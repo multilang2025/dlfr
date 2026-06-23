@@ -1,5 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
+import SiloGrid from '../components/SiloGrid.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import { silos } from '../data/silos';
+
+const CONTACT_URL = 'https://delaguialuzon.com/fr/';
+const items = silos.map((s) => ({ title: s.title, intro: s.intro, href: `/domaines/${s.slug}/` }));
 ---
 
 <Base
@@ -12,16 +18,16 @@ import Base from '../layouts/Base.astro';
       <p class="lead">
         65 ans d'expérience, une équipe d'environ 25 professionnels à votre service.
       </p>
-      <a class="btn" href="/contact/">Nous contacter</a>
+      <a class="btn" href={CONTACT_URL}>Faire une demande</a>
     </div>
   </section>
 
-  <section class="container intro">
-    <p>
-      Squelette de départ — le contenu réel des pages sera importé à l'identique
-      depuis le site WordPress actuel à l'étape suivante.
-    </p>
+  <section class="container domaines">
+    <h2>Nos domaines de compétences</h2>
+    <SiloGrid items={items} />
   </section>
+
+  <ContactCTA />
 </Base>
 
 <style>
@@ -41,7 +47,7 @@ import Base from '../layouts/Base.astro';
   .btn {
     display: inline-block;
     margin-top: var(--space-3);
-    padding: var(--space-1) var(--space-3);
+    padding: var(--space-1) var(--space-4);
     background: var(--color-accent);
     color: #fff;
     border-radius: var(--radius);
@@ -51,7 +57,10 @@ import Base from '../layouts/Base.astro';
   .btn:hover {
     background: var(--color-accent-dark);
   }
-  .intro {
+  .domaines {
     padding-block: var(--space-6);
+  }
+  .domaines h2 {
+    margin-bottom: var(--space-3);
   }
 </style>

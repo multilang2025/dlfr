@@ -1,0 +1,47 @@
+---
+interface Crumb {
+  label: string;
+  href?: string;
+}
+const { items = [] } = Astro.props as { items: Crumb[] };
+const all: Crumb[] = [{ label: 'Accueil', href: '/' }, ...items];
+---
+
+<nav class="breadcrumb" aria-label="Fil d'Ariane">
+  <ol>
+    {all.map((c, i) => (
+      <li>
+        {c.href && i < all.length - 1 ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .breadcrumb {
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .breadcrumb ol {
+    max-width: var(--max-width);
+    margin-inline: auto;
+    padding: var(--space-1) var(--space-3);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .breadcrumb li + li::before {
+    content: '›';
+    margin-right: 0.5rem;
+    color: var(--color-muted);
+  }
+  .breadcrumb a {
+    color: var(--color-accent-dark);
+    text-decoration: none;
+  }
+  .breadcrumb span {
+    color: var(--color-muted);
+  }
+</style>

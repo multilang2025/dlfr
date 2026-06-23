@@ -1,0 +1,60 @@
+---
+interface Item {
+  title: string;
+  intro?: string;
+  href: string;
+}
+const { items = [] } = Astro.props as { items: Item[] };
+---
+
+<ul class="cards">
+  {items.map((it) => (
+    <li>
+      <a href={it.href}>
+        <h3>{it.title}</h3>
+        {it.intro && <p>{it.intro}</p>}
+        <span class="more">En savoir plus →</span>
+      </a>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-3);
+  }
+  .cards a {
+    display: block;
+    height: 100%;
+    padding: var(--space-3);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: #fff;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .cards a:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 16px rgba(15, 27, 45, 0.08);
+  }
+  .cards h3 {
+    margin: 0 0 var(--space-1);
+    font-size: 1.1rem;
+  }
+  .cards p {
+    margin: 0 0 var(--space-1);
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+  .cards .more {
+    color: var(--color-accent-dark);
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+</style>

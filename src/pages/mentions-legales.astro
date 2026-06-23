@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Base title="Mentions légales — Delaguía y Luzón" description="Mentions légales du site Delaguía y Luzón.">
+  <Breadcrumb items={[{ label: 'Mentions légales' }]} />
+  <section class="container intro">
+    <h1>Mentions légales</h1>
+    <p class="placeholder">Contenu à importer depuis le site actuel (extraction WordPress).</p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-block: var(--space-6); max-width: 70ch; }
+  .placeholder { color: var(--color-muted); font-style: italic; }
+</style>

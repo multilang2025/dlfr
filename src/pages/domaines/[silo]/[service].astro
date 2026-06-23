@@ -1,0 +1,76 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import ContactCTA from '../../../components/ContactCTA.astro';
+import { silos } from '../../../data/silos';
+
+export function getStaticPaths() {
+  return silos.flatMap((s) =>
+    s.subservices.map((ss) => ({
+      params: { silo: s.slug, service: ss.slug },
+      props: { silo: s, service: ss },
+    }))
+  );
+}
+
+const { silo, service } = Astro.props;
+// Maillage interne en silo : liens vers les autres sous-services du MÊME silo.
+const siblings = silo.subservices.filter((ss) => ss.slug !== service.slug);
+---
+
+<Base title={`${service.title} — Delaguía y Luzón`} description={service.intro}>
+  <Breadcrumb
+    items={[
+      { label: 'Domaines de compétences', href: '/domaines/' },
+      { label: silo.title, href: `/domaines/${silo.slug}/` },
+      { label: service.title },
+    ]}
+  />
+  <article class="container intro">
+    <h1>{service.title}</h1>
+    <p class="lead">{service.intro}</p>
+    <p class="placeholder">
+      Contenu détaillé à importer depuis le site actuel (extraction WordPress).
+    </p>
+  </article>
+
+  {siblings.length > 0 && (
+    <aside class="container related">
+      <h2>Dans le même domaine : {silo.title}</h2>
+      <ul>
+        {siblings.map((ss) => (
+          <li><a href={`/domaines/${silo.slug}/${ss.slug}/`}>{ss.title}</a></li>
+        ))}
+      </ul>
+      <p><a href={`/domaines/${silo.slug}/`}>← Voir tout le domaine « {silo.title} »</a></p>
+    </aside>
+  )}
+
+  <ContactCTA />
+</Base>
+
+<style>
+  .intro {
+    padding-block: var(--space-6) var(--space-3);
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-muted);
+    max-width: 60ch;
+  }
+  .placeholder {
+    color: var(--color-muted);
+    font-style: italic;
+  }
+  .related {
+    padding-block: var(--space-4);
+    border-top: 1px solid var(--color-border);
+  }
+  .related ul {
+    columns: 2;
+    gap: var(--space-4);
+  }
+  .related a {
+    color: var(--color-accent-dark);
+  }
+</style>

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Base
+  title="Politique de confidentialité — Delaguía y Luzón"
+  description="Politique de confidentialité du site Delaguía y Luzón."
+>
+  <Breadcrumb items={[{ label: 'Politique de confidentialité' }]} />
+  <section class="container intro">
+    <h1>Politique de confidentialité</h1>
+    <p class="placeholder">Contenu à importer depuis le site actuel (extraction WordPress).</p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-block: var(--space-6); max-width: 70ch; }
+  .placeholder { color: var(--color-muted); font-style: italic; }
+</style>
