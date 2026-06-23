@@ -1,23 +1,47 @@
 /*
-  Design tokens — palette inspirée de delaguialuzon.com
-  (valeurs approximatives à affiner sur les couleurs exactes du .com)
+  Design system — d'après delaguialuzon.com (cabinet juridique, esthétique vert sauge).
+  Polices : Rotis Sans Serif Pro (titres, auto-hébergée depuis le .com) + pile système (corps).
 */
+
+/* Rotis — police de marque (Light 300 + Bold 700) */
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/RotisSansSerifPro45Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/RotisSansSerifPro65Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  /* Couleurs */
+  /* Couleurs — palette .com */
   --color-bg: #ffffff;
-  --color-surface: #f7f4ee;      /* crème, fonds de section */
-  --color-text: #2a3142;         /* charbon/navy pour le corps */
-  --color-heading: #0f1b2d;      /* navy foncé pour les titres */
-  --color-muted: #6b7280;        /* gris secondaire */
-  --color-accent: #c19a4b;       /* or / ambre */
-  --color-accent-dark: #9a7733;  /* or foncé (hover) */
-  --color-border: #e5e1d8;
+  --color-surface: #f0f3f0;       /* tint vert très clair (sections alternées) */
+  --color-surface-2: #f4f4f4;     /* gris clair */
+  --color-text: #333333;          /* corps */
+  --color-heading: #1a1f24;       /* H1 (presque noir) */
+  --color-muted: #6b6b6b;         /* texte secondaire / sous-nav / légendes */
+  --color-green: #679369;         /* vert primaire — liens, accents, icônes */
+  --color-green-2: #718473;       /* vert des titres H2-H4 + fond bouton */
+  --color-green-soft: #b5bfb5;    /* bordures douces / bouton secondaire */
+  --color-dark: #2c3338;          /* sections sombres (footer) */
+  --color-link-hover: #333366;    /* hover global (indigo) */
+  --color-border: #e9e8e8;
+  /* alias (composants existants) */
+  --color-accent: #718473;        /* boutons */
+  --color-accent-dark: #5c6f5e;   /* hover bouton */
 
-  /* Typographie — mêmes polices que le site actuel : Roboto (corps) + Roboto Slab (titres) */
-  --font-sans: 'Roboto', system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  --font-heading: 'Roboto Slab', Georgia, 'Times New Roman', serif;
+  /* Typographie */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: 'Rotis Sans Serif', var(--font-sans);
 
-  /* Échelle d'espacement */
+  /* Espacement */
   --space-1: 0.5rem;
   --space-2: 1rem;
   --space-3: 1.5rem;
@@ -26,8 +50,9 @@
   --space-8: 4rem;
 
   /* Mise en page */
-  --max-width: 1140px;
-  --radius: 6px;
+  --max-width: 1200px;            /* "wide width" du .com */
+  --content-width: 800px;
+  --radius: 8px;                  /* radius bouton .com */
 }
 
 *,
@@ -41,17 +66,24 @@ body {
   font-family: var(--font-sans);
   color: var(--color-text);
   background: var(--color-bg);
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  color: var(--color-heading);
-  line-height: 1.2;
+  line-height: 1.15;
 }
+h1 { color: var(--color-heading); font-weight: 700; }
+h2, h3, h4 { color: var(--color-green-2); font-weight: 300; }  /* titres verts "display léger" .com */
+h5, h6 { color: var(--color-text); font-weight: 700; }
 
 a {
-  color: var(--color-accent-dark);
+  color: var(--color-green);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-link-hover);
 }
 
 .container {
