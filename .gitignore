@@ -18,3 +18,7 @@ pnpm-debug.log*
 # macOS / Windows
 .DS_Store
 Thumbs.db
+
+# artefacts locaux (build miroir + images de reference)
+preview/
+Design-Ideas/
