@@ -4,19 +4,41 @@
   "heroImage": "area-fiscalidad.jpg",
   "sections": [
     {
-      "heading": "Notre accompagnement",
+      "heading": "Facilitez votre transition financière : votre partenaire juridique et fiscal en Espagne.",
       "body": [
-        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+        "L'installation en Espagne, que ce soit à titre privé ou professionnel, soulève des questions fondamentales sur la gestion de vos actifs et l'accès aux services bancaires. Le cabinet Delaguía &amp; Luzón est votre partenaire juridique et fiscal dédié pour transformer cette complexité en simplicité.",
+        "Notre expertise est entièrement orientée vers la sécurisation de votre patrimoine. Nous assurons la conformité de vos démarches, que vous soyez résident ou non-résident, en gérant l'obtention des documents nécessaires et en vous conseillant sur la fiscalité liée aux transferts de fonds."
       ],
-      "bullets": [
-        "Ouverture de compte bancaire en Espagne",
-        "Recherche de solutions de financement",
-        "Gestion bancaire courante",
-        "Interface avec les banques espagnoles"
+      "bullets": [],
+      "image": "area-fiscalidad.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ouvrir un compte bancaire en Espagne : résidents et professionnels",
+      "body": [
+        "L'installation en Espagne, que vous soyez résident ou non-résident, nécessite impérativement une ouverture de compte bancaire en Espagne sans souci.",
+        "Delaguía &amp; Luzón se spécialise dans l'accompagnement des particuliers et des professionnels. Pour les non-résidents, nous accélérons l'obtention du certificat de non-résidence, indispensable avant toute démarche bancaire.",
+        "Que vous ayez besoin d'un compte personnel ou d'un compte professionnel à Valencia, nous vous guidons précisément sur les documents demandés et les procédures anti-blanchiment.",
+        "Nous vous garantissons ainsi une transition financière facilitée et une conformité parfaite avec la législation bancaire espagnole."
       ],
+      "bullets": [],
+      "image": "ouvrir-un-compte-bancaire-en-Espagne.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Conseiller sur le transfert de fonds France-Espagne",
+      "body": [
+        "Le transfert de fonds de la France vers l'Espagne est une opération qui, sans encadrement juridique et fiscal, peut générer des complications et des redressements.",
+        "Pour faciliter votre transition financière, nous analysons l'origine et la nature de ces fonds (vente immobilière, héritage, capital professionnel).",
+        "Nous vous conseillons sur les déclarations fiscales obligatoires en Espagne, notamment les règles d'imposition des plus-values ou la pertinence du Modèle 720.",
+        "Nous nous assurons de sécuriser l'arrivée de votre capital, d'éviter la double imposition et d'assurer une parfaite conformité avec les accords franco-espagnols en matière de fiscalité internationale."
+      ],
+      "bullets": [],
       "image": "area-auditoria.jpg",
       "alt": false,
-      "rev": true
+      "rev": false
     }
   ],
   "testimonial": {

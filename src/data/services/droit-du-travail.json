@@ -4,19 +4,107 @@
   "heroImage": "area-fiscal.jpg",
   "sections": [
     {
-      "heading": "Notre accompagnement",
+      "heading": "Expertise juridique pour sécuriser vos embauches et gérer vos obligations sociales",
       "body": [
-        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+        "<strong>Recruter en Espagne, embaucher des salariés français ou locaux, gérer vos obligations sociales</strong> : le droit du travail<strong> espagnol</strong> présente des spécificités importantes qui diffèrent profondément du système français. Une erreur dans la <strong>rédaction des contrats de travail</strong> ou le non-respect des <strong>conventions collectives</strong> peut entraîner des sanctions financières lourdes et des contentieux coûteux.",
+        "Le cabinet <strong>Delaguía y Luzón</strong>, implanté à <strong>Valencia</strong> et <strong>Mulhouse</strong>, accompagne les <strong>entrepreneurs et employeurs</strong> dans toutes leurs démarches de <strong>recrutement et gestion du personnel en Espagne</strong>. Notre double expertise franco-espagnole vous garantit des <strong>contrats conformes au droit espagnol</strong>, une <strong>maîtrise des obligations sociales</strong> et un <strong>accompagnement complet dans vos procédures d'embauche</strong>."
       ],
-      "bullets": [
-        "Rédaction des contrats de travail",
-        "Embauche et processus de recrutement",
-        "Gestion des relations sociales",
-        "Conformité au droit du travail espagnol"
-      ],
+      "bullets": [],
       "image": "area-laboral.jpg",
       "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Accompagnement des entreprises en Espagne",
+      "body": [
+        "Nos services s'adressent à toutes les structures qui souhaitent développer ou sécuriser leur activité en Espagne.",
+        "Nous accompagnons les entrepreneurs qui créent leur société, les filiales françaises qui recrutent leurs premières équipes et les entreprises locales qui embauchent des talents francophones. Nous aidons les PME à choisir la bonne convention collective ou les start-up à structurer leur politique RH.",
+        "Notre fournissons un cadre clair et opérationnel dès les premières démarches."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": true,
       "rev": true
+    },
+    {
+      "heading": "Avant achat d'une propriété",
+      "body": [
+        "<strong>Valence : une ville idéale</strong><br />Valence, troisième plus grande ville d'Espagne après Madrid et Barcelone, se présente comme un choix stratégique pour tout investissement immobilier. Elle enchante tant pour ses attractions touristiques que pour son architecture. Valence offre une opportunité de location, mais également la perspective d'acquérir une résidence secondaire.",
+        "<strong>Conformité légale</strong><br />Chez Delaguia&amp;Luzon, nous vous offrons l'expertise de nos avocats et conseillers juridiques expérimentés. Nous sommes là pour aider, que vous recherchiez des investissements étrangers en Espagne, des investissements espagnols à l'étranger ou des locaux en Espagne.",
+        "Les acquisitions immobilières sont réalisées en conformité avec la législation en vigueur en matière de contrats d'urbanisme et de fiscalité. Il est également de notre responsabilité d'anticiper tout problème qui pourrait survenir.",
+        "C'est pourquoi nous vous conseillons sur les étapes suivantes préalables à l'acquisition :",
+        "Cette liste est non exhaustive, et nous adaptons les vérifications et les formalités légales à votre propriété et à votre situation personnelle."
+      ],
+      "bullets": [
+        "Rapports sur la situation juridique avant l'achat de biens immobiliers en Espagne",
+        "Informations sur la conformité urbanistique préalable à l'investissement",
+        "Assistance et conseils en matière de notaire et d'administration, ainsi que pour tout ce qui concerne le règlement des impôts",
+        "Déclaration de non-résident (modèle 210) et conseils sur les taxes et impôts de divers organismes : Mairie, AEAT (Administration fiscale d'État), SUMA (Administration fiscale régionale)",
+        "Vérification des licences d'exploitation et de construction de terrains et de bâtiments",
+        "Rédaction de contrats d'arrhes et de vente privés"
+      ],
+      "image": "area-auditoria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Après achat d'un bien immobilier",
+      "body": [
+        "<strong>Anticiper les problèmes potentiels</strong><br />Notre approche repose sur notre capacité d'adaptation face aux défis imprévisibles ou prévus.",
+        "Ainsi, pendant la pandémie de 2020, nous avons été en mesure de résoudre rapidement la question de l'application de la clause « rebus sic stantibus » aux contrats de location dans un contexte exceptionnel.",
+        "De même, nous pouvons confirmer que les problèmes prévisibles posés par un projet immobilier sont déjà pris en considération par notre équipe. Ils sont traités aussi rapidement que les problèmes imprévus.",
+        "<strong>De la formation des contrats de location aux litiges</strong><br />Si vous envisagez de louer votre propriété, sachez qu'il n'est pas simple de rédiger un contrat de location.",
+        "Sa rédaction nécessite des compétences techniques, tant en matière de conformité légale qu'en interprétation judiciaire. Avec une expérience de plus de 25 ans, chacun de nos avocats est compétent pour faire face à toute interprétation erronée ou abus de la part du juge ou de l'autre partie.",
+        "Les services que nous offrons sont conçus pour fournir un soutien intégral, de A à Z.",
+        "Après l'achat d'une propriété, nous offrons les services suivants :"
+      ],
+      "bullets": [
+        "Rédaction de contrats de location de logements ou de locaux commerciaux",
+        "Conseils sur les contrats de location, assistance juridique et règlement des litiges entre le bailleur et le locataire lors de la résiliation du bail",
+        "Participation à des réunions de copropriétaires et de voisinage",
+        "Conseils juridiques en cas de litiges frontaliers (délimitation des propriétés), servitudes de passage, électricité, eau, usufruit, conflits de copropriété et de propriété, etc."
+      ],
+      "image": "equipo.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Encadrer et sécuriser vos recrutements en Espagne",
+      "body": [
+        "L'embauche en Espagne requiert une approche précise du cadre social et administratif.",
+        "Nous intervenons pour sécuriser l'intégration des salariés français (obtention du NIE/TIE, affiliation à la Seguridad Social) ou des travailleurs locaux.",
+        "Cela inclut, par exemple, la rédaction d'un contrat conforme ou la notification obligatoire au SEPE.",
+        "Cette approche garantit une embauche fluide, conforme et rapidement opérationnelle."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Gestion et optimisation de vos obligations fiscales",
+      "body": [
+        "Les entreprises doivent maîtriser leurs obligations fiscales dès le lancement de leur activité.",
+        "Nous apportons un conseil ciblé sur les règles liées aux salaires, aux retenues IRPF ou aux déclarations périodiques.",
+        "Cela peut passer par l'analyse d'une fiche de paie, la préparation d'un Modelo 111 ou l'identification des aides fiscales applicables.",
+        "Ce suivi vous permet de rester conforme et d'éviter toute difficulté avec l'administration fiscale."
+      ],
+      "bullets": [],
+      "image": "area-laboral.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Accompagnement dédié aux salariés en Espagne",
+      "body": [
+        "Les salariés ont souvent besoin d'un accompagnement pour s'orienter dans le système social espagnol.",
+        "Nous les aidons à comprendre leurs droits, leurs démarches administratives ou les règles du contrat de travail, comme expliquer la différence entre un CDI espagnol et un contrat temporaire, ou le fonctionnement des 14 pagas.",
+        "Cette aide personnalisée facilite leur installation et renforce leur sécurité professionnelle."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
     }
   ],
   "testimonial": {

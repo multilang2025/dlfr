@@ -4,19 +4,44 @@
   "heroImage": "area-auditoria.jpg",
   "sections": [
     {
-      "heading": "Notre accompagnement",
+      "heading": "Avocat spécialisé en protection sociale et retraite en Espagne",
       "body": [
-        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+        "L'expatriation vers l'Espagne soulève des questions cruciales concernant votre protection sociale, votre couverture santé et la validation de vos droits à la retraite. Qu'il s'agisse de s'inscrire à l'Assurance Maladie espagnole, de démarrer une activité en tant qu'indépendant (Autónomo) ou de planifier la reconnaissance de vos années de cotisation entre la France et l'Espagne, une assistance juridique spécialisée est indispensable.",
+        "Delaguía &amp; Luzón vous garantit une affiliation sécurité sociale rapide en Espagne et sécurisée, en optimisant chaque étape de votre démarche pour que vous puissiez vous concentrer sur votre nouvelle vie. Nous sommes là pour protéger vos droits sociaux et garantir la continuité de votre couverture."
+      ],
+      "bullets": [],
+      "image": "area-auditoria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "S'inscrire au régime des travailleurs indépendants (RETA) à Valencia",
+      "body": [
+        "Si vous lancez une activité en tant qu'Autónomo (travailleur indépendant) à Valencia ou ailleurs en Espagne, vous devez obligatoirement vous affilier au Régime Spécial des Travailleurs Indépendants (RETA).",
+        "Cette inscription s'effectue en deux temps : d'abord, la déclaration fiscale de début d'activité auprès de l'Agencia Tributaria (Modèle 036/037) pour obtenir votre numéro fiscal. Ensuite, vous devez vous inscrire au RETA auprès de la Tesorería General de la Seguridad Social (TGSS). Cette étape est essentielle pour garantir votre couverture maladie et valider vos droits à la retraite.",
+        "Nos avocats vous guident pour éviter les erreurs administratives et bénéficier, le cas échéant, des réductions de cotisations (Tarifa Plana) initiales."
+      ],
+      "bullets": [],
+      "image": "carte-de-sante-espagnole.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Accompagnement dans les démarches",
+      "body": [
+        "Notre cabinet d'avocats vous assure une gestion sécurisée et rapide de vos droits sociaux en Espagne :"
       ],
       "bullets": [
-        "Affiliation à la sécurité sociale espagnole",
-        "Coordination de vos droits à la retraite FR/ES",
-        "Couverture santé et carte sanitaire",
-        "Optimisation de votre protection sociale"
+        "<strong>Affiliation Sécurité Sociale Rapide :</strong> nous vous garantissons une affiliation sécurité sociale rapide en Espagne pour une couverture immédiate.",
+        "<strong>Gestion du Formulaire S1 :</strong> nous vous assistons dans l'obtention et la présentation du Formulaire S1 auprès de l'INSS (Instituto Nacional de la Seguridad Social) pour valider votre droit à la carte de santé (Tarjeta Sanitaria) espagnole.",
+        "<strong>Optimisation du Transfert de Droits :</strong> nous veillons à l'application des règlements européens pour le transfert de vos droits France-Espagne, minimisant ainsi le risque de rupture de couverture.",
+        "<strong>Reconnaissance de la Retraite :</strong> nous assurons la reconnaissance de vos périodes de cotisation pour la retraite grâce au mécanisme de la totalisation des périodes.",
+        "<strong>Conseil sur le Chômage (El Paro) :</strong> nous vous éclairons sur les conditions d'éligibilité au chômage en Espagne, incluant l'utilisation des formulaires européens U1 (Périodes d'assurance) et U2 (Exportation de Prestations Chômage).",
+        "<strong>Sécurisation Financière :</strong> nous protégeons vos droits sociaux et financiers en nous assurant que toutes les démarches administratives sont effectuées correctement et sans accrocs."
       ],
-      "image": "expatriation-en-espagne.jpg",
+      "image": "area-fiscalidad.jpg",
       "alt": false,
-      "rev": true
+      "rev": false
     }
   ],
   "testimonial": {
@@ -27,20 +52,16 @@
   },
   "faq": [
     {
-      "q": "Ma retraite française est-elle imposée en Espagne ?",
-      "a": "Selon votre résidence fiscale et la nature de la pension, l'imposition varie. Nous appliquons la convention franco-espagnole à votre cas."
+      "q": "Qu'est-ce que le formulaire S1 et où le déposer en Espagne ?",
+      "a": "Le formulaire S1 est le document clé pour les retraités ou détachés cotisant en France. Il vous permet d'initier votre couverture santé en Espagne en le présentant au Instituto Nacional de la Seguridad Social (INSS)."
     },
     {
-      "q": "Comment accéder à la santé publique espagnole ?",
-      "a": "Via l'affiliation à la Seguridad Social ou la carte sanitaire selon votre statut. Nous vous orientons vers la solution adaptée."
+      "q": "Comment obtenir ma carte de santé espagnole (Tarjeta Sanitaria) ?",
+      "a": "Après la validation de votre S1 par l'INSS et l'obtention de votre numéro de sécurité sociale espagnol, vous pourrez demander votre Tarjeta Sanitaria auprès du centre de santé de votre lieu de résidence."
     },
     {
-      "q": "Mes trimestres français comptent-ils pour ma retraite ?",
-      "a": "Oui, les régimes européens se coordonnent. Nous vous aidons à faire valoir l'ensemble de vos droits FR/ES."
-    },
-    {
-      "q": "Que faire pour ma couverture santé en tant que retraité ?",
-      "a": "Selon votre situation (S1, mutuelle, privé), plusieurs options existent. Nous vous conseillons la couverture la plus adaptée."
+      "q": "Pourquoi l'assistance d'un avocat est-elle nécessaire pour le chômage ?",
+      "a": "La législation sur le chômage post-expatriation est nuancée. L'avocat s'assure que le Formulaire U1 (Périodes d'assurance) soit utilisé correctement pour que vos périodes de travail antérieures en France soient bien prises en compte par le service de l'emploi espagnol."
     }
   ]
 }

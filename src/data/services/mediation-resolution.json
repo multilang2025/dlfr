@@ -4,18 +4,107 @@
   "heroImage": "area-social-corporativa.jpg",
   "sections": [
     {
-      "heading": "Notre accompagnement",
+      "heading": "Médiation et résolution de litiges en Espagne",
       "body": [
-        "Notre équipe francophone vous accompagne à chaque étape, du premier rendez-vous jusqu'à la finalisation de votre démarche, en français, anglais ou russe. Installés à Valence depuis trois générations, nous maîtrisons les spécificités locales comme les enjeux franco-espagnols de votre projet."
+        "<strong>Litiges locatifs, conflits commerciaux, différends familiaux ou recours administratifs en Espagne</strong> : faire valoir vos droits dans un système juridique étranger peut sembler insurmontable. Le cabinet <strong>Delaguía y Luzón</strong>, implanté à <strong>Valencia</strong> et <strong>Mulhouse</strong>, vous accompagne dans la <strong>résolution de tous vos litiges</strong> avec expertise et efficacité.",
+        "Que vous soyez <strong>particulier ou entrepreneur</strong>, nous mettons notre double expertise franco-espagnole à votre service pour trouver des <strong>solutions amiables par la médiation</strong> ou pour vous <strong>représenter devant les tribunaux</strong> espagnols et français. Notre connaissance approfondie du <strong>droit processuel espagnol</strong> et notre réseau de partenaires juridiques garantissent une défense optimale de vos intérêts."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Pour qui sont nos services de résolution de litiges ?",
+      "body": [
+        "<h3>Particuliers expatriés en Espagne</h3>",
+        "Vous faites face à un <strong>conflit avec votre propriétaire</strong>, un <strong>litige de succession</strong>, un <strong>divorce transfrontalier</strong> ou un <strong>refus administratif</strong> ? Nos avocats bilingues comprennent vos besoins spécifiques en tant que Français résidant en Espagne et défendent vos droits avec détermination."
       ],
       "bullets": [
-        "Médiation et conciliation entre les parties",
-        "Négociation amiable de vos différends",
-        "Représentation dans la voie contentieuse",
-        "Résolution durable des litiges"
+        "Litiges locatifs (impayés, dépôt de garantie, expulsion)",
+        "Conflits de voisinage et copropriété",
+        "Litiges de consommation (vices cachés, non-conformité)",
+        "Divorces et séparations internationales",
+        "Successions franco-espagnoles conflictuelles",
+        "Recours contre des décisions administratives"
       ],
-      "image": "area-extranjeria.jpg",
+      "image": "litige-de-succession.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Avant achat d'une propriété",
+      "body": [
+        "<strong>Valence : une ville idéale</strong><br />Valence, troisième plus grande ville d'Espagne après Madrid et Barcelone, se présente comme un choix stratégique pour tout investissement immobilier. Elle enchante tant pour ses attractions touristiques que pour son architecture. Valence offre une opportunité de location, mais également la perspective d'acquérir une résidence secondaire.",
+        "<strong>Conformité légale</strong><br />Chez Delaguia&amp;Luzon, nous vous offrons l'expertise de nos avocats et conseillers juridiques expérimentés. Nous sommes là pour aider, que vous recherchiez des investissements étrangers en Espagne, des investissements espagnols à l'étranger ou des locaux en Espagne.",
+        "Les acquisitions immobilières sont réalisées en conformité avec la législation en vigueur en matière de contrats d'urbanisme et de fiscalité. Il est également de notre responsabilité d'anticiper tout problème qui pourrait survenir.",
+        "C'est pourquoi nous vous conseillons sur les étapes suivantes préalables à l'acquisition :",
+        "Cette liste est non exhaustive, et nous adaptons les vérifications et les formalités légales à votre propriété et à votre situation personnelle."
+      ],
+      "bullets": [
+        "Rapports sur la situation juridique avant l'achat de biens immobiliers en Espagne",
+        "Informations sur la conformité urbanistique préalable à l'investissement",
+        "Assistance et conseils en matière de notaire et d'administration, ainsi que pour tout ce qui concerne le règlement des impôts",
+        "Déclaration de non-résident (modèle 210) et conseils sur les taxes et impôts de divers organismes : Mairie, AEAT (Administration fiscale d'État), SUMA (Administration fiscale régionale)",
+        "Vérification des licences d'exploitation et de construction de terrains et de bâtiments",
+        "Rédaction de contrats d'arrhes et de vente privés"
+      ],
+      "image": "divorce-entre-un-Francais-et-un-Espagnol.jpg",
       "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Après achat d'un bien immobilier",
+      "body": [
+        "<strong>Anticiper les problèmes potentiels</strong><br />Notre approche repose sur notre capacité d'adaptation face aux défis imprévisibles ou prévus.",
+        "Ainsi, pendant la pandémie de 2020, nous avons été en mesure de résoudre rapidement la question de l'application de la clause « rebus sic stantibus » aux contrats de location dans un contexte exceptionnel.",
+        "De même, nous pouvons confirmer que les problèmes prévisibles posés par un projet immobilier sont déjà pris en considération par notre équipe. Ils sont traités aussi rapidement que les problèmes imprévus.",
+        "<strong>De la formation des contrats de location aux litiges</strong><br />Si vous envisagez de louer votre propriété, sachez qu'il n'est pas simple de rédiger un contrat de location.",
+        "Sa rédaction nécessite des compétences techniques, tant en matière de conformité légale qu'en interprétation judiciaire. Avec une expérience de plus de 25 ans, chacun de nos avocats est compétent pour faire face à toute interprétation erronée ou abus de la part du juge ou de l'autre partie.",
+        "Les services que nous offrons sont conçus pour fournir un soutien intégral, de A à Z.",
+        "Après l'achat d'une propriété, nous offrons les services suivants :"
+      ],
+      "bullets": [
+        "Rédaction de contrats de location de logements ou de locaux commerciaux",
+        "Conseils sur les contrats de location, assistance juridique et règlement des litiges entre le bailleur et le locataire lors de la résiliation du bail",
+        "Participation à des réunions de copropriétaires et de voisinage",
+        "Conseils juridiques en cas de litiges frontaliers (délimitation des propriétés), servitudes de passage, électricité, eau, usufruit, conflits de copropriété et de propriété, etc."
+      ],
+      "image": "equipo.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Entrepreneurs et sociétés",
+      "body": [
+        "Votre entreprise est confrontée à un <strong>conflit commercial</strong>, un <strong>litige avec un fournisseur espagnol</strong>, un <strong>contentieux avec un salarié</strong> ou un <strong>différend contractuel</strong> ? Nous protégeons vos intérêts commerciaux et trouvons les <strong>solutions les plus efficaces</strong> pour préserver votre activité."
+      ],
+      "bullets": [
+        "Litiges commerciaux et contractuels",
+        "Recouvrement de créances impayées",
+        "Conflits avec fournisseurs ou distributeurs",
+        "Contentieux avec salariés (licenciements, harcèlement)",
+        "Litiges entre associés",
+        "Conflits de propriété intellectuelle"
+      ],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Médiation : résoudre vos conflits à l'amiable",
+      "body": [
+        "La <strong>médiation</strong> offre une solution rapide et économique pour éviter les procédures longues. En Espagne, la <strong>Ley 5/2012</strong> encadre la médiation civile et commerciale.",
+        "<h3>Médiation pour litiges locatifs</h3>",
+        "Les conflits entre <strong>locataires et propriétaires</strong> sont fréquents. Nous intervenons pour négocier des <strong>plans de paiement</strong>, résoudre les désaccords liés à l'<strong>état des lieux</strong> ou organiser une <strong>sortie de bail amiable</strong>, évitant ainsi une procédure de <strong>desahucio</strong>. <strong>Délai : 1 à 2 mois</strong> · <strong>65 % d'accords trouvés</strong>",
+        "<h3>Médiation pour litiges commerciaux</h3>",
+        "Pour vos litiges avec un <strong>partenaire</strong>, un <strong>fournisseur</strong> ou un <strong>client</strong>, la médiation facilite la résolution des <strong>désaccords contractuels</strong>, la qualité des prestations ou les <strong>délais de paiement</strong>. Particulièrement adaptée aux secteurs du <strong>commerce international</strong> et des <strong>services B2B</strong>, notamment à <strong>Valencia</strong>.",
+        "<h3>Médiation pour litiges familiaux</h3>",
+        "Pour les <strong>conflits familiaux transfrontaliers</strong> (divorce, garde, pension, succession), notre médiation bilingue vous aide à établir des accords conformes au <strong>Règlement Bruxelles II bis</strong> et à organiser un <strong>partage des biens</strong> entre la France et l'Espagne. <strong>Délai : 3 à 6 mois</strong> pour un accord global, bien plus rapide qu'une procédure contentieuse."
+      ],
+      "bullets": [],
+      "image": "litige-de-succession.jpg",
+      "alt": true,
       "rev": true
     }
   ],

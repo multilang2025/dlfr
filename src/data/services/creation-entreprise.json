@@ -4,32 +4,42 @@
   "heroImage": "area-sucesiones.jpg",
   "sections": [
     {
+      "heading": "Delaguía y Luzón vous aide à créer votre entreprise en Espagne",
+      "body": [
+        "Vous souhaitez créer une entreprise ou développer une franchise en Espagne ?",
+        "Que vous envisagiez de lancer une S.L. (société limitée), de devenir Autónomo à Valencia, ou de transformer votre statut français, Delaguía y Luzón vous accompagne à chaque étape.",
+        "Nos avocats spécialisés en droit des affaires espagnol vous aident à sécuriser votre projet, du choix du statut à l'obtention du CIF, en passant par l'optimisation fiscale et administrative."
+      ],
+      "bullets": [],
+      "image": "area-sucesiones.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
       "heading": "Pourquoi choisir l'Espagne pour créer votre entreprise ?",
       "body": [
         "L'Espagne propose un cadre attractif pour les entrepreneurs français :",
         "Notre cabinet vous guide pour choisir le statut le plus adapté à votre activité et à votre situation personnelle."
       ],
       "bullets": [
-        "Fiscalité compétitive (régime des impatriés, avantages locaux à Valencia, etc.)",
+        "Fiscalité compétitive (<a href=\"https://delaguialuzon.fr/impatries-en-espagne/\">régime des impatriés</a>, avantages locaux à Valencia, etc.)",
         "Accès au marché européen et à une économie dynamique",
         "Simplification des démarches pour les résidents et non-résidents",
         "Coût de la vie et des locaux souvent plus avantageux qu'en France"
       ],
       "image": "area-mercantil.jpg",
       "alt": true,
-      "rev": false
+      "rev": true
     },
     {
       "heading": "Choisir votre statut",
       "body": [
         "Que vous souhaitiez créer une S.L. (Société Limitée), vous installer en tant qu'Autónomo à Valencia, ou transformer votre statut d'auto-entrepreneur français en Autónomo espagnol, notre cabinet vous accompagne à chaque étape.",
-        "Pour une <strong>S.L.</strong>, nous gérons l'ensemble des formalités : réservation du nom, ouverture de compte bancaire, rédaction des statuts, obtention du CIF et immatriculation au Registre Mercantil.",
-        "Si vous optez pour le statut <strong>Autónomo</strong>, nous vous aidons à estimer les coûts initiaux et les cotisations sociales, ainsi qu'à compléter toutes les démarches administratives.",
-        "Enfin, pour les <strong>auto-entrepreneurs français</strong>, nous assurons une transition fluide vers le régime espagnol : résiliation du statut français, immatriculation en Espagne, et adaptation de votre comptabilité aux obligations locales.",
+        "Pour une S.L., nous gérons l'ensemble des formalités : réservation du nom, ouverture de compte bancaire, rédaction des statuts, obtention du CIF et immatriculation au Registre Mercantil.<br />Si vous optez pour le statut Autónomo, nous vous aidons à estimer les coûts initiaux et les cotisations sociales, ainsi qu'à compléter toutes les démarches administratives.<br />Enfin, pour les auto-entrepreneurs français, nous assurons une transition fluide vers le régime espagnol : résiliation du statut français, immatriculation en Espagne, et adaptation de votre comptabilité aux obligations locales.",
         "Bénéficiez d'un accompagnement complet et personnalisé pour lancer votre activité en Espagne en toute sérénité."
       ],
       "bullets": [],
-      "image": "area-laboral.jpg",
+      "image": "developpement-des-reseaux-de-franchise.jpg",
       "alt": false,
       "rev": false
     },
@@ -45,9 +55,9 @@
         "Obtenir votre CIF rapidement et sans erreur",
         "Gérer les formalités post-création (déclarations fiscales, contrats, etc.)"
       ],
-      "image": "area-extranjeria.jpg",
+      "image": "restructuration-entreprise-en-espagne.jpg",
       "alt": true,
-      "rev": false
+      "rev": true
     }
   ],
   "testimonial": {
