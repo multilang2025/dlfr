@@ -1,15 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import SiloGrid from '../../components/SiloGrid.astro';
-import ContactCTA from '../../components/ContactCTA.astro';
 import { silos } from '../../data/silos';
 
-const items = silos.map((s) => ({
-  title: s.title,
-  intro: s.intro,
-  href: `/domaines/${s.slug}/`,
-}));
+const CONTACT = 'https://delaguialuzon.com/fr/';
+
+// Image + icône (SVG inline, ligne) par silo — d'après le handoff.
+const meta: Record<string, { image: string; icon: string }> = {
+  's-installer-en-espagne': { image: 'area-extranjeria.jpg', icon: '<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><line x1="9" y1="16" x2="15" y2="16"/>' },
+  'fiscalite': { image: 'area-fiscal.jpg', icon: '<path d="M7 3h10v18l-2.5-1.5L12 21l-2.5-1.5L7 21z"/><line x1="9.5" y1="8.5" x2="14.5" y2="8.5"/><line x1="9.5" y1="12" x2="14.5" y2="12"/>' },
+  'entreprendre': { image: 'area-mercantil.jpg', icon: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>' },
+  'emploi-rh': { image: 'area-laboral.jpg', icon: '<circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5"/><path d="M16 5.2a3 3 0 0 1 0 5.6"/><path d="M18.5 20c0-2.3-1-3.8-3-4.4"/>' },
+  'immobilier': { image: 'area-inmobiliario.jpg', icon: '<path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><rect x="10" y="14" width="4" height="6"/>' },
+  'litiges': { image: 'area-social-corporativa.jpg', icon: '<line x1="12" y1="4" x2="12" y2="20"/><line x1="7" y1="20" x2="17" y2="20"/><line x1="5" y1="7" x2="19" y2="7"/><path d="M5 7 2.6 13a3 3 0 0 0 4.8 0z"/><path d="M19 7l-2.4 6a3 3 0 0 0 4.8 0z"/>' },
+};
 ---
 
 <Base
@@ -17,25 +21,86 @@ const items = silos.map((s) => ({
   description="Nos domaines d'intervention pour entreprendre, vous installer ou prendre votre retraite en Espagne : fiscalité, immobilier, droit des affaires, emploi, litiges."
 >
   <Breadcrumb items={[{ label: 'Domaines de compétences' }]} />
-  <section class="container intro">
-    <h1>Domaines de compétences</h1>
-    <p class="lead">
-      Un accompagnement juridique, fiscal et administratif complet pour votre projet en Espagne.
-    </p>
+
+  <section class="head">
+    <div class="container">
+      <p class="eyebrow">Nos expertises</p>
+      <h1>Domaines de compétences</h1>
+      <p class="lead">Un accompagnement juridique, fiscal et administratif complet pour votre projet en Espagne.</p>
+    </div>
   </section>
-  <section class="container">
-    <SiloGrid items={items} />
+
+  <section class="grid-band">
+    <div class="container">
+      <div class="silo-grid">
+        {silos.map((s) => {
+          const pillar = `/domaines/${s.slug}/`;
+          const m = meta[s.slug];
+          return (
+            <article class="silo-card">
+              <a class="sc-media" href={pillar} aria-label={s.title}>
+                <img src={`/assets/${m.image}`} alt={s.title} loading="lazy" />
+              </a>
+              <div class="sc-body">
+                <span class="sc-icon"><svg viewBox="0 0 24 24" set:html={m.icon}></svg></span>
+                <h3><a href={pillar}>{s.title}</a></h3>
+                <p class="sc-intro">{s.intro}</p>
+                <ul class="sc-list">
+                  {s.subservices.map((ss) => (
+                    <li><a href={`${pillar}${ss.slug}/`}>{ss.title}</a></li>
+                  ))}
+                </ul>
+                <a class="sc-more" href={pillar}>En savoir plus →</a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
   </section>
-  <ContactCTA />
+
+  <section class="dom-cta">
+    <div class="container">
+      <p class="eyebrow">Vous avez une question ?</p>
+      <h2>Une question, un projet en Espagne ?</h2>
+      <p class="cta-lead">Faites votre demande : notre équipe vous répond en français, anglais ou russe.</p>
+      <a class="btn" href={CONTACT}>Faire une demande</a>
+    </div>
+  </section>
 </Base>
 
 <style>
-  .intro {
-    padding-block: var(--space-6) var(--space-3);
-  }
-  .lead {
-    font-size: 1.15rem;
-    color: var(--color-muted);
-    max-width: 60ch;
-  }
+  .head { padding-block: var(--space-lg) var(--space-xs); }
+  .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 10px; }
+  .head h1 { margin: 0 0 12px; }
+  .lead { font-size: var(--fs-lead); color: var(--color-muted); max-width: 60ch; margin: 0; }
+
+  .grid-band { background: var(--color-surface-cool); padding-block: var(--space-lg) var(--space-xl); }
+  .silo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-sm); }
+
+  .silo-card { display: flex; flex-direction: column; height: 100%; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm); transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease); }
+  .silo-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+  .sc-media { display: block; height: 168px; overflow: hidden; }
+  .sc-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s var(--ease); }
+  .silo-card:hover .sc-media img { transform: scale(1.05); }
+  .sc-body { position: relative; padding: var(--space-md); display: flex; flex-direction: column; flex: 1; }
+  .sc-icon { position: absolute; top: -26px; left: var(--space-md); width: 52px; height: 52px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; background: #fff; color: var(--color-brand); box-shadow: var(--shadow-md); transition: background var(--dur) var(--ease), color var(--dur) var(--ease); }
+  .silo-card:hover .sc-icon { background: var(--color-brand); color: #fff; }
+  .sc-icon svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .sc-body h3 { font-size: 22px; line-height: 1.2; font-weight: 600; color: var(--color-heading); margin: 34px 0 10px; }
+  .sc-body h3 a { color: inherit; text-decoration: none; }
+  .sc-body h3 a:hover { color: var(--color-brand-heading); }
+  .sc-intro { color: var(--color-muted); font-size: 15px; line-height: 1.55; margin: 0; }
+  .sc-list { list-style: none; padding: 18px 0 0; margin: 20px 0 22px; display: grid; gap: 10px; border-top: 1px solid var(--color-border); }
+  .sc-list li { position: relative; padding-left: 22px; font-size: 14px; line-height: 1.45; }
+  .sc-list li::before { content: '›'; position: absolute; left: 0; top: -1px; color: var(--color-brand); font-weight: 700; }
+  .sc-list a { color: var(--color-text); text-decoration: none; }
+  .sc-list a:hover { color: var(--color-link-hover); }
+  .sc-more { margin-top: auto; color: var(--color-brand-heading); font-weight: 600; font-size: 14px; text-decoration: none; }
+
+  .dom-cta { background: var(--color-surface); text-align: center; padding-block: var(--space-lg); border-top: 1px solid var(--color-border); }
+  .dom-cta h2 { color: var(--color-brand-heading); margin: 0 0 8px; }
+  .dom-cta .cta-lead { color: var(--color-muted); margin: 0 0 24px; }
+  .btn { display: inline-block; background: var(--color-btn); color: #fff; font-weight: 600; padding: 0.8rem 1.8rem; border-radius: var(--radius-md); text-decoration: none; }
+  .btn:hover { background: var(--color-btn-hover); color: #fff; }
 </style>
