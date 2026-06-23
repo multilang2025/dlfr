@@ -1,6 +1,5 @@
 ---
 import Base from '../layouts/Base.astro';
-import ContactCTA from '../components/ContactCTA.astro';
 
 const CONTACT_URL = 'https://delaguialuzon.com/fr/';
 
@@ -18,8 +17,9 @@ const services = [
 
 const stats = [
   { num: '65', label: "ans d'expérience" },
-  { num: '~25', label: 'professionnels à votre service' },
-  { num: '3', label: 'générations à Valence' },
+  { num: '90%', label: 'clients internationaux' },
+  { num: '25', label: 'professionnels à votre service' },
+  { num: '35', label: "ans d'âge moyen" },
 ];
 
 const articles = [
@@ -184,7 +184,15 @@ const partners = [
     </div>
   </section>
 
-  <ContactCTA />
+  <!-- CTA (claire, comme le design) -->
+  <section class="home-cta">
+    <div class="container">
+      <p class="eyebrow">Vous avez une question ?</p>
+      <h2>Une question, un projet en Espagne ?</h2>
+      <p class="cta-lead">Faites votre demande : notre équipe vous répond en français, anglais ou russe.</p>
+      <a class="btn" href={CONTACT_URL}>Faire une demande</a>
+    </div>
+  </section>
 </Base>
 
 <style>
@@ -204,6 +212,12 @@ const partners = [
   .btn:hover { background: var(--color-btn-hover); color: #fff; }
   .btn-outline { border: 2px solid var(--color-border-soft); color: var(--color-brand-heading); }
   .btn-outline:hover { background: var(--color-brand); color: #fff; border-color: var(--color-brand); }
+
+  /* CTA claire */
+  .home-cta { background: var(--color-surface); border-top: 1px solid var(--color-border); text-align: center; padding-block: var(--space-lg); }
+  .home-cta .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 8px; }
+  .home-cta h2 { color: var(--color-brand-heading); margin: 0 0 8px; }
+  .home-cta .cta-lead { color: var(--color-muted); margin: 0 0 24px; }
 
   /* STATS */
   .stats { background: var(--color-stat-band); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
