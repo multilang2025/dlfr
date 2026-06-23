@@ -1,0 +1,49 @@
+name: Deploy (preview Hostinger)
+
+# Déclenchement MANUEL uniquement (Actions → ce workflow → Run workflow).
+# Aucun déploiement automatique sur push tant qu'on n'a pas validé la préprod.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          # Si erreur TLS/handshake au 1er run, remplacer "ftps" par "ftp".
+          protocol: ftps
+          local-dir: ./dist/
+          # Doit pointer vers la racine du sous-domaine (secret FTP_SERVER_DIR),
+          # ex. /domains/preview.delaguialuzon.fr/public_html/  (avec / final)
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          # Garde-fous : ne jamais toucher au WordPress (blog) même par erreur.
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/wp-content/**
+            **/blog/**
