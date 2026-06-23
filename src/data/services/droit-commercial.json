@@ -1,0 +1,67 @@
+{
+  "heroSub": "Delaguía & Luzón accompagne les entreprises et les investisseurs dans leurs projets de développement commercial à Valencia et à l’international.",
+  "heroImage": "area-social-corporativa.jpg",
+  "sections": [
+    {
+      "heading": "Développez le secteur d’activité économique de votre entreprise à l'international",
+      "body": [
+        "Delaguía & Luzón accompagne les entreprises et les investisseurs dans leurs projets de développement commercial à Valencia et à l’international.",
+        "Le cabinet intervient à chaque étape de votre croissance, de la structuration juridique de votre activité à la sécurisation de vos opérations commerciales, en intégrant les spécificités du marché espagnol et les enjeux liés à votre secteur.",
+        "L’accompagnement couvre notamment le choix de la forme juridique la plus adaptée, la création de sociétés, ainsi que la rédaction, la négociation et l’exécution de vos contrats commerciaux.",
+        "Une approche pragmatique permet d’anticiper les risques, d’optimiser vos décisions et de sécuriser durablement vos relations d’affaires en Espagne."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Droit judiciaire",
+      "body": [
+        "Faire face à un litige en Espagne nécessite une approche juridique rigoureuse et une parfaite maîtrise des procédures judiciaires locales, en particulier dans un contexte international.",
+        "Delaguía & Luzón accompagne les entreprises dans la gestion de leurs contentieux commerciaux, en défendant leurs intérêts devant les juridictions espagnoles et en coordonnant les actions avec leurs partenaires à l’étranger.",
+        "Le cabinet intervient à chaque étape de la procédure, de l’analyse stratégique du litige à l’exécution des décisions de justice, afin de sécuriser vos positions et de maîtriser les risques liés à vos activités en Espagne."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Droit international privé",
+      "body": [
+        "S’internationaliser ne s’improvise pas. Chaque marché étranger porte ses propres règles, ses contraintes, ses opportunités et ses pièges. C’est pourquoi Delaguía & Luzón a bâti une pratique du droit international privé fondée sur un principe simple : anticiper plutôt que subir.",
+        "Notre approche est résolument personnalisée et s’appuie sur un réseau solide de partenaires locaux implantés dans les pays cibles, nous permettant d’intervenir avec la même précision, quelle que soit la géographie.",
+        "Aujourd’hui, notre expertise internationale se déploie prioritairement vers la France, la Colombie et l’Algérie, à travers quatre axes d’intervention :"
+      ],
+      "bullets": [
+        "Structuration de la présence locale : filiales, succursales et partenariats avec des investisseurs locaux",
+        "Sécurisation des investissements : analyse du régime juridique et des mécanismes de protection des capitaux",
+        "Accès aux dispositifs publics : identification des aides à l’investissement productif",
+        "Intelligence contractuelle publique : veille sur les appels d’offres de l’administration et des entreprises publiques"
+      ],
+      "image": "area-extranjeria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Comment procéder en cas de litige?",
+      "body": [
+        "Nous intervenons comme tiers stratégique pour structurer, sécuriser et équilibrer vos relations contractuelles, en défendant vos intérêts à chaque étape de la négociation.",
+        "En cas de litige, votre dossier reste entre les mêmes mains. Nos avocats assurent une défense rigoureuse devant les juridictions compétentes. Grâce à notre partenariat avec le cabinet HANS & ASSOCIÉS en France, vous bénéficiez d’un accompagnement fluide et coordonné des deux côtés de la frontière.",
+        "Nos services couvrent notamment :"
+      ],
+      "bullets": [
+        "Rédaction et négociation de contrats et baux commerciaux",
+        "Gestion des litiges commerciaux et contentieux",
+        "Évaluation et valorisation d’entreprises",
+        "Due diligence dans le cadre d’acquisitions ou de cessions",
+        "Expertise économique et analyse juridique stratégique"
+      ],
+      "image": "area-social-corporativa.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": []
+}

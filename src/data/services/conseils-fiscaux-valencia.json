@@ -1,0 +1,81 @@
+{
+  "heroSub": "À Valencia, centre économique majeur de la Communauté valencienne Espagne, la fiscalité évolue rapidement et exige une expertise locale pointue.",
+  "heroImage": "area-fiscal.jpg",
+  "sections": [
+    {
+      "heading": "Services de conseils fiscaux à Valencia",
+      "body": [
+        "Que vous soyez dirigeant d'entreprise, investisseur étranger ou particulier résident, bénéficier de services de conseils fiscaux adaptés vous permet d'optimiser votre situation tout en sécurisant vos obligations auprès de l'Agencia Tributaria Espagne.",
+        "Le cabinet Delaguía & Luzón vous accompagne avec une approche stratégique et opérationnelle. Vous anticipez les risques, structurez vos activités et profitez des opportunités offertes par le cadre fiscal espagnol et européen, notamment dans des zones dynamiques comme Valencia, Alicante ou Madrid.",
+        "Chaque recommandation s'inscrit dans une logique de performance durable et de conformité juridique."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Nos services fiscaux à Valencia",
+      "body": [
+        "Nous intervenons pour une clientèle variée (start-ups, groupes, PME, société familiales, travailleurs indépendants, business en ligne), dans un contexte national ou international.",
+        "Nous conseillons les créateurs et dirigeants d'entreprises, les investisseurs, les actionnaires et les professionnels indépendants.",
+        "Notre équipe pluridisciplinaire travaille de manière réactive et coordonnée pour vous accompagner et vous orienter dans toutes les étapes de la vie de votre entreprise, en tenant compte, le cas échéant, des aspects internationaux de votre situation.",
+        "Nous sommes l'un des rares cabinets, voire le seul, à réunir de telles expertises au sein d'une seule et même structure, notamment en affaires internationales depuis une vingtaine d'années, et à pouvoir échanger avec vous en anglais, français, russe, espagnol, valencien ou catalan.",
+        "Le Département Fiscal du cabinet Delaguía & Luzón vous conseille et vous accompagne dans les obligations fiscales liées à la création et à la gestion d'entreprise. Tout du long de votre expérience entrepreneuriale, le cabinet Delaguía & Luzón vous aide à faire face aux procédures fiscales complexes et rigoureuses auxquelles vous êtes confronté.",
+        "Les services proposés par le département fiscal englobent également les obligations fiscales, afin de vous proposer l'accompagnement le plus complet possible.",
+        "Le service de conseil que nous apportons vous permet, à la fois d'améliorer la rentabilité de vos ressources, de vos résultats et de votre efficacité.",
+        "Nous nous engageons à vous faire bénéficier de notre solide expérience. Après plusieurs années de travail dans ce domaine, nous sommes en mesure de vous proposer un service aussi efficace que complet."
+      ],
+      "bullets": [],
+      "image": "areas-auditoria.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Fiscalité et comptabilité des entreprises",
+      "body": [
+        "Liquidations et autoliquidations : l'établissement et la présentation de ces formulaires doivent répondre à des conditions très spécifiques. Nous vous assisterons par des modèles normalisés correspondant à un formalisme concret et adaptés à chaque impôt, en respectant non seulement le format, mais aussi les délais recommandés par l'administration fiscale.",
+        "En matière de stratégies fiscales, celles-ci sont le résultat d'une étude individuelle et d'un accompagnement adapté à la situation de chaque client. En plus de ces stratégies, nous offrons les services suivants : d'information, de planification, d'assistance.",
+        "En tant que conseillers et experts fiscaux, nous mettons à votre disposition notre expertise technique dans le domaine ainsi que notre maîtrise des procédures. Cela garantit une réponse rapide, conforme à la légalité et aussi avantageuse que possible pour vos intérêts et votre situation."
+      ],
+      "bullets": [
+        "Service client et réponse à vos demandes de renseignement",
+        "Cycle comptable",
+        "Opérations internationales",
+        "Conseils fiscaux",
+        "Impôt sur les sociétés",
+        "Service d'automatisation"
+      ],
+      "image": "auditoria-interna.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Création d'entreprises, gestion des relations entre associés, gestion des relations intra-groupes",
+      "body": [
+        "Approbation des comptes annuels, modifications statutaires courantes ou spécifiques, restructuration juridique d'entreprises et transmission d'entreprises font partie de notre accompagnement."
+      ],
+      "bullets": [
+        "Conseil sur le choix de la forme de la société à constituer",
+        "Constitution de toutes formes de société commerciales, civiles ou autres groupements",
+        "Pactes d'actionnaires / accords entre actionnaires",
+        "Actes de vente ou d'acquisition de participations, d'actions ou de vente partielle d'actifs",
+        "Analyse de trésorerie, accords intra-groupe, accords de services, accords de gestion de trésorerie, délégations de pouvoirs, etc.",
+        "Arrêté des comptes par les organes de direction (bilan, compte de résultat), rapport de gestion, approbation des comptes annuels par l'assemblée générale des actionnaires",
+        "Transfert du siège social, changement de dénomination, modification de l'objet social",
+        "Augmentation, réduction de capital",
+        "Transformation, dissolution, liquidation à l'amiable",
+        "Fusion-acquisition, apport partiel d'actif, scission",
+        "Ventes de fonds de commerce",
+        "Achat ou vente de parts sociales : audit, négociation, conseil juridique et fiscal, rédaction de protocoles d'accord, garanties actives et passives, etc.",
+        "Coordination des opérations avec les différents intervenants (banques, commissaires aux comptes, auditeurs, intermédiaire)",
+        "Cession de droit au bail",
+        "Location-gérance"
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": []
+}

@@ -1,0 +1,50 @@
+{
+  "heroSub": "Delaguía y Luzón proposons une large gamme de services de conseil en ressources humaines conçus pour améliorer les processus internes et augmenter la productivité de votre entreprise.",
+  "heroImage": "area-laboral.jpg",
+  "sections": [
+    {
+      "heading": "I.- Sélection et recrutement du personnel",
+      "body": [
+        "Nous diagnostiquons les besoins de votre projet et sélectionnons les personnes qui conviennent à votre entreprise.",
+        "Nous procédons à une évaluation de chaque poste et établissons un plan de rémunération, de compensation et d'égalité des chances, en tenant compte des compétences de chaque membre du personnel, ce qui permet d'offrir un bon environnement de travail."
+      ],
+      "bullets": [],
+      "image": "seleccion-personal-e1663750241966.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "I.- La gestion du temps de vos employés",
+      "body": [
+        "Contrôle horaire : contrôle de la journée de travail tant pour le travail en face à face que pour le télétravail et le travail à distance, et ainsi obtenir le contrôle de la journée annuelle de travail, des congés, des absences, du nombre d'heures complémentaires et supplémentaires effectuées, des demandes d'absence, des indemnités perçues en Espagne et à l'étranger…",
+        "Gestion des horaires de travail : nous planifions les horaires de travail de vos employés, en nous adaptant aux besoins et aux caractéristiques de votre entreprise."
+      ],
+      "bullets": [],
+      "image": "gestion-tiempo-empleados-e1663748879652.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "III.- Gestion des crédits pour la formation professionnelle",
+      "body": [
+        "Nous élaborons un plan de formation d'entreprise avec les Académies de Formation accréditées pour dispenser les Cours de Formation Subventionnés, réglementés dans le Système de Formation Professionnelle pour l'emploi dans le domaine du travail."
+      ],
+      "bullets": [],
+      "image": "formacion-laboral.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "IV.Onbording/Plan d´incorporation des nouveaux employés",
+      "body": [
+        "Nous concevons un Plan d'Incorporation du Travail pour les nouveaux travailleurs dans l'entreprise avec lequel nous contrôlons toute la documentation administrative qui doit être préparée avant l'arrivée du nouveau travailleur.",
+        "Nous réalisons toutes les démarches liées au processus d'incorporation des nouveaux employés, le contrat de travail, la documentation relative à la Prévention des Risques Professionnels, à la Protection des Données, à l'Assurance de la Convention Collective, au Protocole de Harcèlement…"
+      ],
+      "bullets": [],
+      "image": "onboardin-empresa.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": []
+}
