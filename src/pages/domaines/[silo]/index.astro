@@ -1,8 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
-import SiloGrid from '../../../components/SiloGrid.astro';
-import ContactCTA from '../../../components/ContactCTA.astro';
+import Reviews from '../../../components/Reviews.astro';
 import { silos } from '../../../data/silos';
 
 export function getStaticPaths() {
@@ -10,35 +9,72 @@ export function getStaticPaths() {
 }
 
 const { silo } = Astro.props;
-const items = silo.subservices.map((ss) => ({
-  title: ss.title,
-  intro: ss.intro,
-  href: `/domaines/${silo.slug}/${ss.slug}/`,
-}));
+const CONTACT = 'https://delaguialuzon.com/fr/';
 ---
 
 <Base title={`${silo.title} — Delaguía y Luzón`} description={silo.intro}>
-  <Breadcrumb
-    items={[{ label: 'Domaines de compétences', href: '/domaines/' }, { label: silo.title }]}
-  />
-  <section class="container intro">
-    <h1>{silo.title}</h1>
-    <p class="lead">{silo.intro}</p>
+  <Breadcrumb items={[{ label: 'Domaines de compétences', href: '/domaines/' }, { label: silo.title }]} />
+
+  <section class="head">
+    <div class="container">
+      <p class="eyebrow">Domaines de compétences</p>
+      <h1>{silo.title}</h1>
+      <p class="lead">{silo.intro}</p>
+    </div>
   </section>
-  <section class="container">
-    <h2>Nos services</h2>
-    <SiloGrid items={items} />
+
+  <section class="grid-band">
+    <div class="container">
+      <ul class="svc-grid">
+        {silo.subservices.map((ss) => (
+          <li>
+            <a href={`/domaines/${silo.slug}/${ss.slug}/`}>
+              <span class="ph"><img src={`/assets/${ss.img}`} alt={ss.title} loading="lazy" /></span>
+              <span class="body">
+                <span class="t">{ss.title}</span>
+                <span class="d">{ss.intro}</span>
+                <span class="more">En savoir plus →</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
   </section>
-  <ContactCTA />
+
+  <Reviews />
+
+  <section class="dom-cta">
+    <div class="container">
+      <p class="eyebrow">Vous avez une question ?</p>
+      <h2>Une question, un projet en Espagne ?</h2>
+      <p class="cta-lead">Faites votre demande : notre équipe vous répond en français, anglais ou russe.</p>
+      <a class="btn" href={CONTACT}>Faire une demande</a>
+    </div>
+  </section>
 </Base>
 
 <style>
-  .intro {
-    padding-block: var(--space-6) var(--space-3);
-  }
-  .lead {
-    font-size: 1.15rem;
-    color: var(--color-muted);
-    max-width: 60ch;
-  }
+  .head { padding-block: var(--space-lg) var(--space-xs); }
+  .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 10px; }
+  .head h1 { margin: 0 0 12px; }
+  .lead { font-size: var(--fs-lead); color: var(--color-muted); max-width: 60ch; margin: 0; }
+
+  .grid-band { background: var(--color-surface-cool); padding-block: var(--space-lg) var(--space-xl); }
+  .svc-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-sm); }
+  .svc-grid a { display: flex; flex-direction: column; height: 100%; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; text-decoration: none; color: inherit; box-shadow: var(--shadow-sm); transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease); }
+  .svc-grid a:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+  .svc-grid .ph { overflow: hidden; }
+  .svc-grid img { width: 100%; height: 180px; object-fit: cover; display: block; transition: transform .4s var(--ease); }
+  .svc-grid a:hover img { transform: scale(1.05); }
+  .svc-grid .body { display: flex; flex-direction: column; gap: 8px; padding: var(--space-sm); flex: 1; }
+  .svc-grid .t { font-family: var(--font-heading); color: var(--color-brand-heading); font-size: 1.15rem; line-height: 1.25; }
+  .svc-grid .d { color: var(--color-muted); font-size: 0.95rem; line-height: 1.5; flex: 1; }
+  .svc-grid .more { color: var(--color-brand); font-weight: 600; font-size: 0.9rem; }
+
+  .dom-cta { background: var(--color-surface); text-align: center; padding-block: var(--space-lg); border-top: 1px solid var(--color-border); }
+  .dom-cta h2 { color: var(--color-brand-heading); margin: 0 0 8px; }
+  .dom-cta .cta-lead { color: var(--color-muted); margin: 0 0 24px; }
+  .btn { display: inline-block; background: var(--color-btn); color: #fff; font-weight: 600; padding: 0.8rem 1.8rem; border-radius: var(--radius-md); text-decoration: none; }
+  .btn:hover { background: var(--color-btn-hover); color: #fff; }
 </style>

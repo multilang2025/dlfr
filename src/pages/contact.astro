@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 
-const CONTACT_URL = 'https://delaguialuzon.com/fr/';
+const CONTACT = 'https://delaguialuzon.com/fr/';
 ---
 
 <Base
@@ -10,38 +10,29 @@ const CONTACT_URL = 'https://delaguialuzon.com/fr/';
   description="Contactez le cabinet Delaguía y Luzón pour votre projet en Espagne. Réponse en français, anglais ou russe."
 >
   <Breadcrumb items={[{ label: 'Contact' }]} />
-  <section class="container intro">
-    <h1>Contact</h1>
-    <p class="lead">
-      Pour toute demande, notre équipe vous répond en français, anglais ou russe.
-    </p>
-    <p>
-      <a class="btn" href={CONTACT_URL}>Faire une demande</a>
-    </p>
-    <p class="note">
-      Les demandes sont traitées via notre plateforme centralisée
-      <a href={CONTACT_URL}>delaguialuzon.com</a>.
-    </p>
-    <address>
-      Delaguía y Luzón — Mulhouse, France.
-    </address>
+  <section class="contact">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Parlons de votre projet en Espagne</h1>
+      <p class="lead">
+        Pour toute demande, notre équipe vous répond en français, anglais ou russe.
+      </p>
+      <a class="btn" href={CONTACT}>Faire une demande</a>
+      <p class="note">
+        Vous serez redirigé vers <a href={CONTACT}>delaguialuzon.com</a> pour soumettre votre demande.
+        Nos coordonnées complètes figurent juste en dessous.
+      </p>
+    </div>
   </section>
 </Base>
 
 <style>
-  .intro { padding-block: var(--space-6); }
-  .lead { font-size: 1.15rem; color: var(--color-muted); max-width: 60ch; }
-  .btn {
-    display: inline-block;
-    margin-block: var(--space-2);
-    padding: var(--space-1) var(--space-4);
-    background: var(--color-accent);
-    color: #fff;
-    border-radius: var(--radius);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .btn:hover { background: var(--color-accent-dark); }
-  .note { color: var(--color-muted); font-size: 0.95rem; }
-  address { font-style: normal; margin-top: var(--space-3); }
+  .contact { padding-block: var(--space-lg) var(--space-xl); }
+  .contact .container { max-width: var(--content-width); }
+  .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 10px; }
+  .contact h1 { margin: 0 0 12px; }
+  .lead { font-size: var(--fs-lead); color: var(--color-muted); max-width: 60ch; margin: 0 0 24px; }
+  .btn { display: inline-block; background: var(--color-btn); color: #fff; font-weight: 600; padding: 0.8rem 1.8rem; border-radius: var(--radius-md); text-decoration: none; }
+  .btn:hover { background: var(--color-btn-hover); color: #fff; }
+  .note { color: var(--color-muted); font-size: 0.95rem; margin: 18px 0 0; }
 </style>
