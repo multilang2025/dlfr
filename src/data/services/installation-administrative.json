@@ -76,24 +76,16 @@
   },
   "faq": [
     {
-      "q": "Le NIE est-il obligatoire ?",
-      "a": "Le NIE est indispensable pour presque toute démarche en Espagne : travailler, acheter un bien immobilier, ouvrir un compte bancaire ou créer une société. C'est la clé de votre vie administrative, fiscale et économique sur place."
+      "q": "Quelle est la différence entre le NIE et le TIE ?",
+      "a": "Le NIE est un numéro d'identification unique attribué aux étrangers pour toute démarche administrative ou fiscale en Espagne. Le TIE est une carte physique de résidence qui inclut le NIE et qui est obligatoire pour tout séjour de plus de 3 mois."
     },
     {
-      "q": "Quelle différence entre le NIE et la TIE ?",
-      "a": "Le NIE est un numéro d'identification valable à vie ; la TIE est une carte de résident physique, obligatoire pour les séjours de plus de trois mois. Pour les citoyens de l'UE, le <em>Certificado de Registro</em> remplace la TIE."
+      "q": "Puis-je travailler en Espagne avec mon NIE ?",
+      "a": "Si vous êtes citoyen français (UE), votre NIE vous donne le droit de travailler en Espagne sans autorisation supplémentaire. Cependant, vous devez vous inscrire à la Sécurité Sociale espagnole selon votre statut (salarié ou indépendant)."
     },
     {
-      "q": "Puis-je obtenir mon NIE sans me rendre en Espagne ?",
-      "a": "Oui. Les Français peuvent en faire la demande auprès du Consulat d'Espagne en France compétent, sans avoir besoin d'une adresse espagnole. Nous préparons et sécurisons votre dossier."
-    },
-    {
-      "q": "Le NIE est-il payant ?",
-      "a": "Seule la taxe administrative (<em>tasa</em> 790-012) est due, fixée à 9,84 € en 2025. Aucun autre frais n'est légalement exigé pour l'obtention du numéro."
-    },
-    {
-      "q": "Le NIE est-il obligatoire pour louer un logement ?",
-      "a": "Légalement, il n'est pas obligatoire pour une location de courte durée, mais de nombreux propriétaires et agences le demandent pour sécuriser la transaction. Pour une location longue durée, il est généralement exigé."
+      "q": "Le NIE est-il nécessaire pour louer un logement ?",
+      "a": "Légalement, le NIE n'est pas obligatoire pour signer un contrat de location courte durée. Cependant, de nombreux propriétaires et agences le demandent pour sécuriser la transaction. Pour une location longue durée, il est généralement exigé."
     }
   ]
 }

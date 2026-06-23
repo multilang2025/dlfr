@@ -74,20 +74,16 @@
   },
   "faq": [
     {
-      "q": "Quels contrats commerciaux devez-vous sécuriser ?",
-      "a": "Contrats de distribution, prestation, partenariat, CGV… Nous rédigeons et révisons vos contrats pour limiter les risques juridiques."
+      "q": "Quelle est la différence entre un agent commercial et un distributeur en Espagne ?",
+      "a": "L'<strong>agent commercial</strong> est un intermédiaire qui négocie pour le compte du mandant sans acheter les produits. Il perçoit des <strong>commissions</strong> et bénéficie d'une <strong>protection légale</strong> (indemnité de fin de contrat). Le <strong>distributeur</strong> achète les produits et les revend pour son compte, prenant le risque commercial. Il ne bénéficie pas d'indemnité légale de rupture. Le choix dépend de votre stratégie : l'agent coûte moins cher mais apporte moins de contrôle, le distributeur investit davantage mais est plus autonome."
     },
     {
-      "q": "Mes contrats français sont-ils valables en Espagne ?",
-      "a": "Ils peuvent l'être, mais doivent être adaptés au droit espagnol et à la langue. Nous les révisons pour garantir leur efficacité locale."
+      "q": "Un jugement français est-il reconnu automatiquement en Espagne ?",
+      "a": "Oui, depuis le <strong>Règlement Bruxelles I bis</strong> (UE 1215/2012), les jugements français sont <strong>automatiquement reconnus en Espagne</strong> sans procédure d'exequatur. Pour l'exécution forcée (saisies, etc.), il suffit de présenter le jugement + certificat de l'article 53 au tribunal espagnol compétent. Le tribunal espagnol ne peut pas réviser le fond du jugement français. Nous facilitons l'<strong>exécution en Espagne</strong> de vos décisions françaises (recouvrement de créances, mesures conservatoires)."
     },
     {
-      "q": "Que faire en cas de litige commercial ?",
-      "a": "Nous privilégions la négociation et la médiation, puis assurons votre représentation contentieuse si nécessaire."
-    },
-    {
-      "q": "Pouvez-vous m'accompagner sur le développement de franchises ?",
-      "a": "Oui, nous accompagnons la structuration et le développement de réseaux de franchise en Espagne."
+      "q": "Quels sont les délais d'un contentieux commercial en Espagne ?",
+      "a": "Devant le <strong>Juzgado de lo Mercantil</strong>, un <strong>juicio ordinario</strong> (&gt;6 000€) prend <strong>12-18 mois</strong> en moyenne à Valencia. Un <strong>juicio verbal</strong> (&lt;6 000€) : 6-9 mois. Le <strong>juicio monitorio</strong> (recouvrement) : 2-4 mois si pas d'opposition. Possibilité d'obtenir des <strong>mesures conservatoires d'urgence</strong> en quelques semaines. L'<strong>arbitrage commercial</strong> est plus rapide : sentence en 6-12 mois. La <strong>médiation</strong> permet de résoudre 60% des conflits en 2-3 mois."
     }
   ]
 }

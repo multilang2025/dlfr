@@ -72,22 +72,5 @@
     "img": "testimonio3.jpg",
     "video": "https://youtu.be/ocOfoYCU790"
   },
-  "faq": [
-    {
-      "q": "Qu'est-ce que la médiation et quels en sont les avantages ?",
-      "a": "La médiation est un mode amiable de résolution des conflits, plus rapide et moins coûteux qu'un procès, qui préserve les relations entre les parties."
-    },
-    {
-      "q": "Quand faut-il passer à la voie contentieuse ?",
-      "a": "Lorsque la négociation échoue. Nous vous représentons alors devant les juridictions espagnoles compétentes."
-    },
-    {
-      "q": "Pouvez-vous gérer un litige transfrontalier FR/ES ?",
-      "a": "Oui, notre expertise bilingue nous permet de traiter les litiges impliquant la France et l'Espagne."
-    },
-    {
-      "q": "Combien de temps dure une médiation ?",
-      "a": "Souvent quelques semaines, contre plusieurs mois ou années pour un contentieux. Nous visons une résolution rapide et durable."
-    }
-  ]
+  "faq": []
 }

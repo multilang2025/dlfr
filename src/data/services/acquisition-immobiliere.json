@@ -123,20 +123,16 @@
   },
   "faq": [
     {
-      "q": "Quelles vérifications faire avant d'acheter un bien en Espagne ?",
-      "a": "Il faut vérifier le titre de propriété, les charges, l'urbanisme et l'absence de dettes (nota simple). Nous réalisons cette due diligence avant tout engagement."
+      "q": "Quels sont les risques d'acheter sans avocat en Espagne ?",
+      "a": "Les risques sont <strong>très élevés</strong> : charges non détectées (hypothèques, saisies), constructions illégales, dettes de copropriété, vices juridiques sur la propriété. <strong>20% des biens</strong> présentent un problème juridique. Sans due diligence professionnelle, vous pouvez perdre votre bien ou faire face à des coûts imprévus de dizaines de milliers d’euros. L’avocat est votre <strong>protection essentielle</strong>."
     },
     {
-      "q": "Qu'est-ce que le contrat d'arras ?",
-      "a": "C'est le compromis de réservation (contrato de arras) qui fixe les conditions et un acompte. Nous le rédigeons ou le révisons pour vous protéger."
+      "q": "Puis-je acheter en Espagne sans NIE ?",
+      "a": "Non, le <strong>NIE est obligatoire</strong> pour toute transaction immobilière en Espagne. Sans NIE, impossible de signer chez le notaire ni de s’inscrire au Registro de la Propiedad. Le NIE doit être obtenu <strong>avant la signature</strong> de l’acte de vente. Délai d’obtention : 2-6 semaines. Nous gérons cette démarche pour vous en <strong>3 semaines en moyenne</strong>."
     },
     {
-      "q": "Quels frais prévoir en plus du prix d'achat ?",
-      "a": "Comptez les impôts de transmission, les frais de notaire et d'enregistrement. Nous établissons une estimation complète en amont."
-    },
-    {
-      "q": "Puis-je acheter en tant que non-résident ?",
-      "a": "Oui. Le NIE suffit pour acheter. Nous vous accompagnons pour toutes les démarches, à distance si nécessaire."
+      "q": "Combien coûte l'achat d'un bien immobilier en Espagne (frais totaux) ?",
+      "a": "Les <strong>frais d’acquisition</strong> représentent <strong>11-13% du prix d’achat</strong>. Pour un bien ancien : <strong>ITP 10%</strong> (Valencia) + notaire 0,3-0,5% + Registro 0,1-0,2% + gestoría 300-600€ + avocat 1-1,5%. Pour un bien neuf : <strong>IVA 10% + AJD 1,5%</strong> + autres frais similaires. Exemple : bien à 250 000€ = environ 29 000€ de frais totaux."
     }
   ]
 }

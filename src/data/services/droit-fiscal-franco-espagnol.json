@@ -72,20 +72,16 @@
   },
   "faq": [
     {
-      "q": "Comment est déterminée ma résidence fiscale ?",
-      "a": "Elle dépend notamment de la durée de séjour (183 jours), du centre de vos intérêts économiques et de votre foyer. Nous analysons votre situation au regard de la convention franco-espagnole."
+      "q": "Dois-je déclarer mes comptes français en Espagne ?",
+      "a": "Oui, si vous êtes résident fiscal espagnol, vous devez déclarer vos comptes à l’étranger via le Modèle 720."
     },
     {
-      "q": "Vais-je être imposé deux fois, en France et en Espagne ?",
-      "a": "Non : la convention de non double imposition entre la France et l'Espagne évite cela. Nous l'appliquons pour répartir correctement l'imposition de vos revenus."
+      "q": "Puis-je bénéficier du régime Beckham Law à Valencia ?",
+      "a": "Oui, sous conditions (notamment ne pas avoir été résident fiscal en Espagne les 5 années précédentes)."
     },
     {
-      "q": "Qu'est-ce que le régime des impatriés (loi Beckham) ?",
-      "a": "C'est un régime fiscal avantageux pour certains nouveaux résidents en Espagne. Nous évaluons votre éligibilité et gérons la demande."
-    },
-    {
-      "q": "Dois-je déclarer mes comptes et biens à l'étranger ?",
-      "a": "Oui, l'Espagne impose des obligations déclaratives (ex. Modelo 720). Nous veillons à votre conformité pour éviter les sanctions."
+      "q": "Comment éviter la double imposition sur mes pensions de retraite ?",
+      "a": "La convention fiscale franco-espagnole prévoit des règles spécifiques pour les pensions. Un conseil personnalisé est indispensable."
     }
   ]
 }
