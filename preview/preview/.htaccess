@@ -1,0 +1,25 @@
+# Force index.html comme page d'accueil par défaut.
+# Évite que la page placeholder de Hostinger (default.php / index.php) masque le site.
+DirectoryIndex index.html index.htm
+
+# Petits réglages utiles
+Options -Indexes
+
+# --- Redirections 301 : anciennes URLs WordPress -> nouvelle structure en silo ---
+# S'appliquent en production sur delaguialuzon.fr (inertes sur la préprod).
+# NB : /blog/ reste géré par WordPress et n'est jamais redirigé ici.
+RedirectMatch 301 ^/domaines-expertise/?$ /domaines/
+RedirectMatch 301 ^/installation-administrative-espagne/?$ /domaines/s-installer-en-espagne/installation-administrative/
+RedirectMatch 301 ^/protection-sociale-et-retraite-en-espagne/?$ /domaines/s-installer-en-espagne/protection-sociale-retraite/
+RedirectMatch 301 ^/accompagnement-bancaire-et-financier-en-espagne/?$ /domaines/s-installer-en-espagne/accompagnement-bancaire/
+RedirectMatch 301 ^/droit-fiscal-espagnol/?$ /domaines/fiscalite/droit-fiscal-franco-espagnol/
+RedirectMatch 301 ^/services-conseils-fiscaux/?$ /domaines/fiscalite/conseils-fiscaux-valencia/
+RedirectMatch 301 ^/creation-entreprise-espagne/?$ /domaines/entreprendre/creation-entreprise/
+RedirectMatch 301 ^/droit-des-affaires-espagne/?$ /domaines/entreprendre/droit-des-affaires/
+RedirectMatch 301 ^/droit-commercial/?$ /domaines/entreprendre/droit-commercial/
+RedirectMatch 301 ^/droit-du-travail-et-recrutement-en-espagne/?$ /domaines/emploi-rh/droit-du-travail/
+RedirectMatch 301 ^/conseil-en-ressources-humaines/?$ /domaines/emploi-rh/ressources-humaines/
+RedirectMatch 301 ^/compliance-du-travail/?$ /domaines/emploi-rh/compliance-du-travail/
+RedirectMatch 301 ^/acquisition-immobiliere-espagne/?$ /domaines/immobilier/acquisition-immobiliere/
+RedirectMatch 301 ^/resolution-de-litiges-espagne/?$ /domaines/litiges/mediation-resolution/
+RedirectMatch 301 ^/cabinet-avocat-espagne/?$ /qui-sommes-nous/

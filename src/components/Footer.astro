@@ -1,26 +1,60 @@
 ---
-const year = new Date().getFullYear();
+const year = 2026;
+const domaines = [
+  { label: "S'installer en Espagne", href: '/domaines/s-installer-en-espagne/' },
+  { label: 'Fiscalité franco-espagnole', href: '/domaines/fiscalite/' },
+  { label: 'Entreprendre', href: '/domaines/entreprendre/' },
+  { label: 'Immobilier', href: '/domaines/immobilier/' },
+];
+const cabinet = [
+  { label: 'Qui sommes-nous ?', href: '/qui-sommes-nous/' },
+  { label: 'Blog', href: '/blog/' },
+  { label: 'Contact', href: '/contact/' },
+  { label: 'Mentions légales', href: '/mentions-legales/' },
+];
 ---
 
 <footer class="site-footer">
-  <div class="container">
-    <p>© {year} Delaguía y Luzón — Mulhouse</p>
-    <p class="muted">Service disponible en français, anglais ou russe.</p>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="/assets/Logo-65_610.png" width="610" height="140" alt="Delaguía y Luzón" />
+      <p>Le trait d'union juridique entre la France et l'Espagne, depuis 65 ans.</p>
+    </div>
+    <div>
+      <p class="footer-head">Domaines</p>
+      <ul>{domaines.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+    </div>
+    <div>
+      <p class="footer-head">Le cabinet</p>
+      <ul>{cabinet.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+    </div>
+    <div>
+      <p class="footer-head">Contact</p>
+      <ul>
+        <li>Valencia · Mulhouse</li>
+        <li>Français · English · Русский</li>
+        <li><a class="footer-cta" href="https://delaguialuzon.com/fr/">Faire une demande →</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="container">© {year} Delaguía y Luzón — Mentions légales · Politique de confidentialité</p>
   </div>
 </footer>
 
 <style>
-  .site-footer {
-    margin-top: var(--space-8);
-    padding-block: var(--space-6);
-    background: var(--color-surface);
-    border-top: 1px solid var(--color-border);
-  }
-  .site-footer p {
-    margin: 0;
-  }
-  .muted {
-    color: var(--color-muted);
-    font-size: 0.9rem;
-  }
+  .site-footer { background: var(--color-surface); border-top: 1px solid var(--color-border); }
+  .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: var(--space-md); padding-block: var(--space-lg); align-items: start; }
+  .footer-brand img { height: 36px; width: auto; margin-bottom: 0.9rem; }
+  .footer-brand p { margin: 0; color: var(--color-muted); font-size: 15px; max-width: 320px; }
+  .footer-head { margin: 0 0 0.4rem; font-weight: 700; font-size: 15px; color: var(--color-text-strong); }
+  .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; font-size: 15px; }
+  .site-footer li { color: var(--color-muted); }
+  .site-footer a { color: var(--color-muted); }
+  .site-footer a:hover { color: var(--color-link-hover); }
+  .footer-cta { color: var(--color-brand) !important; font-weight: 600; }
+  .footer-bottom { border-top: 1px solid var(--color-border); }
+  .footer-bottom p { padding-block: var(--space-xs); margin: 0; font-size: 13px; color: var(--color-muted); }
+  @media (max-width: 880px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
 </style>

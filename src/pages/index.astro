@@ -4,29 +4,33 @@ import ContactCTA from '../components/ContactCTA.astro';
 
 const CONTACT_URL = 'https://delaguialuzon.com/fr/';
 
-// Grille des 9 domaines (réplique de la home actuelle) → liens vers la nouvelle structure en silo
 const services = [
-  { title: "Accompagnement à l'installation administrative", img: 'area-inmobiliario.jpg', href: '/domaines/s-installer-en-espagne/installation-administrative/' },
-  { title: 'Conseil en droit fiscal et optimisation', img: 'area-mercantil.jpg', href: '/domaines/fiscalite/droit-fiscal-franco-espagnol/' },
-  { title: "Création d'entreprise et choix de la structure juridique", img: 'area-sucesiones.jpg', href: '/domaines/entreprendre/creation-entreprise/' },
-  { title: 'Droit du travail et recrutement', img: 'area-fiscal.jpg', href: '/domaines/emploi-rh/droit-du-travail/' },
-  { title: 'Acquisition immobilière et droit de la propriété', img: 'area-laboral.jpg', href: '/domaines/immobilier/acquisition-immobiliere/' },
-  { title: 'Droit des affaires et contrats commerciaux', img: 'area-extranjeria.jpg', href: '/domaines/entreprendre/droit-des-affaires/' },
-  { title: 'Protection sociale et retraite', img: 'area-auditoria.jpg', href: '/domaines/s-installer-en-espagne/protection-sociale-retraite/' },
-  { title: 'Accompagnement bancaire et financier', img: 'area-fiscalidad.jpg', href: '/domaines/s-installer-en-espagne/accompagnement-bancaire/' },
-  { title: 'Médiation et résolution des litiges', img: 'area-social-corporativa.jpg', href: '/domaines/litiges/mediation-resolution/' },
+  { title: "Accompagnement à l'installation administrative", img: 'area-inmobiliario.jpg', href: '/domaines/s-installer-en-espagne/installation-administrative/', desc: 'NIE, empadronamiento, résidence : toutes vos démarches administratives gérées.' },
+  { title: 'Conseil en droit fiscal et optimisation', img: 'area-mercantil.jpg', href: '/domaines/fiscalite/droit-fiscal-franco-espagnol/', desc: 'Résidence fiscale, double imposition et déclarations FR/ES sur mesure.' },
+  { title: "Création d'entreprise et choix de la structure juridique", img: 'area-sucesiones.jpg', href: '/domaines/entreprendre/creation-entreprise/', desc: 'Structure, constitution et formalités pour créer votre société en Espagne.' },
+  { title: 'Droit du travail et recrutement', img: 'area-fiscal.jpg', href: '/domaines/emploi-rh/droit-du-travail/', desc: 'Embauche, contrats et relations sociales conformes au droit espagnol.' },
+  { title: 'Acquisition immobilière et droit de la propriété', img: 'area-laboral.jpg', href: '/domaines/immobilier/acquisition-immobiliere/', desc: 'Vérifications, contrats et accompagnement jusque chez le notaire.' },
+  { title: 'Droit des affaires et contrats commerciaux', img: 'area-extranjeria.jpg', href: '/domaines/entreprendre/droit-des-affaires/', desc: 'Sécurisez vos contrats et vos opérations commerciales en Espagne.' },
+  { title: 'Protection sociale et retraite', img: 'area-auditoria.jpg', href: '/domaines/s-installer-en-espagne/protection-sociale-retraite/', desc: 'Sécurité sociale, retraite et santé optimisées entre la France et l’Espagne.' },
+  { title: 'Accompagnement bancaire et financier', img: 'area-fiscalidad.jpg', href: '/domaines/s-installer-en-espagne/accompagnement-bancaire/', desc: 'Ouverture de compte, financement et gestion bancaire pour votre projet.' },
+  { title: 'Médiation et résolution des litiges', img: 'area-social-corporativa.jpg', href: '/domaines/litiges/mediation-resolution/', desc: 'Médiation, négociation et représentation pour régler vos litiges.' },
 ];
 
-// Articles (le blog reste sous WordPress) — liens vers les posts actuels
+const stats = [
+  { num: '65', label: "ans d'expérience" },
+  { num: '~25', label: 'professionnels à votre service' },
+  { num: '3', label: 'générations à Valence' },
+];
+
 const articles = [
-  { title: "Impatriés en Espagne : ce que le fisc attend que vous sachiez avant de rentrer", img: 'impatries-en-espagne.jpg', date: '25/05/2026', href: 'https://delaguialuzon.fr/impatries-en-espagne/' },
-  { title: 'Expatriation en Espagne : les 9 pièges à éviter', img: 'expatriation-en-espagne.jpg', date: '20/05/2026', href: 'https://delaguialuzon.fr/expatriation-en-espagne/' },
-  { title: 'Activités extrascolaires pour enfants à Valencia', img: 'activit-s-extrascolaires-enfants-valencia-1767192925105.png', date: '15/05/2026', href: 'https://delaguialuzon.fr/activites-extrascolaires-enfants-valencia/' },
+  { title: "Impatriés en Espagne : ce que le fisc attend que vous sachiez", img: 'impatries-en-espagne.jpg', date: '25/05/2026', excerpt: "Résidence fiscale, exit tax, comptes à déclarer : l'essentiel à anticiper avant votre retour.", href: 'https://delaguialuzon.fr/impatries-en-espagne/' },
+  { title: 'Expatriation en Espagne : les 9 pièges à éviter', img: 'expatriation-en-espagne.jpg', date: '20/05/2026', excerpt: "De l'empadronamiento à la double imposition, les erreurs qui coûtent cher aux nouveaux arrivants.", href: 'https://delaguialuzon.fr/expatriation-en-espagne/' },
+  { title: 'Activités extrascolaires pour enfants à Valence', img: 'activit-s-extrascolaires-enfants-valencia-1767192925105.png', date: '15/05/2026', excerpt: 'Sport, langues et culture : comment inscrire vos enfants et faciliter leur intégration locale.', href: 'https://delaguialuzon.fr/activites-extrascolaires-enfants-valencia/' },
 ];
 
 const testimonials = [
   { name: 'STEPAHONE ANOUFA', role: 'Client Delaguía & Luzón', img: 'testimonio1-1.jpg', video: 'https://youtu.be/nQuYISPF9Es' },
-  { name: 'RUBÉN DALVA', role: 'Délégué de la Chambre de commerce de Belgique et du Luxembourg', img: 'testimonio2.jpg', video: 'https://youtu.be/HWZ4_EgKh50' },
+  { name: 'RUBÉN DALVA', role: 'Chambre de commerce de Belgique et du Luxembourg', img: 'testimonio2.jpg', video: 'https://youtu.be/HWZ4_EgKh50' },
   { name: 'DOMINIQUE', role: 'Chasseur immobilier à Valence', img: 'testimonio3.jpg', video: 'https://youtu.be/ocOfoYCU790' },
 ];
 
@@ -45,15 +49,16 @@ const partners = [
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <h1>Retraite au soleil, création d'entreprise ou ouverture de franchise : depuis 65 ans, Delaguía y Luzón est le trait d'union juridique entre la France et l'Espagne.</h1>
+        <h1>Retraite au soleil, création d'entreprise ou ouverture de franchise.</h1>
+        <h2>Depuis 65 ans, Delaguía y Luzón est le trait d'union juridique entre la France et l'Espagne.</h2>
         <p class="lead">
           S'installer dans un nouveau pays est un défi. La barrière de la langue et les complexités
           administratives espagnoles ne doivent pas être un frein.
         </p>
         <ul class="usp">
           <li><strong>On parle votre langue :</strong> une équipe parfaitement francophone, pour des échanges clairs sans jargon.</li>
-          <li><strong>On connaît le terrain :</strong> installés à Valence depuis 3 générations, nous maîtrisons les spécificités locales et nationales.</li>
-          <li><strong>Guichet unique :</strong> du NIE à la signature chez le notaire, en passant par la création de vos statuts, nous gérons tout.</li>
+          <li><strong>On connaît le terrain :</strong> installés à Valence depuis 3 générations, nous maîtrisons les spécificités locales.</li>
+          <li><strong>Guichet unique :</strong> du NIE à la signature chez le notaire, nous gérons tout.</li>
         </ul>
         <a class="btn" href={CONTACT_URL}>Faire une demande</a>
       </div>
@@ -63,17 +68,17 @@ const partners = [
     </div>
   </section>
 
-  <!-- STATS -->
+  <!-- STATS (bande acier) -->
   <section class="stats">
     <div class="container stats-inner">
-      <div><span class="num">65</span><span class="label">ans d'expérience</span></div>
-      <div><span class="num">~25</span><span class="label">professionnels</span></div>
-      <div><span class="num">3</span><span class="label">générations à Valence</span></div>
+      {stats.map((s) => (
+        <div><span class="num">{s.num}</span><span class="label">{s.label}</span></div>
+      ))}
     </div>
   </section>
 
-  <!-- INTRO ÉQUIPE -->
-  <section class="container intro">
+  <!-- INTRO -->
+  <section class="intro">
     <p>
       Notre bureau vise à offrir une solution globale et personnalisée aux entreprises et aux
       particuliers qui s'établissent ou investissent en Espagne, et plus particulièrement dans la
@@ -81,16 +86,24 @@ const partners = [
     </p>
   </section>
 
-  <!-- DOMAINES / SERVICES -->
+  <!-- DOMAINES -->
   <section class="services">
     <div class="container">
-      <h2>Nous vous accompagnons dans votre projet en Espagne</h2>
+      <div class="section-head">
+        <h2>Domaines de compétences</h2>
+        <span class="rule"></span>
+        <p class="section-lead">Un accompagnement juridique, fiscal et administratif complet pour votre projet en Espagne.</p>
+      </div>
       <ul class="grid-services">
         {services.map((s) => (
           <li>
             <a href={s.href}>
-              <img src={`/assets/${s.img}`} width="321" height="321" alt={s.title} loading="lazy" />
-              <h3>{s.title}</h3>
+              <span class="ph"><img src={`/assets/${s.img}`} width="321" height="321" alt={s.title} loading="lazy" /></span>
+              <span class="body">
+                <span class="t">{s.title}</span>
+                <span class="d">{s.desc}</span>
+                <span class="more">En savoir plus →</span>
+              </span>
             </a>
           </li>
         ))}
@@ -106,8 +119,8 @@ const partners = [
         <h2>Pourquoi choisir un cabinet franco-espagnol ?</h2>
         <ul class="usp">
           <li><strong>Double expertise :</strong> maîtrise des systèmes juridiques et fiscaux des deux pays.</li>
-          <li><strong>Réseau local :</strong> partenariats avec des notaires, experts-comptables et avocats en Espagne.</li>
-          <li><strong>Accompagnement sur mesure :</strong> adapté aux besoins des expatriés et des entrepreneurs.</li>
+          <li><strong>Réseau local :</strong> partenariats avec notaires, experts-comptables et avocats en Espagne.</li>
+          <li><strong>Accompagnement sur mesure :</strong> adapté aux expatriés et aux entrepreneurs.</li>
         </ul>
         <a class="btn-outline" href="/qui-sommes-nous/">Qui sommes-nous ?</a>
       </div>
@@ -117,31 +130,36 @@ const partners = [
   <!-- ARTICLES -->
   <section class="articles">
     <div class="container">
-      <h2>Nos articles pour faciliter votre installation en Espagne</h2>
-      <p class="section-lead">Notre bureau vous partage des informations précieuses en vue de votre installation en Espagne.</p>
+      <div class="section-head">
+        <h2>Nos articles pour faciliter votre installation</h2>
+        <p class="section-lead">Notre bureau partage des informations précieuses en vue de votre installation en Espagne.</p>
+      </div>
       <ul class="grid-articles">
         {articles.map((a) => (
           <li>
             <a href={a.href}>
-              <img src={`/assets/${a.img}`} alt={a.title} loading="lazy" />
-              <span class="date">{a.date}</span>
-              <h3>{a.title}</h3>
+              <span class="ph"><img src={`/assets/${a.img}`} alt={a.title} loading="lazy" /></span>
+              <span class="body">
+                <span class="date">{a.date}</span>
+                <span class="t">{a.title}</span>
+                <span class="d">{a.excerpt}</span>
+                <span class="more">Lire l'article →</span>
+              </span>
             </a>
           </li>
         ))}
       </ul>
-      <p class="more-link"><a href="/blog/">Voir tous nos articles →</a></p>
+      <p class="center-link"><a href="/blog/">Voir tous nos articles →</a></p>
     </div>
   </section>
 
   <!-- TÉMOIGNAGES -->
   <section class="testimonials">
     <div class="container">
-      <h2>Témoignages de nos clients</h2>
-      <p class="section-lead">
-        La meilleure façon de nous connaître est d'écouter les retours réels des clients qui nous ont
-        fait confiance.
-      </p>
+      <div class="section-head">
+        <h2>Témoignages de nos clients</h2>
+        <p class="section-lead">La meilleure façon de nous connaître est d'écouter les retours réels des clients qui nous ont fait confiance.</p>
+      </div>
       <ul class="grid-testimonials">
         {testimonials.map((t) => (
           <li>
@@ -159,11 +177,9 @@ const partners = [
   <!-- PARTENAIRES -->
   <section class="partners">
     <div class="container">
-      <h2>Nos partenaires</h2>
+      <div class="section-head"><h2>Nos partenaires</h2></div>
       <ul class="grid-partners">
-        {partners.map((p) => (
-          <li><img src={`/assets/${p.img}`} alt={p.name} loading="lazy" /></li>
-        ))}
+        {partners.map((p) => <li><img src={`/assets/${p.img}`} alt={p.name} loading="lazy" /></li>)}
       </ul>
     </div>
   </section>
@@ -172,80 +188,88 @@ const partners = [
 </Base>
 
 <style>
-  h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
-  .btn, .btn-outline {
-    display: inline-block;
-    padding: var(--space-1) var(--space-4);
-    border-radius: var(--radius);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .btn { background: var(--color-accent); color: #fff; }
-  .btn:hover { background: var(--color-accent-dark); }
-  .btn-outline { border: 2px solid var(--color-accent); color: var(--color-accent-dark); }
-  .btn-outline:hover { background: var(--color-accent); color: #fff; }
-
   /* HERO */
-  .hero { background: var(--color-surface); padding-block: var(--space-8); }
-  .hero-inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--space-6); align-items: center; }
-  .hero h1 { font-size: clamp(1.6rem, 2.6vw, 2.4rem); margin: 0 0 var(--space-2); }
-  .hero .lead { font-size: 1.1rem; }
-  .usp { list-style: none; padding: 0; margin: var(--space-2) 0; display: grid; gap: var(--space-1); }
-  .usp li { padding-left: 1.4rem; position: relative; }
-  .usp li::before { content: '✓'; position: absolute; left: 0; color: var(--color-accent); font-weight: 700; }
-  .hero-media img { width: 100%; height: auto; border-radius: var(--radius); }
+  .hero { background: var(--color-surface); padding-block: var(--space-xl); }
+  .hero-inner { display: grid; grid-template-columns: 1fr 1.35fr; gap: var(--space-lg); align-items: center; }
+  .hero h1 { font-size: clamp(1.6rem, 2.6vw, 2.3rem); line-height: 1.2; margin: 0 0 10px; }
+  .hero h2 { font-size: clamp(1.2rem, 2vw, 1.6rem); line-height: 1.3; margin: 0 0 16px; }
+  .hero .lead { font-size: var(--fs-lead); color: var(--color-text-strong); margin: 0 0 18px; }
+  .usp { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 8px; }
+  .usp li { position: relative; padding-left: 26px; line-height: 1.5; }
+  .usp li::before { content: '✓'; position: absolute; left: 0; color: var(--color-brand); font-weight: 700; }
+  .hero-media img { width: 100%; height: 100%; max-height: 440px; object-fit: cover; border-radius: var(--radius-md); display: block; }
+
+  .btn, .btn-outline { display: inline-block; padding: 0.7rem 1.6rem; border-radius: var(--radius-md); font-weight: 600; text-decoration: none; }
+  .btn { background: var(--color-btn); color: var(--color-btn-text); }
+  .btn:hover { background: var(--color-btn-hover); color: #fff; }
+  .btn-outline { border: 2px solid var(--color-border-soft); color: var(--color-brand-heading); }
+  .btn-outline:hover { background: var(--color-brand); color: #fff; border-color: var(--color-brand); }
 
   /* STATS */
-  .stats { background: var(--color-heading); color: #fff; }
-  .stats-inner { display: flex; flex-wrap: wrap; justify-content: space-around; gap: var(--space-3); padding-block: var(--space-4); text-align: center; }
-  .stats .num { display: block; font-size: 2.4rem; font-weight: 800; color: var(--color-accent); }
-  .stats .label { color: #d7dae3; }
+  .stats { background: var(--color-stat-band); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
+  .stats-inner { display: flex; flex-wrap: wrap; justify-content: space-around; gap: var(--space-sm); padding-block: var(--space-md); text-align: center; }
+  .stats .num { display: block; font-family: var(--font-heading); font-size: 2.6rem; font-weight: 700; color: var(--color-stat-accent); }
+  .stats .label { color: var(--color-muted); }
 
-  .intro { padding-block: var(--space-6); max-width: 70ch; font-size: 1.1rem; }
+  /* INTRO */
+  .intro { padding-block: var(--space-lg); text-align: center; }
+  .intro p { max-width: 720px; margin: 0 auto; padding-inline: var(--space-sm); font-size: var(--fs-lead); line-height: 1.6; }
+
+  /* SECTION HEADINGS */
+  .section-head { text-align: center; margin-bottom: var(--space-md); }
+  .section-head h2 { margin: 0; }
+  .section-head .rule { display: block; width: 64px; height: 2px; background: var(--color-border-soft); margin: 14px auto; }
+  .section-lead { color: var(--color-muted); font-size: var(--fs-lead); max-width: 60ch; margin: 0.5rem auto 0; }
 
   /* SERVICES */
-  .services { padding-block: var(--space-4) var(--space-8); }
-  .services h2 { text-align: center; margin-bottom: var(--space-4); }
-  .grid-services { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); }
-  .grid-services a { display: block; text-decoration: none; color: inherit; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: #fff; transition: box-shadow 0.15s, transform 0.15s; }
-  .grid-services a:hover { box-shadow: 0 8px 24px rgba(15,27,45,0.12); transform: translateY(-2px); }
-  .grid-services img { width: 100%; height: 200px; object-fit: cover; display: block; }
-  .grid-services h3 { font-size: 1.05rem; margin: 0; padding: var(--space-2); }
+  .services { padding-block: var(--space-xl); }
+  .grid-services { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); }
+  .grid-services a { display: flex; flex-direction: column; height: 100%; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; text-decoration: none; color: inherit; box-shadow: var(--shadow-sm); transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease); }
+  .grid-services a:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+  .grid-services .ph { overflow: hidden; }
+  .grid-services img { width: 100%; height: 180px; object-fit: cover; display: block; transition: transform .3s var(--ease); }
+  .grid-services a:hover img { transform: scale(1.05); }
+  .grid-services .body { display: flex; flex-direction: column; gap: 6px; padding: var(--space-xs); flex: 1; }
+  .grid-services .t { font-family: var(--font-heading); color: var(--color-brand-heading); font-size: 1.05rem; line-height: 1.25; }
+  .grid-services .d { color: var(--color-muted); font-size: 0.95rem; flex: 1; }
+  .grid-services .more { color: var(--color-brand); font-weight: 600; font-size: 0.9rem; }
 
   /* WHY */
-  .why { background: var(--color-surface); padding-block: var(--space-8); }
-  .why-inner { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-6); align-items: center; }
-  .why-photo { width: 100%; height: auto; border-radius: var(--radius); }
+  .why { background: var(--color-surface); padding-block: var(--space-xl); }
+  .why-inner { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-lg); align-items: center; }
+  .why-photo { width: 100%; height: auto; border-radius: var(--radius-md); }
 
   /* ARTICLES */
-  .articles { padding-block: var(--space-8); }
-  .articles h2, .testimonials h2, .partners h2 { text-align: center; }
-  .section-lead { text-align: center; color: var(--color-muted); max-width: 60ch; margin: var(--space-1) auto var(--space-4); }
-  .grid-articles { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); }
-  .grid-articles a { display: block; text-decoration: none; color: inherit; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: #fff; }
-  .grid-articles a:hover { box-shadow: 0 8px 24px rgba(15,27,45,0.1); }
-  .grid-articles img { width: 100%; height: 190px; object-fit: cover; display: block; }
-  .grid-articles .date { display: block; padding: var(--space-1) var(--space-2) 0; color: var(--color-accent-dark); font-size: 0.85rem; }
-  .grid-articles h3 { font-size: 1rem; margin: 0; padding: 0 var(--space-2) var(--space-2); }
-  .more-link { text-align: center; margin-top: var(--space-4); }
-  .more-link a { color: var(--color-accent-dark); font-weight: 600; }
+  .articles { padding-block: var(--space-xl); }
+  .grid-articles { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); }
+  .grid-articles a { display: flex; flex-direction: column; height: 100%; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; text-decoration: none; color: inherit; }
+  .grid-articles a:hover { box-shadow: var(--shadow-md); }
+  .grid-articles .ph { overflow: hidden; }
+  .grid-articles img { width: 100%; height: 190px; object-fit: cover; display: block; transition: transform .3s var(--ease); }
+  .grid-articles a:hover img { transform: scale(1.05); }
+  .grid-articles .body { display: flex; flex-direction: column; gap: 6px; padding: var(--space-xs); flex: 1; }
+  .grid-articles .date { color: var(--color-brand); font-size: 0.85rem; }
+  .grid-articles .t { font-family: var(--font-heading); color: var(--color-brand-heading); font-size: 1.05rem; line-height: 1.25; }
+  .grid-articles .d { color: var(--color-muted); font-size: 0.95rem; flex: 1; }
+  .grid-articles .more { color: var(--color-brand); font-weight: 600; font-size: 0.9rem; }
+  .center-link { text-align: center; margin-top: var(--space-md); }
+  .center-link a { color: var(--color-brand); font-weight: 600; }
 
   /* TESTIMONIALS */
-  .testimonials { background: var(--color-surface); padding-block: var(--space-8); }
-  .grid-testimonials { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); text-align: center; }
-  .video { display: flex; align-items: center; justify-content: center; aspect-ratio: 16 / 10; background-size: cover; background-position: center; border-radius: var(--radius); }
-  .video .play { width: 56px; height: 56px; border-radius: 50%; background: rgba(255,255,255,0.85); color: var(--color-heading); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; }
-  .video:hover .play { background: #fff; }
-  .name { font-weight: 700; margin: var(--space-2) 0 0; }
+  .testimonials { background: var(--color-surface); padding-block: var(--space-xl); }
+  .grid-testimonials { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); text-align: center; }
+  .video { display: flex; align-items: center; justify-content: center; aspect-ratio: 16 / 10; background-size: cover; background-position: center; border-radius: var(--radius-md); }
+  .video .play { width: 56px; height: 56px; border-radius: 50%; background: rgba(255,255,255,0.9); color: var(--color-heading); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
+  .name { font-weight: 700; margin: var(--space-xs) 0 0; }
   .role { color: var(--color-muted); margin: 0; font-size: 0.9rem; }
 
   /* PARTNERS */
-  .partners { padding-block: var(--space-8); }
-  .grid-partners { list-style: none; padding: 0; margin: var(--space-4) 0 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--space-6); }
-  .grid-partners img { max-height: 90px; width: auto; filter: grayscale(1); opacity: 0.8; transition: filter 0.2s, opacity 0.2s; }
+  .partners { padding-block: var(--space-lg); }
+  .grid-partners { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--space-lg); }
+  .grid-partners img { max-height: 80px; width: auto; filter: grayscale(1); opacity: 0.8; transition: filter .2s, opacity .2s; }
   .grid-partners img:hover { filter: none; opacity: 1; }
 
-  @media (max-width: 860px) {
+  @media (max-width: 880px) {
     .hero-inner, .why-inner { grid-template-columns: 1fr; }
     .grid-services, .grid-articles, .grid-testimonials { grid-template-columns: 1fr 1fr; }
   }

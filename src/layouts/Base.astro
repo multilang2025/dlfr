@@ -2,6 +2,7 @@
 // Polices : Rotis (titres, @font-face dans tokens.css) + pile système (corps) — design .com
 import '../styles/tokens.css';
 import Header from '../components/Header.astro';
+import ContactBand from '../components/ContactBand.astro';
 import Footer from '../components/Footer.astro';
 
 interface Props {
@@ -27,6 +28,7 @@ const { title, description = '' } = Astro.props;
     <main>
       <slot />
     </main>
+    <ContactBand />
     <Footer />
   </body>
 </html>

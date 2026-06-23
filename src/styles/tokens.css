@@ -1,93 +1,155 @@
 /*
-  Design system — d'après delaguialuzon.com (cabinet juridique, esthétique vert sauge).
-  Polices : Rotis Sans Serif Pro (titres, auto-hébergée depuis le .com) + pile système (corps).
+  Design system — Delaguía y Luzón (handoff Claude Design, d'après delaguialuzon.com).
+  Palette vert sauge, Rotis Sans Serif (titres) + pile système (corps).
+  Conserve des alias rétro-compatibles (--space-1..8, --color-accent…) pour les composants existants.
 */
 
-/* Rotis — police de marque (Light 300 + Bold 700) */
+/* Rotis — police de marque (Light 300 + Bold 700, auto-hébergée) */
 @font-face {
   font-family: 'Rotis Sans Serif';
   src: url('/fonts/RotisSansSerifPro45Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 300; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: 'Rotis Sans Serif';
   src: url('/fonts/RotisSansSerifPro65Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 700; font-style: normal; font-display: swap;
 }
 
 :root {
-  /* Couleurs — palette .com */
-  --color-bg: #ffffff;
-  --color-surface: #f0f3f0;       /* tint vert très clair (sections alternées) */
-  --color-surface-2: #f4f4f4;     /* gris clair */
-  --color-text: #333333;          /* corps */
-  --color-heading: #1a1f24;       /* H1 (presque noir) */
-  --color-muted: #6b6b6b;         /* texte secondaire / sous-nav / légendes */
-  --color-green: #679369;         /* vert primaire — liens, accents, icônes */
-  --color-green-2: #718473;       /* vert des titres H2-H4 + fond bouton */
-  --color-green-soft: #b5bfb5;    /* bordures douces / bouton secondaire */
-  --color-dark: #2c3338;          /* sections sombres (footer) */
-  --color-link-hover: #333366;    /* hover global (indigo) */
-  --color-border: #e9e8e8;
-  /* alias (composants existants) */
-  --color-accent: #718473;        /* boutons */
-  --color-accent-dark: #5c6f5e;   /* hover bouton */
+  /* ---- Brand greens ---- */
+  --green-500: #679369;
+  --green-600: #718473;
+  --green-700: #5c6f5e;
+  --green-200: #b5bfb5;
+  --green-050: #f0f3f0;
 
-  /* Typographie */
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-heading: 'Rotis Sans Serif', var(--font-sans);
+  /* ---- Neutrals ---- */
+  --ink-900: #1a1f24;
+  --ink-800: #212121;
+  --ink-700: #333333;
+  --ink-500: #5a5c5e;
+  --ink-400: #6b6b6b;
+  --ink-300: #868686;
+  --ink-200: #e9e8e8;
+  --ink-100: #f4f4f4;
+  --ink-050: #f5f7f9;
+  --white: #ffffff;
+  --dark-900: #2c3338;
 
-  /* Espacement */
+  /* ---- Accent / state ---- */
+  --indigo-link-hover: #333366;
+  --steel-600: #5b6b7d;
+  --steel-050: #eef1f5;
+
+  /* ---- Semantic aliases ---- */
+  --color-bg: var(--white);
+  --color-surface: var(--green-050);
+  --color-surface-cool: var(--ink-100);
+  --color-surface-dark: var(--dark-900);
+  --color-text: var(--ink-700);
+  --color-text-strong: var(--ink-800);
+  --color-heading: var(--ink-900);
+  --color-muted: var(--ink-400);
+  --color-border: var(--ink-200);
+  --color-border-soft: var(--green-200);
+  --color-brand: var(--green-500);
+  --color-brand-heading: var(--green-600);
+  --color-link: var(--green-500);
+  --color-link-hover: var(--indigo-link-hover);
+  --color-btn: var(--green-600);
+  --color-btn-hover: var(--green-700);
+  --color-btn-text: var(--white);
+  --color-on-dark: #d7dae3;
+  --color-stat-band: var(--steel-050);
+  --color-stat-accent: var(--steel-600);
+
+  /* ---- Typographie ---- */
+  --font-heading: 'Rotis Sans Serif', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --fs-h1: 40px; --lh-h1: 48px; --fw-h1: 600;
+  --fs-h2: 32px; --lh-h2: 32px; --fw-h2: 400;
+  --fs-h3: 45px; --lh-h3: 45px; --fw-h3: 300;
+  --fs-h4: 45px; --lh-h4: 45px; --fw-h4: 300;
+  --fs-h5: 20px; --lh-h5: 24px; --fw-h5: 600;
+  --fs-h6: 16px; --lh-h6: 19.2px; --fw-h6: 600;
+  --fs-body: 16px; --lh-body: 24px;
+  --fs-lead: 18px; --lh-lead: 27px;
+  --fw-light: 300; --fw-regular: 400; --fw-semibold: 600; --fw-bold: 700;
+
+  /* ---- Espacement (échelle handoff) ---- */
+  --space-3xs: 0.44rem;
+  --space-2xs: 0.67rem;
+  --space-xs: 1rem;
+  --space-sm: 1.5rem;
+  --space-md: 2.25rem;
+  --space-lg: 3.38rem;
+  --space-xl: 5.06rem;
+
+  /* ---- Radii ---- */
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+
+  /* ---- Layout ---- */
+  --content-width: 800px;
+  --wide-width: 1200px;
+  --gutter: var(--space-sm);
+
+  /* ---- Bordures / ombres / motion ---- */
+  --border-thin: 1px solid var(--color-border);
+  --border-soft: 2px solid var(--color-border-soft);
+  --shadow-sm: 0 4px 16px rgba(15, 27, 45, 0.08);
+  --shadow-md: 0 8px 24px rgba(15, 27, 45, 0.12);
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+  --dur: 0.15s;
+
+  /* ---- Alias rétro-compat (composants déjà écrits) ---- */
+  --font-sans: var(--font-body);
+  --color-green: var(--green-500);
+  --color-green-2: var(--green-600);
+  --color-green-soft: var(--green-200);
+  --color-dark: var(--dark-900);
+  --color-accent: var(--green-600);
+  --color-accent-dark: var(--green-700);
+  --max-width: var(--wide-width);
+  --radius: var(--radius-md);
   --space-1: 0.5rem;
   --space-2: 1rem;
   --space-3: 1.5rem;
   --space-4: 2rem;
   --space-6: 3rem;
   --space-8: 4rem;
-
-  /* Mise en page */
-  --max-width: 1200px;            /* "wide width" du .com */
-  --content-width: 800px;
-  --radius: 8px;                  /* radius bouton .com */
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
   color: var(--color-text);
   background: var(--color-bg);
-  font-size: 16px;
-  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
-  line-height: 1.15;
-}
-h1 { color: var(--color-heading); font-weight: 700; }
-h2, h3, h4 { color: var(--color-green-2); font-weight: 300; }  /* titres verts "display léger" .com */
-h5, h6 { color: var(--color-text); font-weight: 700; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); margin: 0 0 0.5em; }
+h1 { font-size: var(--fs-h1); line-height: var(--lh-h1); font-weight: var(--fw-h1); color: var(--color-heading); }
+h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); font-weight: var(--fw-h2); color: var(--color-brand-heading); }
+h3 { font-size: var(--fs-h3); line-height: var(--lh-h3); font-weight: var(--fw-h3); color: var(--color-brand-heading); }
+h4 { font-size: var(--fs-h4); line-height: var(--lh-h4); font-weight: var(--fw-h4); color: var(--color-brand-heading); }
+h5 { font-size: var(--fs-h5); line-height: var(--lh-h5); font-weight: var(--fw-h5); color: var(--color-text); }
+h6 { font-size: var(--fs-h6); line-height: var(--lh-h6); font-weight: var(--fw-h6); color: var(--color-text); }
 
-a {
-  color: var(--color-green);
-  text-decoration: none;
-}
-a:hover {
-  color: var(--color-link-hover);
-}
+a { color: var(--color-link); text-decoration: none; transition: color var(--dur) var(--ease); }
+a:hover { color: var(--color-link-hover); }
+
+p { margin: 0 0 0.75rem; }
 
 .container {
-  max-width: var(--max-width);
+  max-width: var(--wide-width);
   margin-inline: auto;
-  padding-inline: var(--space-3);
+  padding-inline: var(--space-sm);
 }
