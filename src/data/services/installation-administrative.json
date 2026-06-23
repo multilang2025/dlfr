@@ -9,9 +9,10 @@
         "Le NIE (<em>Número de Identidad de Extranjero</em>) est un numéro d'identification unique attribué à tout étranger effectuant des démarches administratives, fiscales ou commerciales en Espagne. Il est notamment indispensable pour acheter un bien immobilier, et reste <strong>valable à vie</strong> — contrairement à la TIE, il n'a pas besoin d'être renouvelé.",
         "La TIE (<em>Tarjeta de Identidad de Extranjero</em>) est la carte de résidence physique pour les séjours de plus de trois mois. Pour les citoyens de l'Union européenne, c'est le <em>Certificado de Registro</em> (la « carte verte ») qui fait foi ; la TIE concerne les ressortissants hors UE."
       ],
+      "bullets": [],
       "image": "area-extranjeria.jpg",
       "alt": false,
-      "rev": false
+      "rev": true
     },
     {
       "heading": "Les autres démarches indispensables",
@@ -26,7 +27,7 @@
       ],
       "image": "area-fiscalidad.jpg",
       "alt": true,
-      "rev": true
+      "rev": false
     },
     {
       "heading": "Notre accompagnement",
@@ -41,12 +42,12 @@
       ],
       "image": "equipo.jpg",
       "alt": false,
-      "rev": false
+      "rev": true
     }
   ],
   "testimonial": {
     "name": "STEPAHONE ANOUFA",
-    "role": "Client Delaguía & Luzón",
+    "role": "Client Delaguía &amp; Luzón",
     "img": "testimonio1-1.jpg",
     "video": "https://youtu.be/nQuYISPF9Es"
   },

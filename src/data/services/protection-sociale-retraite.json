@@ -16,12 +16,12 @@
       ],
       "image": "expatriation-en-espagne.jpg",
       "alt": false,
-      "rev": false
+      "rev": true
     }
   ],
   "testimonial": {
     "name": "STEPAHONE ANOUFA",
-    "role": "Client Delaguía & Luzón",
+    "role": "Client Delaguía &amp; Luzón",
     "img": "testimonio1-1.jpg",
     "video": "https://youtu.be/nQuYISPF9Es"
   },

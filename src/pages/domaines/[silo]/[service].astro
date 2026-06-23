@@ -38,8 +38,8 @@ const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
     <div class="container hero-grid">
       <div>
         <h1>{service.title}</h1>
-        <p class="hero-sub">{content?.heroSub ?? service.intro}</p>
-        {content?.heroNote && <p class="hero-note">{content.heroNote}</p>}
+        <p class="hero-sub" set:html={content?.heroSub ?? service.intro}></p>
+        {content?.heroNote && <p class="hero-note" set:html={content.heroNote}></p>}
         <a class="btn" href={CONTACT}>Faire une demande</a>
       </div>
       <img src={`/assets/${heroImg}`} alt={service.title} />
@@ -50,7 +50,7 @@ const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
     <section class:list={["acc", { alt: sec.alt }]}>
       <div class:list={["container", "acc-grid", { rev: sec.rev }]}>
         <div class="acc-text">
-          <h2>{sec.heading}</h2>
+          <h2 set:html={sec.heading}></h2>
           {sec.body?.map((p: string) => <p set:html={p} />)}
           {sec.bullets && sec.bullets.length > 0 && (
             <ul>{sec.bullets.map((b: string) => <li set:html={b} />)}</ul>
@@ -68,8 +68,8 @@ const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
         <div>
           <p class="t-eyebrow">Témoignage client</p>
           <h2>Ils nous font confiance</h2>
-          <p class="t-name">{content.testimonial.name}</p>
-          <p class="t-role">{content.testimonial.role}</p>
+          <p class="t-name" set:html={content.testimonial.name}></p>
+          <p class="t-role" set:html={content.testimonial.role}></p>
           <a class="t-link" href={content.testimonial.video} target="_blank" rel="noopener">Voir le témoignage en vidéo →</a>
         </div>
       </div>
@@ -86,7 +86,7 @@ const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
         <div class="faq-deck">
           {content.faq.map((f: any, i: number) => (
             <div class="faq-item" style={`transform:rotate(${tilts[i % tilts.length]}deg)`}>
-              <button class="faq-q" type="button">{f.q}<span class="ic" aria-hidden="true">+</span></button>
+              <button class="faq-q" type="button"><span set:html={f.q}></span><span class="ic" aria-hidden="true">+</span></button>
               <div class="faq-a"><p set:html={f.a} /></div>
             </div>
           ))}
@@ -122,6 +122,7 @@ const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
 
   <section class="svc-cta">
     <div class="container">
+      <p class="cta-eyebrow">Vous avez une question ?</p>
       <h2>Une question, un projet en Espagne ?</h2>
       <p>Faites votre demande : notre équipe vous répond en français, anglais ou russe.</p>
       <a class="btn" href={CONTACT}>Faire une demande</a>
@@ -198,6 +199,7 @@ const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
 
   /* CTA (sombre) */
   .svc-cta { background: var(--color-heading); text-align: center; padding-block: var(--space-lg); }
+  .svc-cta .cta-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 8px; }
   .svc-cta h2 { color: #fff; margin: 0 0 8px; }
   .svc-cta p { color: var(--color-on-dark); margin: 0 0 24px; }
 

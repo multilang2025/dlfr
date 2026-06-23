@@ -16,7 +16,7 @@
       ],
       "image": "area-inmobiliario.jpg",
       "alt": false,
-      "rev": false
+      "rev": true
     }
   ],
   "testimonial": {
