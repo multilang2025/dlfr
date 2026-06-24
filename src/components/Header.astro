@@ -13,7 +13,18 @@ const nav = [
     <a href="/" class="brand" aria-label="Delaguía y Luzón — accueil">
       <img src="/assets/Logo-65_610.png" width="610" height="140" alt="Delaguía y Luzón" />
     </a>
-    <nav aria-label="Navigation principale">
+    <button
+      type="button"
+      class="nav-toggle"
+      aria-label="Ouvrir le menu"
+      aria-controls="primary-nav"
+      aria-expanded="false"
+    >
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <nav id="primary-nav" aria-label="Navigation principale">
       <ul>
         {nav.map((item) => (
           <li><a href={item.href}>{item.label}</a></li>
@@ -68,6 +79,72 @@ const nav = [
   nav a:hover {
     color: var(--color-accent-dark);
   }
+
+  /* Bouton hamburger — masqué sur grand écran */
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  .nav-toggle-bar {
+    display: block;
+    width: 26px;
+    height: 2px;
+    margin-inline: auto;
+    background: var(--color-text-strong);
+    transition: transform var(--dur) var(--ease), opacity var(--dur) var(--ease);
+  }
+  /* Croix lorsque le menu est ouvert */
+  .nav-toggle[aria-expanded='true'] .nav-toggle-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .nav-toggle[aria-expanded='true'] .nav-toggle-bar:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-toggle[aria-expanded='true'] .nav-toggle-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  @media (max-width: 768px) {
+    .nav-toggle {
+      display: flex;
+    }
+    #primary-nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+      display: none;
+    }
+    #primary-nav.open {
+      display: block;
+    }
+    #primary-nav ul {
+      flex-direction: column;
+      gap: 0;
+      padding: var(--space-2) var(--space-sm);
+    }
+    #primary-nav li {
+      border-top: 1px solid var(--color-border);
+    }
+    #primary-nav li:first-child {
+      border-top: 0;
+    }
+    #primary-nav a {
+      display: block;
+      padding-block: var(--space-2);
+    }
+  }
 </style>
 
 <script>
@@ -75,4 +152,25 @@ const nav = [
   const onScroll = () => hdr && hdr.classList.toggle('scrolled', window.scrollY > 8);
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
+
+  const toggle = document.querySelector('.nav-toggle');
+  const navMenu = document.getElementById('primary-nav');
+  if (toggle && navMenu) {
+    const setOpen = (open) => {
+      navMenu.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+    };
+    toggle.addEventListener('click', () => {
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+    // Ferme le menu après un clic sur un lien
+    navMenu.addEventListener('click', (e) => {
+      if (e.target.closest('a')) setOpen(false);
+    });
+    // Échap ferme le menu
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') setOpen(false);
+    });
+  }
 </script>
