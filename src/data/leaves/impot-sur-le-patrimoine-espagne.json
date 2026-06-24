@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Seuils, exonérations et articulation avec l’IFI français pour les résidents.",
+  "heroNote": "Nous évaluons votre assiette taxable et anticipons les risques de double imposition entre l’Espagne et la France.",
+  "heroImage": "area-fiscal.jpg",
+  "sections": [
+    {
+      "heading": "Comprendre l’impôt sur le patrimoine (IP)",
+      "body": [
+        "L’impôt sur le patrimoine (Impuesto sobre el Patrimonio) en Espagne frappe le patrimoine net des personnes physiques au-delà d’un seuil. Il s’agit d’un impôt cédé aux communautés autonomes : les seuils, barèmes et exonérations peuvent donc varier sensiblement d’une région à l’autre, comme à Valence ou en Andalousie.",
+        "De manière générale, un abattement s’applique sur le patrimoine net, et la résidence principale bénéficie d’une exonération dans une certaine limite. Les Français expatriés sont parfois surpris par cet impôt, qui peut se cumuler avec l’IFI français.",
+        "Une analyse précise de la composition de votre patrimoine et de votre communauté autonome de résidence est indispensable pour estimer votre exposition réelle."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ce que nous évaluons pour vous",
+      "body": [
+        "Notre accompagnement vise à déterminer votre base imposable, à identifier les exonérations applicables et à coordonner votre situation entre les deux pays."
+      ],
+      "bullets": [
+        "évaluation de l’assiette taxable et des abattements selon votre communauté autonome,",
+        "exonérations applicables (résidence principale, certains actifs professionnels, dans les limites prévues),",
+        "articulation avec l’IFI français pour éviter une double charge,",
+        "optimisation de la détention de vos actifs (immobilier, valeurs mobilières, sociétés)."
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "À partir de quel patrimoine suis-je redevable ?",
+      "a": "Un seuil s’applique au patrimoine net, mais il varie selon la communauté autonome de résidence. Certaines régions appliquent en outre des bonifications. Une vérification locale est nécessaire."
+    },
+    {
+      "q": "L’IP espagnol se cumule-t-il avec l’IFI français ?",
+      "a": "Les deux impôts peuvent coexister selon votre situation. La convention fiscale et les règles internes déterminent l’articulation ; un conseil personnalisé permet d’anticiper le risque de double imposition."
+    },
+    {
+      "q": "Ma résidence principale est-elle exonérée ?",
+      "a": "La résidence principale bénéficie généralement d’une exonération dans une certaine limite de valeur. Au-delà, la fraction excédentaire peut entrer dans l’assiette."
+    }
+  ]
+}

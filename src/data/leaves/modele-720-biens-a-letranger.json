@@ -1,0 +1,60 @@
+{
+  "draft": true,
+  "heroSub": "Comptes, titres et immobilier hors d’Espagne : qui doit déclarer, quand et comment.",
+  "heroNote": "Nous sécurisons votre déclaration informative et son articulation avec vos obligations françaises.",
+  "heroImage": "area-fiscalidad.jpg",
+  "sections": [
+    {
+      "heading": "À quoi sert le Modèle 720 ?",
+      "body": [
+        "Le Modèle 720 est une déclaration informative que les résidents fiscaux espagnols doivent souscrire pour déclarer certains biens et droits situés à l’étranger. Il ne s’agit pas d’un impôt en soi, mais d’une obligation de transparence destinée à l’administration fiscale espagnole.",
+        "La déclaration porte sur trois grandes catégories de biens détenus hors d’Espagne : les comptes ouverts dans des établissements financiers, les valeurs, titres et assurances, et les biens immobiliers et droits sur ces biens.",
+        "Une obligation de déclaration existe lorsque la valeur d’une catégorie dépasse le seuil fixé par la réglementation. Les années suivantes, une nouvelle déclaration est requise principalement en cas de variation significative."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Qui est concerné ?",
+      "body": [
+        "Sont visées les personnes considérées comme résidentes fiscales en Espagne qui détiennent, à l’étranger, des biens relevant des catégories déclarables au-delà des seuils.",
+        "Les Français installés en Espagne sont fréquemment concernés au titre de leurs comptes bancaires, contrats d’assurance-vie ou biens immobiliers conservés en France."
+      ],
+      "bullets": [
+        "comptes bancaires détenus hors d’Espagne,",
+        "valeurs mobilières, titres et contrats d’assurance souscrits à l’étranger,",
+        "biens immobiliers et droits réels situés hors d’Espagne."
+      ],
+      "image": "expatriation-en-espagne.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Pourquoi se faire accompagner ?",
+      "body": [
+        "La qualification des biens, l’appréciation des seuils et la valorisation à retenir demandent une analyse rigoureuse. Le régime de sanctions applicable au Modèle 720 a évolué à la suite de décisions de justice européennes ; il est donc essentiel de s’appuyer sur un conseil à jour.",
+        "Notre cabinet vous aide à recenser vos actifs, déterminer vos obligations et déposer une déclaration conforme, en cohérence avec vos déclarations françaises."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "faq": [
+    {
+      "q": "Le Modèle 720 est-il un impôt ?",
+      "a": "Non. C’est une déclaration informative. Elle ne génère pas d’imposition en elle-même, mais son omission peut entraîner des conséquences. Les biens déclarés peuvent par ailleurs être pris en compte pour d’autres impôts."
+    },
+    {
+      "q": "Dois-je le déposer chaque année ?",
+      "a": "Après une première déclaration, une nouvelle souscription est généralement requise en cas de variation significative de la valeur des biens, ou de cession. Les conditions exactes doivent être vérifiées au cas par cas."
+    },
+    {
+      "q": "Que risque-t-on en cas d’oubli ?",
+      "a": "Le régime de sanctions a été révisé à la suite de la jurisprudence européenne. Un examen de votre situation permet d’évaluer les risques et, le cas échéant, de régulariser."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Affiliation, coordination France-Espagne et droits sociaux des nouveaux résidents.",
+  "heroNote": "Nous vous aidons à régulariser votre affiliation et à coordonner vos droits entre les deux pays.",
+  "heroImage": "area-laboral.jpg",
+  "sections": [
+    {
+      "heading": "S’affilier à la sécurité sociale espagnole",
+      "body": [
+        "La sécurité sociale espagnole (Seguridad Social) couvre notamment la santé, la retraite et les prestations liées au travail. L’affiliation dépend de votre situation : salarié, travailleur indépendant (autónomo) ou inactif/résident.",
+        "Pour un salarié, l’employeur procède en principe à l’affiliation et au versement des cotisations. Le travailleur indépendant s’affilie quant à lui sous le régime des autónomos.",
+        "Notre cabinet vérifie le régime applicable à votre cas et vous accompagne dans les formalités d’affiliation et l’obtention du numéro de sécurité sociale."
+      ],
+      "bullets": [],
+      "image": "area-auditoria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Coordination entre la France et l’Espagne",
+      "body": [
+        "Des règles européennes de coordination évitent les ruptures de droits lorsqu’on passe d’un pays à l’autre :"
+      ],
+      "bullets": [
+        "prise en compte des périodes d’assurance accomplies dans chaque pays,",
+        "règles de rattachement déterminant le pays d’affiliation selon l’activité,",
+        "documents portables permettant de faire valoir ses droits d’un pays à l’autre."
+      ],
+      "image": "carte-de-sante-espagnole.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qui doit s’affilier à la Seguridad Social ?",
+      "a": "L’affiliation dépend de votre statut. Le salarié est affilié par son employeur ; l’indépendant s’inscrit sous le régime autónomo. Les situations d’inactivité ou de retraite suivent des règles particulières."
+    },
+    {
+      "q": "Mes cotisations françaises sont-elles prises en compte ?",
+      "a": "Les règles européennes de coordination permettent de tenir compte des périodes accomplies en France, notamment pour la retraite. Une analyse de votre carrière est utile."
+    },
+    {
+      "q": "Comment obtenir mon numéro de sécurité sociale espagnol ?",
+      "a": "Le numéro s’obtient auprès des organismes compétents, selon votre situation. Nous vous indiquons la démarche et les pièces nécessaires."
+    }
+  ]
+}

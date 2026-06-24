@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Numéro d’identification d’étranger : à quoi il sert, qui en a besoin et comment l’obtenir.",
+  "heroNote": "Nous obtenons votre NIE et coordonnons l’ensemble de vos démarches d’installation en Espagne.",
+  "heroImage": "obtenir-le-NIE-en-Espagne.jpg",
+  "sections": [
+    {
+      "heading": "Qu’est-ce que le NIE et pourquoi est-il indispensable ?",
+      "body": [
+        "Le NIE (Número de Identidad de Extranjero) est le numéro d’identification fiscale et administratif attribué aux étrangers en Espagne. Il est requis pour la quasi-totalité des démarches : acheter un bien, ouvrir un compte bancaire, travailler, créer une société, payer ses impôts ou souscrire un contrat.",
+        "Le NIE est un numéro, distinct du titre de séjour : l’obtenir ne confère pas en soi un droit de résidence, mais conditionne la plupart des opérations de la vie courante en Espagne.",
+        "Notre cabinet prépare votre dossier, prend les rendez-vous et peut agir sur procuration pour vous faire gagner du temps."
+      ],
+      "bullets": [],
+      "image": "area-extranjeria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Comment l’obtenir ?",
+      "body": [
+        "La demande peut se faire en Espagne (auprès des services de police ou des bureaux des étrangers) ou, dans certains cas, depuis la France via le consulat d’Espagne. Les pièces et la voie à privilégier dépendent de votre situation."
+      ],
+      "bullets": [
+        "formulaire officiel de demande dûment complété,",
+        "passeport ou pièce d’identité en cours de validité,",
+        "justificatif du motif de la demande (achat, travail, société…),",
+        "justificatif du paiement de la taxe administrative."
+      ],
+      "image": "expatriation-en-espagne.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Le NIE est-il un titre de séjour ?",
+      "a": "Non. Le NIE est un numéro d’identification ; il ne confère pas par lui-même un droit de séjour. Pour résider durablement, d’autres formalités (TIE, certificat d’enregistrement) peuvent être nécessaires."
+    },
+    {
+      "q": "Peut-on l’obtenir depuis la France ?",
+      "a": "Dans certains cas, la demande est possible via le consulat d’Espagne en France. La voie la plus adaptée dépend de votre projet et de vos délais."
+    },
+    {
+      "q": "Le NIE expire-t-il ?",
+      "a": "Le numéro lui-même est permanent. En revanche, le document qui l’atteste peut avoir une validité limitée selon les cas ; nous vous indiquons la marche à suivre."
+    }
+  ]
+}

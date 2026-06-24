@@ -1,0 +1,51 @@
+{
+  "draft": true,
+  "heroSub": "ITP, IVA, frais de notaire et impôts annuels : ce que coûte vraiment l’acquisition.",
+  "heroNote": "Nous chiffrons en amont le coût fiscal total de votre achat pour éviter les mauvaises surprises.",
+  "heroImage": "compra-propiedad-img.jpg",
+  "sections": [
+    {
+      "heading": "Quels impôts lors de l’achat ?",
+      "body": [
+        "Le coût d’une acquisition immobilière en Espagne ne se limite pas au prix du bien : la fiscalité d’acquisition représente une part significative du budget total.",
+        "La nature de l’impôt dépend principalement du type de bien :"
+      ],
+      "bullets": [
+        "pour un logement neuf : la TVA (IVA) s’applique, complétée par l’impôt sur les actes juridiques documentés (AJD),",
+        "pour un logement ancien (revente) : l’impôt sur les transmissions patrimoniales (ITP), dont le taux varie selon la communauté autonome.",
+        "à cela s’ajoutent les frais de notaire, d’inscription au registre foncier et, le cas échéant, de gestoría."
+      ],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les impôts récurrents après l’achat",
+      "body": [
+        "Une fois propriétaire, vous êtes redevable d’impôts annuels qu’il faut intégrer à votre budget :"
+      ],
+      "bullets": [
+        "l’IBI (taxe foncière locale),",
+        "pour les non-résidents, l’impôt sur le revenu des non-résidents (IRNR), y compris en l’absence de location,",
+        "le cas échéant, l’impôt sur le patrimoine selon la valeur du bien et la communauté autonome."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel budget prévoir au-delà du prix d’achat ?",
+      "a": "Il faut compter les impôts d’acquisition (ITP ou IVA + AJD) et les frais de notaire, de registre et de gestion. Le total varie selon la région et le type de bien ; nous le chiffrons au cas par cas."
+    },
+    {
+      "q": "Neuf ou ancien : quelle différence fiscale ?",
+      "a": "Le neuf relève de la TVA (IVA) et de l’AJD ; l’ancien relève de l’ITP, dont le taux dépend de la communauté autonome. L’écart peut être notable selon la région."
+    },
+    {
+      "q": "Quels impôts une fois propriétaire non-résident ?",
+      "a": "Principalement l’IBI (foncier local) et l’IRNR. Une imputation de revenu peut s’appliquer même sans louer le bien. Un conseil permet d’anticiper ces charges."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Inscription, cotisations et obligations fiscales du régime de l’autónomo.",
+  "heroNote": "Nous vous accompagnons de l’immatriculation comme autónomo à vos premières déclarations.",
+  "heroImage": "area-fiscalidad.jpg",
+  "sections": [
+    {
+      "heading": "Le statut d’autónomo",
+      "body": [
+        "L’autónomo est le travailleur indépendant en Espagne, équivalent — avec ses spécificités — du travailleur non salarié français. Ce statut convient aux entrepreneurs individuels et aux professions libérales qui exercent en leur nom propre.",
+        "Devenir autónomo suppose une double inscription : auprès de l’administration fiscale (déclaration de début d’activité) et auprès de la sécurité sociale, sous le régime spécial des travailleurs indépendants.",
+        "Notre cabinet vous aide à choisir entre l’exercice en autónomo et la création d’une société, en fonction de votre activité et de vos objectifs."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Cotisations et obligations",
+      "body": [
+        "Le régime de l’autónomo emporte des obligations sociales et fiscales régulières :"
+      ],
+      "bullets": [
+        "cotisations sociales mensuelles (le calcul a évolué vers un système fondé sur les revenus réels),",
+        "déclarations d’IRPF et, le cas échéant, d’IVA selon l’activité,",
+        "tenue d’une comptabilité adaptée et conservation des justificatifs."
+      ],
+      "image": "area-laboral.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Autónomo ou société : que choisir ?",
+      "a": "Le choix dépend du niveau de revenus, du risque, de l’image souhaitée et de la fiscalité. L’autónomo est plus simple à lancer ; la société peut être plus avantageuse au-delà d’un certain seuil. Une analyse personnalisée s’impose."
+    },
+    {
+      "q": "Comment sont calculées les cotisations ?",
+      "a": "Le système de cotisations des autónomos a évolué vers une logique fondée sur les revenus réels. Le montant dépend donc de votre activité ; nous vous aidons à l’estimer."
+    },
+    {
+      "q": "Quelles déclarations dois-je faire ?",
+      "a": "Selon votre activité, vous déclarez l’IRPF et, le cas échéant, l’IVA, à une fréquence périodique. Nous mettons en place le calendrier adapté."
+    }
+  ]
+}

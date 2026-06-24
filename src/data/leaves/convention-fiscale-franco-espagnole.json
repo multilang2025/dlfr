@@ -1,0 +1,59 @@
+{
+  "draft": true,
+  "heroSub": "Comment la convention répartit l’imposition et évite la double imposition.",
+  "heroNote": "Nous appliquons la convention à votre situation pour sécuriser votre fiscalité transfrontalière.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Le rôle de la convention fiscale franco-espagnole",
+      "body": [
+        "La convention fiscale conclue entre la France et l’Espagne a pour objet d’éviter les doubles impositions et de prévenir l’évasion fiscale. Elle répartit le droit d’imposer entre les deux États selon la nature des revenus et la résidence du contribuable.",
+        "Pour les personnes vivant entre les deux pays, elle est l’outil central permettant de déterminer où et comment sont imposés les salaires, pensions, revenus immobiliers, dividendes, intérêts et plus-values.",
+        "Son application suppose d’abord de déterminer votre résidence fiscale, puis d’examiner chaque catégorie de revenus à la lumière des articles correspondants."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Comment elle évite la double imposition",
+      "body": [
+        "Lorsqu’un revenu peut être imposé dans les deux pays, la convention prévoit des mécanismes pour neutraliser la double charge :"
+      ],
+      "bullets": [
+        "crédit d’impôt correspondant à l’impôt déjà acquitté dans l’autre État,",
+        "exonération de certains revenus dans l’État de résidence, avec prise en compte pour le taux,",
+        "règles spécifiques selon le type de revenu (pensions publiques ou privées, revenus immobiliers, dividendes…)."
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Déterminer votre résidence fiscale",
+      "body": [
+        "La résidence fiscale est la clé de voûte de l’application de la convention. En cas de double résidence apparente, la convention fixe des critères successifs (foyer d’habitation permanent, centre des intérêts vitaux, séjour habituel, nationalité) pour trancher.",
+        "Notre cabinet vous aide à qualifier votre résidence, à appliquer les bons articles à chacun de vos revenus et à sécuriser vos déclarations dans les deux pays."
+      ],
+      "bullets": [],
+      "image": "expatriation-en-espagne.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "faq": [
+    {
+      "q": "Comment savoir dans quel pays je suis résident fiscal ?",
+      "a": "La résidence dépend de critères internes à chaque pays, puis, en cas de conflit, des critères de départage prévus par la convention (foyer permanent, centre des intérêts vitaux, etc.). Une analyse personnalisée est nécessaire."
+    },
+    {
+      "q": "Mes pensions de retraite sont-elles imposées en France ou en Espagne ?",
+      "a": "Le traitement diffère selon qu’il s’agit de pensions publiques ou privées. La convention prévoit des règles distinctes ; un conseil dédié permet d’éviter une double imposition."
+    },
+    {
+      "q": "La convention supprime-t-elle toute imposition dans l’un des pays ?",
+      "a": "Non. Elle répartit le droit d’imposer et neutralise la double imposition par crédit ou exonération, mais un revenu reste généralement imposable dans au moins un des deux États."
+    }
+  ]
+}

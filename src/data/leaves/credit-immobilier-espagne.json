@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Obtenir un prêt immobilier espagnol en tant que non-résident : conditions, apport et démarches.",
+  "heroNote": "Nous vous accompagnons de la demande de financement à la signature chez le notaire, en français, anglais ou russe.",
+  "heroImage": "ouvrir-un-compte-bancaire-en-Espagne.jpg",
+  "sections": [
+    {
+      "heading": "Financer son achat immobilier en Espagne",
+      "body": [
+        "Acheter un bien en Espagne implique souvent de recourir à un crédit immobilier (hipoteca) souscrit auprès d’une banque espagnole. Les conditions d’octroi diffèrent sensiblement de la France, en particulier pour les acheteurs non-résidents.",
+        "Les banques espagnoles financent généralement une part plus limitée du prix pour un non-résident que pour un résident, et exigent un apport personnel plus important ainsi qu’une étude de solvabilité complète.",
+        "Notre cabinet vous aide à constituer un dossier solide, à comparer les offres et à sécuriser les clauses du prêt avant tout engagement."
+      ],
+      "bullets": [],
+      "image": "area-fiscalidad.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les points à anticiper",
+      "body": [
+        "Avant de signer une offre de prêt, plusieurs éléments doivent être vérifiés :"
+      ],
+      "bullets": [
+        "le niveau d’apport demandé, souvent plus élevé pour un non-résident,",
+        "le taux (fixe, variable ou mixte) et les frais associés au prêt,",
+        "les frais annexes liés à la constitution de l’hypothèque,",
+        "l’assurance et les garanties exigées par la banque."
+      ],
+      "image": "compra-propiedad-img.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Un non-résident peut-il emprunter en Espagne ?",
+      "a": "Oui, mais les banques espagnoles appliquent généralement des conditions plus strictes aux non-résidents (apport plus élevé, financement d’une part plus limitée du prix). Un dossier bien préparé est déterminant."
+    },
+    {
+      "q": "Quel apport personnel prévoir ?",
+      "a": "L’apport demandé est souvent plus important pour un non-résident, auquel s’ajoutent les frais d’acquisition. Le montant exact dépend de la banque et de votre profil."
+    },
+    {
+      "q": "Faut-il un compte bancaire espagnol ?",
+      "a": "Un compte local est en pratique nécessaire pour les prélèvements liés au prêt et aux charges du bien. Nous vous accompagnons aussi sur ce volet."
+    }
+  ]
+}

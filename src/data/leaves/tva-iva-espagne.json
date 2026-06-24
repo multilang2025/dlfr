@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Taux, obligations déclaratives et fonctionnement de l’IVA pour les entreprises.",
+  "heroNote": "Nous structurons vos obligations en matière d’IVA et sécurisons vos déclarations en Espagne.",
+  "heroImage": "area-fiscal.jpg",
+  "sections": [
+    {
+      "heading": "Comprendre l’IVA (TVA espagnole)",
+      "body": [
+        "L’IVA (Impuesto sobre el Valor Añadido) est l’équivalent espagnol de la TVA française. Elle s’applique à la plupart des livraisons de biens et prestations de services réalisées en Espagne.",
+        "Le système distingue plusieurs taux (taux normal et taux réduits selon la nature des biens ou services). Les entreprises collectent l’IVA sur leurs ventes et déduisent celle supportée sur leurs achats, puis reversent le solde à l’administration.",
+        "Notre cabinet vous aide à déterminer le taux applicable à votre activité et à respecter vos obligations déclaratives."
+      ],
+      "bullets": [],
+      "image": "area-fiscalidad.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Vos obligations déclaratives",
+      "body": [
+        "Une entreprise assujettie doit notamment :"
+      ],
+      "bullets": [
+        "s’immatriculer et obtenir un numéro de TVA intracommunautaire si nécessaire,",
+        "émettre des factures conformes et tenir les registres d’IVA,",
+        "déposer les déclarations périodiques et le récapitulatif annuel,",
+        "gérer, le cas échéant, les opérations intracommunautaires et le régime applicable."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quels sont les taux d’IVA en Espagne ?",
+      "a": "Il existe un taux normal et des taux réduits selon la nature des biens et services. Le taux exact dépend de l’opération ; nous le vérifions pour votre activité."
+    },
+    {
+      "q": "Dois-je facturer l’IVA à des clients étrangers ?",
+      "a": "Le traitement dépend du lieu de l’opération et du statut du client (particulier ou entreprise, dans l’UE ou hors UE). Les règles de territorialité doivent être analysées au cas par cas."
+    },
+    {
+      "q": "À quelle fréquence déclarer l’IVA ?",
+      "a": "Les déclarations sont généralement périodiques, avec un récapitulatif annuel. La périodicité dépend de la taille et du régime de l’entreprise."
+    }
+  ]
+}

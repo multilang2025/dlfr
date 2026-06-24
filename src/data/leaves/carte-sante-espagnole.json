@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Tarjeta sanitaria, couverture publique et articulation avec la carte européenne.",
+  "heroNote": "Nous vous orientons vers le bon dispositif d’accès aux soins selon votre situation de résidence.",
+  "heroImage": "carte-de-sante-espagnole.jpg",
+  "sections": [
+    {
+      "heading": "Accéder au système de santé espagnol",
+      "body": [
+        "L’Espagne dispose d’un système de santé public (Sistema Nacional de Salud) auquel l’accès dépend de votre situation : activité professionnelle, affiliation à la sécurité sociale, statut de retraité ou de résident.",
+        "La tarjeta sanitaria (carte de santé) est le document qui ouvre l’accès aux soins du réseau public, une fois vos droits reconnus auprès des services de santé de votre communauté autonome.",
+        "Notre cabinet vous aide à identifier la voie d’accès adaptée et à constituer le dossier auprès des organismes compétents."
+      ],
+      "bullets": [],
+      "image": "area-auditoria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Carte européenne, coordination et cas particuliers",
+      "body": [
+        "Selon votre profil, plusieurs dispositifs peuvent s’articuler :"
+      ],
+      "bullets": [
+        "la carte européenne d’assurance maladie pour les séjours temporaires,",
+        "les mécanismes de coordination pour les retraités et travailleurs détachés,",
+        "l’assurance privée, parfois exigée dans le cadre de certaines autorisations de séjour."
+      ],
+      "image": "expatriation-en-espagne.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Comment obtenir la tarjeta sanitaria ?",
+      "a": "Une fois vos droits reconnus (via l’affiliation ou un autre dispositif), la carte se demande auprès du centre de santé de votre communauté autonome, sur présentation des justificatifs requis."
+    },
+    {
+      "q": "La carte européenne suffit-elle si je m’installe en Espagne ?",
+      "a": "La carte européenne couvre les séjours temporaires, pas une installation durable. Une fois résident, il faut accéder au système espagnol ou disposer d’une couverture adaptée."
+    },
+    {
+      "q": "Faut-il une assurance privée ?",
+      "a": "Dans certains cas (notamment certaines autorisations de séjour), une assurance privée peut être exigée. Cela dépend de votre statut ; nous vous précisons les obligations applicables."
+    }
+  ]
+}

@@ -8,9 +8,10 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title: string;
   description?: string;
+  noindex?: boolean;
 }
 
-const { title, description = '' } = Astro.props;
+const { title, description = '', noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
 // JSON-LD — entité du cabinet (présent sur toutes les pages)
@@ -51,6 +52,7 @@ const org = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <script type="application/ld+json" is:inline set:html={JSON.stringify(org)} />

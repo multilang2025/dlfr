@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Carte d’identité d’étranger : qui est concerné, différence avec le NIE et procédure.",
+  "heroNote": "Nous préparons votre dossier de TIE et sécurisons chaque étape jusqu’à la remise de la carte.",
+  "heroImage": "obtention-du-TIE.jpg",
+  "sections": [
+    {
+      "heading": "TIE et NIE : quelle différence ?",
+      "body": [
+        "Le TIE (Tarjeta de Identidad de Extranjero) est la carte physique qui matérialise votre autorisation de séjour en Espagne et comporte votre NIE. À la différence du simple NIE (un numéro), le TIE atteste de votre situation administrative en tant que résident.",
+        "Les ressortissants de pays tiers titulaires d’une autorisation de séjour doivent en principe obtenir un TIE. La situation des ressortissants de l’Union européenne relève d’un dispositif distinct (certificat d’enregistrement).",
+        "Notre cabinet détermine le document adapté à votre nationalité et à votre projet, et vous accompagne dans la constitution du dossier."
+      ],
+      "bullets": [],
+      "image": "area-extranjeria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les étapes de la demande",
+      "body": [
+        "La procédure suppose généralement une prise de rendez-vous (cita previa), le dépôt du dossier et la prise d’empreintes, puis le retrait de la carte :"
+      ],
+      "bullets": [
+        "rendez-vous auprès du bureau des étrangers ou du commissariat compétent,",
+        "justificatifs de l’autorisation de séjour et de l’empadronamiento,",
+        "photo d’identité et justificatif du paiement de la taxe,",
+        "prise d’empreintes puis retrait de la carte une fois éditée."
+      ],
+      "image": "obtenir-le-NIE-en-Espagne.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Tous les étrangers doivent-ils avoir un TIE ?",
+      "a": "Le TIE concerne principalement les ressortissants de pays tiers titulaires d’une autorisation de séjour. Les citoyens de l’UE relèvent d’un certificat d’enregistrement spécifique."
+    },
+    {
+      "q": "Le TIE contient-il le NIE ?",
+      "a": "Oui. Le TIE est la carte physique qui reprend votre NIE et atteste de votre droit au séjour."
+    },
+    {
+      "q": "Combien de temps prend l’obtention ?",
+      "a": "Les délais dépendent du bureau compétent et de la disponibilité des rendez-vous. Un dossier complet et bien préparé limite les allers-retours."
+    }
+  ]
+}
