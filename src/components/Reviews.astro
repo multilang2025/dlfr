@@ -17,7 +17,12 @@ const reviews = [
     <h2 class="gbp-title">Ils nous recommandent</h2>
     <div class="gbp-stage">
       <div class="gbp-track" id="gbpTrack" data-reviews={JSON.stringify(reviews)}></div>
+      <button class="gbp-nav gbp-side gbp-prev" type="button" aria-label="Avis précédent">‹</button>
+      <button class="gbp-nav gbp-side gbp-next" type="button" aria-label="Avis suivant">›</button>
+    </div>
+    <div class="gbp-controls">
       <button class="gbp-nav gbp-prev" type="button" aria-label="Avis précédent">‹</button>
+      <div class="gbp-dots" role="tablist" aria-label="Sélection de l'avis"></div>
       <button class="gbp-nav gbp-next" type="button" aria-label="Avis suivant">›</button>
     </div>
   </div>
@@ -42,22 +47,54 @@ const reviews = [
   .gbp-name { font-weight: 700; margin: 16px 0 2px; color: var(--color-muted); font-family: var(--font-heading); }
   .gbp-card.is-active .gbp-name { color: var(--color-heading); }
   .gbp-role { color: var(--color-muted); margin: 0; font-size: 14px; }
-  .gbp-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; cursor: pointer; border: 1px solid var(--color-border-soft); background: #fff; color: var(--color-brand); box-shadow: var(--shadow-sm); display: flex; align-items: center; justify-content: center; font-size: 22px; line-height: 1; z-index: 2; }
+  .gbp-nav { width: 44px; height: 44px; border-radius: 50%; cursor: pointer; border: 1px solid var(--color-border-soft); background: #fff; color: var(--color-brand); box-shadow: var(--shadow-sm); display: flex; align-items: center; justify-content: center; font-size: 22px; line-height: 1; z-index: 2; flex: none; }
   .gbp-nav:hover { background: var(--color-brand); color: #fff; }
-  .gbp-prev { left: -8px; }
-  .gbp-next { right: -8px; }
-  @media (max-width: 720px) { .gbp-track { grid-template-columns: 1fr; } .gbp-card:not(.is-active) { display: none; } }
+  .gbp-side { position: absolute; top: 50%; transform: translateY(-50%); }
+  .gbp-side.gbp-prev { left: -8px; }
+  .gbp-side.gbp-next { right: -8px; }
+
+  /* Barre de contrôle (mobile uniquement) : ‹ • • • › sous la carte */
+  .gbp-controls { display: none; align-items: center; justify-content: center; gap: 18px; margin-top: 24px; }
+  .gbp-dots { display: flex; align-items: center; gap: 9px; }
+  .gbp-dot { width: 8px; height: 8px; padding: 0; border: 0; border-radius: var(--radius-pill); background: var(--color-border-soft); cursor: pointer; transition: width .2s var(--ease), background .2s var(--ease); }
+  .gbp-dot.is-active { width: 22px; background: var(--color-brand); }
+
+  @media (max-width: 720px) {
+    .gbp { padding-block: var(--space-lg); }
+    .gbp-title { margin-bottom: 28px; }
+    .gbp-track { grid-template-columns: 1fr; }
+    .gbp-card:not(.is-active) { display: none; }
+    .gbp-card { padding: 30px 22px; border: 1px solid var(--color-border); animation: gbpFade .25s var(--ease); }
+    .gbp-av { width: 72px; height: 72px; font-size: 24px; }
+    .gbp-text { max-width: none; }
+    .gbp-side { display: none; }       /* les flèches latérales chevauchaient le texte */
+    .gbp-controls { display: flex; }   /* contrôles dédiés sous la carte */
+  }
+  @keyframes gbpFade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .gbp-card { animation: none; } }
 </style>
 
 <script>
   document.querySelectorAll('.gbp').forEach((root) => {
     const track = root.querySelector('.gbp-track');
+    const dotsWrap = root.querySelector('.gbp-dots');
     const reviews = JSON.parse(track.dataset.reviews || '[]');
     const n = reviews.length;
     let center = 1;
     const at = (i) => ((i % n) + n) % n;
     const ini = (name) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
     const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    // Points de pagination (un par avis), utilisés surtout sur mobile.
+    if (dotsWrap) {
+      dotsWrap.innerHTML = reviews.map((_, i) =>
+        '<button class="gbp-dot" type="button" role="tab" aria-label="Avis ' + (i + 1) + '"></button>'
+      ).join('');
+      dotsWrap.querySelectorAll('.gbp-dot').forEach((d, i) => {
+        d.addEventListener('click', () => { center = i; render(); });
+      });
+    }
+
     function render() {
       const idxs = [at(center - 1), center, at(center + 1)];
       track.innerHTML = idxs.map((i, slot) => {
@@ -71,9 +108,31 @@ const reviews = [
           '<p class="gbp-role">Avis Google</p>' +
           '</div>';
       }).join('');
+      if (dotsWrap) {
+        dotsWrap.querySelectorAll('.gbp-dot').forEach((d, i) => {
+          const active = i === at(center);
+          d.classList.toggle('is-active', active);
+          d.setAttribute('aria-selected', String(active));
+        });
+      }
     }
-    root.querySelector('.gbp-prev').addEventListener('click', () => { center = at(center - 1); render(); });
-    root.querySelector('.gbp-next').addEventListener('click', () => { center = at(center + 1); render(); });
+
+    const prev = () => { center = at(center - 1); render(); };
+    const next = () => { center = at(center + 1); render(); };
+    root.querySelectorAll('.gbp-prev').forEach((b) => b.addEventListener('click', prev));
+    root.querySelectorAll('.gbp-next').forEach((b) => b.addEventListener('click', next));
+
+    // Glissé tactile (mobile) sur la carte.
+    let x0 = null;
+    track.addEventListener('touchstart', (e) => { x0 = e.changedTouches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', (e) => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 40) { dx < 0 ? next() : prev(); }
+      x0 = null;
+    }, { passive: true });
+
     render();
   });
 </script>
+
