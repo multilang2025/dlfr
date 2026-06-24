@@ -1,8 +1,10 @@
 name: Deploy (preview Hostinger)
 
-# Déclenchement MANUEL uniquement (Actions → ce workflow → Run workflow).
-# Aucun déploiement automatique sur push tant qu'on n'a pas validé la préprod.
+# Déclenchement automatique à chaque fusion sur `main` (préprod validée),
+# + déclenchement MANUEL conservé en secours (Actions → ce workflow → Run workflow).
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
