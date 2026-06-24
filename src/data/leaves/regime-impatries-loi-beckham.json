@@ -1,0 +1,64 @@
+{
+  "draft": true,
+  "heroSub": "Imposition forfaitaire à 24 % des revenus du travail : conditions, durée et démarches.",
+  "heroNote": "Un accompagnement franco-espagnol pour vérifier votre éligibilité et sécuriser votre option fiscale, en français, anglais ou russe.",
+  "heroImage": "impatries-en-espagne.jpg",
+  "sections": [
+    {
+      "heading": "Qu’est-ce que le régime des impatriés (loi Beckham) ?",
+      "body": [
+        "Le régime spécial des travailleurs déplacés en Espagne, communément appelé « loi Beckham », permet à certaines personnes qui transfèrent leur résidence fiscale en Espagne d’être imposées selon des règles proches de celles applicables aux non-résidents. Concrètement, les revenus du travail de source espagnole sont soumis à un taux forfaitaire de 24 % jusqu’à un certain plafond, au lieu du barème progressif de l’impôt sur le revenu des résidents.",
+        "Ce régime vise à attirer les talents et les cadres internationaux. Il s’applique sur option, pour l’année du changement de résidence et les années suivantes, dans la limite de durée prévue par la loi.",
+        "Notre cabinet analyse votre situation pour déterminer si l’option est réellement avantageuse dans votre cas : selon la composition de vos revenus, le barème de droit commun peut parfois rester plus favorable."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Qui peut en bénéficier ?",
+      "body": [
+        "L’accès au régime est soumis à plusieurs conditions cumulatives, dont notamment :"
+      ],
+      "bullets": [
+        "ne pas avoir été résident fiscal en Espagne au cours des années précédant le déplacement (le délai d’antériorité est fixé par la loi),",
+        "transférer sa résidence en Espagne en raison d’un motif éligible (contrat de travail, statut de dirigeant, activité entrepreneuriale ou professionnelle reconnue, selon les cas),",
+        "ne pas percevoir de revenus qui seraient qualifiés d’établissement stable exclu du dispositif.",
+        "respecter le délai d’option auprès de l’administration fiscale espagnole (modèle dédié, dans le délai imparti)."
+      ],
+      "image": "impatries-en-espagne.jpg",
+      "alt": true,
+      "rev": true
+    },
+    {
+      "heading": "Quels avantages, quelles limites ?",
+      "body": [
+        "Le principal avantage est le taux forfaitaire de 24 % sur les revenus du travail jusqu’au plafond légal, ainsi qu’un traitement spécifique de certains revenus de source étrangère.",
+        "Le régime comporte toutefois des contreparties qu’il faut mesurer avant d’opter :"
+      ],
+      "bullets": [
+        "au-delà du plafond, la fraction supérieure des revenus du travail est imposée à un taux majoré,",
+        "l’option peut limiter le bénéfice de certaines déductions et de la convention fiscale,",
+        "l’articulation avec l’impôt sur le patrimoine et les obligations déclaratives (dont le Modèle 720) doit être anticipée."
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": false,
+      "rev": false
+    }
+  ],
+  "faq": [
+    {
+      "q": "Pendant combien d’années s’applique la loi Beckham ?",
+      "a": "Le régime s’applique pour l’année de prise de résidence et un nombre d’années suivantes fixé par la loi. La durée exacte et les conditions doivent être vérifiées au regard de votre situation."
+    },
+    {
+      "q": "Le régime est-il toujours plus avantageux que le barème classique ?",
+      "a": "Pas nécessairement. Selon la nature et le niveau de vos revenus, le barème progressif de droit commun peut parfois être plus favorable. Une simulation personnalisée est recommandée avant d’opter."
+    },
+    {
+      "q": "Comment opter pour le régime ?",
+      "a": "L’option se fait au moyen d’un formulaire spécifique déposé auprès de l’administration fiscale espagnole dans le délai légal suivant le début de l’activité ou l’inscription à la sécurité sociale."
+    }
+  ]
+}

@@ -1,45 +1,44 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import Breadcrumb from '../../../components/Breadcrumb.astro';
-import Reviews from '../../../components/Reviews.astro';
-import { silos } from '../../../data/silos';
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
+import Reviews from '../../../../components/Reviews.astro';
+import { silos } from '../../../../data/silos';
 
 export function getStaticPaths() {
   return silos.flatMap((s) =>
-    s.subservices.map((ss) => ({
-      params: { silo: s.slug, service: ss.slug },
-      props: { silo: s, service: ss },
-    }))
+    s.subservices.flatMap((ss) =>
+      (ss.children ?? []).map((c) => ({
+        params: { silo: s.slug, service: ss.slug, page: c.slug },
+        props: { silo: s, service: ss, child: c },
+      }))
+    )
   );
 }
 
-const { silo, service } = Astro.props;
+const { silo, service, child } = Astro.props;
 
-// Contenu riche par slug (src/data/services/<slug>.json), si présent.
-const modules = import.meta.glob('../../../data/services/*.json', { eager: true });
+// Contenu rédactionnel par slug (src/data/leaves/<slug>.json), si présent.
+const modules = import.meta.glob('../../../../data/leaves/*.json', { eager: true });
 let content: any = null;
 for (const path in modules) {
-  if (path.endsWith(`/${service.slug}.json`)) { content = (modules[path] as any).default ?? modules[path]; break; }
+  if (path.endsWith(`/${child.slug}.json`)) { content = (modules[path] as any).default ?? modules[path]; break; }
 }
 
-// « Dans le même domaine » : 3 cartes (complétées par des domaines proches si < 3).
-const siblings = silo.subservices
-  .filter((ss) => ss.slug !== service.slug)
-  .map((ss) => ({ title: ss.title, img: ss.img, href: `/domaines/${silo.slug}/${ss.slug}/` }));
-let related = siblings;
-if (related.length < 3) {
-  const pool = silos
-    .filter((s) => s.slug !== silo.slug)
-    .flatMap((s) => s.subservices.map((ss) => ({ title: ss.title, img: ss.img, href: `/domaines/${s.slug}/${ss.slug}/` })));
-  related = related.concat(pool).slice(0, 3);
-}
+// Brouillon tant que `draft` n'est pas explicitement à false → noindex + bandeau.
+const isDraft = content?.draft !== false;
 
 const CONTACT = 'https://delaguialuzon.com/fr/';
-const heroImg = content?.heroImage ?? service.img;
+const heroImg = content?.heroImage ?? child.img;
 const tilts = [-3, 2.4, -2.2, 2.8, -2.6, 2];
+const serviceHref = `/domaines/${silo.slug}/${service.slug}/`;
+
+// Maillage : pages filles sœurs (même service).
+const siblings = (service.children ?? [])
+  .filter((c) => c.slug !== child.slug)
+  .map((c) => ({ title: c.title, img: c.img, href: `${serviceHref}${c.slug}/` }));
 
 const stripTags = (s: string) => (s || '').replace(/<[^>]+>/g, '');
-const faqLd = content?.faq?.length
+const faqLd = !isDraft && content?.faq?.length
   ? {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
@@ -52,23 +51,36 @@ const faqLd = content?.faq?.length
   : null;
 ---
 
-<Base title={`${service.title} — Delaguía y Luzón`} description={content?.heroSub ?? service.intro}>
+<Base
+  title={`${child.title} — Delaguía y Luzón`}
+  description={content?.heroSub ?? child.intro}
+  noindex={isDraft}
+>
   <Breadcrumb items={[
     { label: 'Domaines de compétences', href: '/domaines/' },
     { label: silo.title, href: `/domaines/${silo.slug}/` },
-    { label: service.title },
+    { label: service.title, href: serviceHref },
+    { label: child.title },
   ]} />
+
+  {isDraft && (
+    <div class="draft-banner" role="note">
+      <div class="container">
+        <strong>Brouillon</strong> — contenu rédactionnel à relire et valider par un juriste avant mise en ligne. Cette page est en <code>noindex</code>.
+      </div>
+    </div>
+  )}
 
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <p class="hero-eyebrow">Domaine de compétence</p>
-        <h1>{service.title}</h1>
-        <p class="hero-sub" set:html={content?.heroSub ?? service.intro}></p>
+        <p class="hero-eyebrow">{service.title}</p>
+        <h1>{child.title}</h1>
+        <p class="hero-sub" set:html={content?.heroSub ?? child.intro}></p>
         {content?.heroNote && <p class="hero-note" set:html={content.heroNote}></p>}
         <a class="btn" href={CONTACT}>Faire une demande</a>
       </div>
-      <img src={`/assets/${heroImg}`} alt={service.title} />
+      <img src={`/assets/${heroImg}`} alt={child.title} fetchpriority="high" decoding="async" />
     </div>
   </section>
 
@@ -82,34 +94,21 @@ const faqLd = content?.faq?.length
             <ul>{sec.bullets.map((b: string) => <li set:html={b} />)}</ul>
           )}
         </div>
-        <div class:list={["acc-media", "reveal", sec.rev ? "r-left" : "r-right"]}>
-          <img src={`/assets/${sec.image}`} alt={sec.heading} loading="lazy" />
-        </div>
+        {sec.image && (
+          <div class:list={["acc-media", "reveal", sec.rev ? "r-left" : "r-right"]}>
+            <img src={`/assets/${sec.image}`} alt={sec.heading} loading="lazy" decoding="async" />
+          </div>
+        )}
       </div>
     </section>
   ))}
-
-  {content?.testimonial && (
-    <section class="tband">
-      <div class="container tband-in">
-        <a class="t-media video-link" href={content.testimonial.video} target="_blank" rel="noopener" style={`background-image:url(/assets/${content.testimonial.img})`} aria-label={`Voir le témoignage de ${content.testimonial.name}`}><span class="play" aria-hidden="true">▶</span></a>
-        <div>
-          <p class="t-eyebrow">Témoignage client</p>
-          <h2>Ils nous font confiance</h2>
-          <p class="t-name" set:html={content.testimonial.name}></p>
-          <p class="t-role" set:html={content.testimonial.role}></p>
-          <a class="t-link video-link" href={content.testimonial.video} target="_blank" rel="noopener">Voir le témoignage en vidéo →</a>
-        </div>
-      </div>
-    </section>
-  )}
 
   {content?.faq && content.faq.length > 0 && (
     <section class="faq">
       <div class="container">
         <div class="faq-head">
           <h2>Questions fréquentes</h2>
-          <p class="faq-sub">Vos questions les plus courantes sur « {service.title} ».</p>
+          <p class="faq-sub">Vos questions les plus courantes sur « {child.title} ».</p>
         </div>
         <div class="faq-deck">
           {content.faq.map((f: any, i: number) => (
@@ -125,44 +124,24 @@ const faqLd = content?.faq?.length
 
   {faqLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />}
 
-  {service.children && service.children.length > 0 && (
-    <section class="deepen">
-      <div class="container">
-        <h2>Pour aller plus loin</h2>
-        <p class="deepen-sub">Nos guides détaillés sur « {service.title} ».</p>
-        <ul class="deepen-grid">
-          {service.children.map((c) => (
-            <li>
-              <a href={`/domaines/${silo.slug}/${service.slug}/${c.slug}/`}>
-                <span class="dt">{c.title}</span>
-                <span class="dd">{c.intro}</span>
-                <span class="dl">Lire le guide →</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  )}
-
   <Reviews />
 
-  {related.length > 0 && (
-    <section class="related">
-      <div class="container">
-        <h2>Dans le même domaine : {silo.title}</h2>
+  <section class="related">
+    <div class="container">
+      <h2>Approfondir : {service.title}</h2>
+      {siblings.length > 0 && (
         <div class="rel-grid">
-          {related.map((r) => (
+          {siblings.map((r) => (
             <a class="rel-card" href={r.href}>
               <div class="rc-img"><img src={`/assets/${r.img}`} alt={r.title} loading="lazy" /></div>
               <div class="rc-body"><h3>{r.title}</h3><span class="rc-link">En savoir plus →</span></div>
             </a>
           ))}
         </div>
-        <p class="back"><a href="/domaines/">← Voir tous nos domaines de compétences</a></p>
-      </div>
-    </section>
-  )}
+      )}
+      <p class="back"><a href={serviceHref}>← Retour à « {service.title} »</a></p>
+    </div>
+  </section>
 
   <section class="svc-cta">
     <div class="container">
@@ -177,6 +156,11 @@ const faqLd = content?.faq?.length
 <style>
   .btn { display: inline-block; background: var(--color-btn); color: #fff; font-weight: 600; padding: 13px 28px; border-radius: var(--radius-md); text-decoration: none; }
   .btn:hover { background: var(--color-btn-hover); color: #fff; }
+
+  /* Bandeau brouillon */
+  .draft-banner { background: #fff7e6; border-bottom: 1px solid #f0d28a; color: #6b5418; font-size: 14px; }
+  .draft-banner .container { padding-block: 10px; }
+  .draft-banner code { background: rgba(0,0,0,.06); padding: 1px 5px; border-radius: 3px; }
 
   /* HERO */
   .hero { background: var(--color-surface); padding-block: var(--space-xl); }
@@ -198,6 +182,9 @@ const faqLd = content?.faq?.length
   .acc li { position: relative; padding-left: 28px; font-size: 16px; line-height: 1.5; }
   .acc li::before { content: '✓'; position: absolute; left: 0; color: var(--color-brand); font-weight: 700; }
   .acc-media img { width: 100%; aspect-ratio: 16 / 10; height: auto; object-fit: cover; border-radius: var(--radius-md); display: block; }
+  /* Section pleine largeur si pas d'image */
+  .acc-grid:not(.rev) .acc-text:only-child,
+  .acc-grid .acc-text:only-child { grid-column: 1 / -1; max-width: 760px; }
 
   /* scroll reveal */
   .reveal { opacity: 0; transition: opacity .7s var(--ease), transform .7s var(--ease); }
@@ -207,18 +194,6 @@ const faqLd = content?.faq?.length
   @media (prefers-reduced-motion: reduce) {
     .reveal { opacity: 1 !important; transform: none !important; transition: none; }
   }
-
-  /* TESTIMONIAL */
-  .tband { padding-block: var(--space-xl); background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
-  .tband-in { display: grid; grid-template-columns: 440px 1fr; gap: 48px; align-items: center; }
-  .t-media { display: flex; align-items: center; justify-content: center; aspect-ratio: 16/10; background-size: cover; background-position: center; border-radius: var(--radius-md); }
-  .t-media .play { width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,.85); color: var(--color-heading); display: flex; align-items: center; justify-content: center; font-size: 20px; padding-left: 4px; }
-  .t-media:hover .play { background: #fff; }
-  .t-eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 8px; }
-  .tband h2 { margin: 0 0 16px; }
-  .t-name { font-weight: 700; letter-spacing: .03em; color: var(--color-text-strong); margin: 0; }
-  .t-role { color: var(--color-muted); margin: 2px 0 16px; font-size: 15px; }
-  .t-link { color: var(--color-brand-heading); font-weight: 600; }
 
   /* FAQ */
   .faq { padding-block: var(--space-xl); background: var(--color-surface-cool); border-top: 1px solid var(--color-border); }
@@ -235,18 +210,6 @@ const faqLd = content?.faq?.length
   .faq-a { max-height: 0; overflow: hidden; transition: max-height .4s var(--ease); }
   .faq-a p { margin: 0; padding: 0 24px 22px; color: var(--color-text); font-size: 16px; line-height: 1.65; }
 
-  /* DEEPEN (pages filles — maillage descendant) */
-  .deepen { padding-block: var(--space-xl); background: #fff; border-top: 1px solid var(--color-border); }
-  .deepen h2 { margin: 0 0 8px; }
-  .deepen-sub { color: var(--color-muted); font-size: var(--fs-lead); margin: 0 0 28px; }
-  .deepen-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-  .deepen-grid a { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 22px 24px; border: 1px solid var(--color-border); border-left: 3px solid var(--color-brand); border-radius: var(--radius-md); background: var(--color-surface); text-decoration: none; color: inherit; transition: box-shadow .2s var(--ease), transform .2s var(--ease); }
-  .deepen-grid a:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
-  .deepen-grid .dt { font-family: var(--font-heading); color: var(--color-brand-heading); font-size: 1.15rem; line-height: 1.3; }
-  .deepen-grid .dd { color: var(--color-muted); font-size: 0.95rem; line-height: 1.5; flex: 1; }
-  .deepen-grid .dl { color: var(--color-brand); font-weight: 600; font-size: 0.9rem; }
-  @media (max-width: 700px) { .deepen-grid { grid-template-columns: 1fr; } }
-
   /* RELATED */
   .related { padding-block: var(--space-lg); border-top: 1px solid var(--color-border); background: #fff; }
   .related h2 { font-size: 28px; margin: 0 0 24px; }
@@ -261,7 +224,7 @@ const faqLd = content?.faq?.length
   .rc-link { color: var(--color-brand-heading); font-weight: 600; font-size: 14px; }
   .back a { color: var(--color-brand-heading); font-weight: 600; }
 
-  /* CTA (clair, comme la spec) */
+  /* CTA */
   .svc-cta { background: var(--color-surface-cool); text-align: center; padding-block: var(--space-lg); border-top: 1px solid var(--color-border); }
   .svc-cta .cta-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--color-brand); margin: 0 0 8px; }
   .svc-cta h2 { color: var(--color-brand-heading); margin: 0 0 8px; }

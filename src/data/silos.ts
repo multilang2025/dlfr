@@ -8,6 +8,15 @@ export interface SubService {
   intro: string;
   img: string;
   legacy?: string;
+  children?: ChildPage[];
+}
+
+// Niveau 4 du cocon : pages filles longue traîne, rattachées à une page-service mère.
+export interface ChildPage {
+  slug: string;
+  title: string;
+  intro: string;
+  img: string;
 }
 
 export interface Silo {
@@ -61,6 +70,32 @@ export const silos: Silo[] = [
         intro: 'Résidence fiscale, double imposition, déclarations : un conseil fiscal sur mesure.',
         img: 'area-mercantil.jpg',
         legacy: 'droit-fiscal-espagnol',
+        children: [
+          {
+            slug: 'regime-impatries-loi-beckham',
+            title: 'Régime des impatriés (loi Beckham) en Espagne',
+            intro: 'Imposition forfaitaire à 24 % des revenus du travail : conditions, durée et démarches.',
+            img: 'impatries-en-espagne.jpg',
+          },
+          {
+            slug: 'modele-720-biens-a-letranger',
+            title: 'Modèle 720 : déclarer ses biens à l’étranger',
+            intro: 'Comptes, titres et immobilier hors d’Espagne : qui doit déclarer, quand et comment.',
+            img: 'area-fiscalidad.jpg',
+          },
+          {
+            slug: 'impot-sur-le-patrimoine-espagne',
+            title: 'Impôt sur le patrimoine (IP) en Espagne',
+            intro: 'Seuils, exonérations et articulation avec l’IFI français pour les résidents.',
+            img: 'area-fiscal.jpg',
+          },
+          {
+            slug: 'convention-fiscale-franco-espagnole',
+            title: 'La convention fiscale franco-espagnole',
+            intro: 'Comment la convention répartit l’imposition et évite la double imposition.',
+            img: 'area-mercantil.jpg',
+          },
+        ],
       },
       {
         slug: 'conseils-fiscaux-valencia',
