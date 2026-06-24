@@ -25,7 +25,7 @@ const stats = [
 const articles = [
   { title: "Impatriés en Espagne : ce que le fisc attend que vous sachiez", img: 'impatries-en-espagne.jpg', date: '25/05/2026', excerpt: "Résidence fiscale, exit tax, comptes à déclarer : l'essentiel à anticiper avant votre retour.", href: 'https://delaguialuzon.fr/impatries-en-espagne/' },
   { title: 'Expatriation en Espagne : les 9 pièges à éviter', img: 'expatriation-en-espagne.jpg', date: '20/05/2026', excerpt: "De l'empadronamiento à la double imposition, les erreurs qui coûtent cher aux nouveaux arrivants.", href: 'https://delaguialuzon.fr/expatriation-en-espagne/' },
-  { title: 'Activités extrascolaires pour enfants à Valence', img: 'activit-s-extrascolaires-enfants-valencia-1767192925105.png', date: '15/05/2026', excerpt: 'Sport, langues et culture : comment inscrire vos enfants et faciliter leur intégration locale.', href: 'https://delaguialuzon.fr/activites-extrascolaires-enfants-valencia/' },
+  { title: 'Activités extrascolaires pour enfants à Valence', img: 'activit-s-extrascolaires-enfants-valencia-1767192925105.jpg', date: '15/05/2026', excerpt: 'Sport, langues et culture : comment inscrire vos enfants et faciliter leur intégration locale.', href: 'https://delaguialuzon.fr/activites-extrascolaires-enfants-valencia/' },
 ];
 
 const testimonials = [
@@ -63,7 +63,7 @@ const partners = [
         <a class="btn" href={CONTACT_URL}>Faire une demande</a>
       </div>
       <div class="hero-media">
-        <img src="/assets/equipo.jpg" width="1100" height="506" alt="L'équipe du cabinet Delaguía y Luzón" />
+        <img src="/assets/equipo.jpg" width="1100" height="506" alt="L'équipe du cabinet Delaguía y Luzón" fetchpriority="high" decoding="async" />
       </div>
     </div>
   </section>
@@ -114,7 +114,7 @@ const partners = [
   <!-- POURQUOI NOUS CHOISIR -->
   <section class="why">
     <div class="container why-inner">
-      <img class="why-photo" src="/assets/Felix-Delaguia-1.png" width="400" height="400" alt="Félix Delaguía, fondateur du cabinet" loading="lazy" />
+      <img class="why-photo" src="/assets/Felix-Delaguia-1.jpg" width="400" height="400" alt="Félix Delaguía, fondateur du cabinet" loading="lazy" decoding="async" />
       <div>
         <h2>Pourquoi choisir un cabinet franco-espagnol ?</h2>
         <ul class="usp">
