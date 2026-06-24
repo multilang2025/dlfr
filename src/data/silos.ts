@@ -176,6 +176,26 @@ export const silos: Silo[] = [
         intro: "Vérifications, contrats et accompagnement juridique pour votre achat immobilier en Espagne.",
         img: 'area-laboral.jpg',
         legacy: 'acquisition-immobiliere-espagne',
+        children: [
+          {
+            slug: 'credit-immobilier-espagne',
+            title: 'Crédit immobilier en Espagne',
+            intro: 'Obtenir un prêt immobilier espagnol en tant que non-résident : conditions, apport et démarches.',
+            img: 'ouvrir-un-compte-bancaire-en-Espagne.jpg',
+          },
+          {
+            slug: 'fiscalite-achat-immobilier-espagne',
+            title: 'Fiscalité de l’achat immobilier en Espagne',
+            intro: 'ITP, IVA, frais de notaire et impôts annuels : ce que coûte vraiment l’acquisition.',
+            img: 'compra-propiedad-img.jpg',
+          },
+          {
+            slug: 'plus-value-revente-immobiliere-espagne',
+            title: 'Plus-value à la revente immobilière en Espagne',
+            intro: 'Imposition de la plus-value, plusvalía municipale et retenue applicable aux non-résidents.',
+            img: 'prop-vertical.jpg',
+          },
+        ],
       },
     ],
   },

@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Imposition de la plus-value, plusvalía municipale et retenue applicable aux non-résidents.",
+  "heroNote": "Nous calculons votre plus-value imposable et sécurisons la retenue à la source avant la vente.",
+  "heroImage": "prop-vertical.jpg",
+  "sections": [
+    {
+      "heading": "Comment est imposée la plus-value immobilière ?",
+      "body": [
+        "Lors de la revente d’un bien en Espagne, la plus-value réalisée (différence entre le prix de vente et le prix d’acquisition, ajusté des frais et travaux justifiés) est imposable.",
+        "Le régime applicable diffère selon que le vendeur est résident ou non-résident fiscal en Espagne. Pour les non-résidents, l’imposition relève de l’impôt sur le revenu des non-résidents (IRNR).",
+        "Notre cabinet établit le calcul de la plus-value imposable et identifie les frais déductibles afin d’optimiser votre situation."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Retenue à la source et plusvalía municipale",
+      "body": [
+        "Deux mécanismes spécifiques doivent être anticipés lors de la vente :"
+      ],
+      "bullets": [
+        "la retenue à la source : lorsque le vendeur est non-résident, l’acquéreur retient un pourcentage du prix et le verse au Trésor espagnol, à valoir sur l’impôt dû,",
+        "la plusvalía municipale : impôt local sur l’augmentation de valeur du terrain, dû à la commune lors de la transmission,",
+        "d’éventuelles exonérations ou abattements selon la situation (réinvestissement, résidence principale, ancienneté de détention)."
+      ],
+      "image": "area-fiscal.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelle retenue s’applique si je suis non-résident ?",
+      "a": "L’acquéreur retient un pourcentage du prix de vente et le verse à l’administration espagnole, en acompte de l’impôt sur la plus-value. Le solde est régularisé ensuite via la déclaration."
+    },
+    {
+      "q": "Qu’est-ce que la plusvalía municipale ?",
+      "a": "C’est un impôt local distinct, assis sur l’augmentation de la valeur du terrain entre l’achat et la vente. Son montant dépend de la commune et de la durée de détention."
+    },
+    {
+      "q": "Puis-je réduire la plus-value imposable ?",
+      "a": "Certains frais et travaux justifiés s’ajoutent au prix d’acquisition, et des exonérations existent selon les cas. Un examen de votre dossier permet d’optimiser légalement l’imposition."
+    }
+  ]
+}
