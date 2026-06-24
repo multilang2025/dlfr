@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Pension française perçue en Espagne, fiscalité des pensions et formalités du retraité.",
+  "heroNote": "Nous sécurisons votre installation à la retraite : résidence, fiscalité des pensions et accès aux soins.",
+  "heroImage": "expatriation-en-espagne.jpg",
+  "sections": [
+    {
+      "heading": "Percevoir sa retraite française en Espagne",
+      "body": [
+        "Un retraité français peut continuer à percevoir sa pension tout en résidant en Espagne. Le versement se poursuit, mais le changement de résidence emporte des conséquences administratives et fiscales qu’il faut anticiper.",
+        "Une fois résident fiscal espagnol, vous êtes en principe imposable en Espagne sur l’ensemble de vos revenus mondiaux, sous réserve des règles de la convention fiscale franco-espagnole, qui prévoit un traitement spécifique selon la nature de la pension.",
+        "Notre cabinet vous aide à qualifier votre résidence, à appliquer la convention à vos pensions et à organiser sereinement votre installation."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les points à organiser",
+      "body": [
+        "Préparer sa retraite en Espagne suppose de coordonner plusieurs volets :"
+      ],
+      "bullets": [
+        "la fiscalité des pensions (le régime diffère entre pensions privées et certaines pensions publiques),",
+        "l’accès au système de santé espagnol et la coordination avec la France,",
+        "les formalités de résidence (NIE, empadronamiento, certificat d’enregistrement ou TIE selon le cas)."
+      ],
+      "image": "area-auditoria.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ma pension française sera-t-elle imposée en France ou en Espagne ?",
+      "a": "Cela dépend de la nature de la pension et de votre résidence fiscale. La convention franco-espagnole prévoit des règles distinctes, notamment entre pensions privées et certaines pensions publiques. Un conseil personnalisé est recommandé."
+    },
+    {
+      "q": "Continuerai-je à toucher ma retraite en m’installant en Espagne ?",
+      "a": "Oui, le versement de la pension se poursuit. Il faut toutefois accomplir les démarches de résidence et, le cas échéant, communiquer vos coordonnées à vos caisses."
+    },
+    {
+      "q": "Comment suis-je couvert pour la santé ?",
+      "a": "Des mécanismes de coordination existent entre la France et l’Espagne pour les retraités. L’accès aux soins dépend de votre situation ; nous vous orientons sur le dispositif applicable."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Qui doit déclarer, calendrier et particularités pour les résidents étrangers.",
+  "heroNote": "Nous préparons votre déclaration d’IRPF et optimisons votre situation de résident en Espagne.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "L’IRPF, l’impôt sur le revenu espagnol",
+      "body": [
+        "L’IRPF (Impuesto sobre la Renta de las Personas Físicas) est l’impôt sur le revenu des personnes physiques résidentes en Espagne. Il est progressif et combine un barème national et un barème propre à chaque communauté autonome, ce qui fait varier l’imposition d’une région à l’autre.",
+        "Un résident fiscal espagnol est en principe imposable sur l’ensemble de ses revenus mondiaux, sous réserve de la convention fiscale franco-espagnole. Les non-résidents relèvent quant à eux d’un impôt distinct (IRNR).",
+        "Notre cabinet établit votre déclaration, identifie les déductions applicables et coordonne votre situation avec vos obligations françaises."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Qui doit déclarer, et quand ?",
+      "body": [
+        "L’obligation de déclarer dépend de votre statut de résidence et du niveau et de la nature de vos revenus :"
+      ],
+      "bullets": [
+        "les résidents fiscaux déclarent leurs revenus mondiaux via l’IRPF,",
+        "la campagne de déclaration se tient chaque année sur une période déterminée (généralement au printemps),",
+        "les nouveaux résidents doivent anticiper l’année de transition entre fiscalité française et espagnole."
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Suis-je résident fiscal espagnol ?",
+      "a": "La résidence dépend de critères (durée de séjour, centre des intérêts économiques, etc.) et, en cas de conflit, de la convention franco-espagnole. Cette qualification conditionne vos obligations déclaratives."
+    },
+    {
+      "q": "Dois-je déclarer mes revenus français en Espagne ?",
+      "a": "En tant que résident fiscal espagnol, vos revenus mondiaux sont en principe à déclarer, sous réserve de la convention qui évite la double imposition. Un conseil permet d’appliquer correctement les règles."
+    },
+    {
+      "q": "Quand a lieu la déclaration d’IRPF ?",
+      "a": "La campagne annuelle se déroule sur une période déterminée, généralement au printemps. Les dates exactes sont fixées chaque année par l’administration."
+    }
+  ]
+}

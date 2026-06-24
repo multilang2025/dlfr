@@ -41,6 +41,26 @@ export const silos: Silo[] = [
         intro: "NIE, empadronamiento, résidence : nous gérons vos démarches administratives en Espagne.",
         img: 'area-inmobiliario.jpg',
         legacy: 'installation-administrative-espagne',
+        children: [
+          {
+            slug: 'obtenir-le-nie-en-espagne',
+            title: 'Obtenir le NIE en Espagne',
+            intro: 'Numéro d’identification d’étranger : à quoi il sert, qui en a besoin et comment l’obtenir.',
+            img: 'obtenir-le-NIE-en-Espagne.jpg',
+          },
+          {
+            slug: 'empadronamiento-espagne',
+            title: 'L’empadronamiento (inscription à la mairie)',
+            intro: 'Le certificat d’empadronamiento : rôle, pièces à fournir et démarche auprès de l’ayuntamiento.',
+            img: 'expatriation-en-espagne.jpg',
+          },
+          {
+            slug: 'obtention-du-tie-espagne',
+            title: 'Obtention du TIE (carte de séjour)',
+            intro: 'Carte d’identité d’étranger : qui est concerné, différence avec le NIE et procédure.',
+            img: 'obtention-du-TIE.jpg',
+          },
+        ],
       },
       {
         slug: 'protection-sociale-retraite',
@@ -48,6 +68,26 @@ export const silos: Silo[] = [
         intro: "Sécurité sociale, retraite et santé : optimisez votre protection sociale entre la France et l'Espagne.",
         img: 'area-auditoria.jpg',
         legacy: 'protection-sociale-et-retraite-en-espagne',
+        children: [
+          {
+            slug: 'retraite-francais-en-espagne',
+            title: 'Prendre sa retraite en Espagne (Français)',
+            intro: 'Pension française perçue en Espagne, fiscalité des pensions et formalités du retraité.',
+            img: 'expatriation-en-espagne.jpg',
+          },
+          {
+            slug: 'securite-sociale-espagne',
+            title: 'Sécurité sociale en Espagne',
+            intro: 'Affiliation, coordination France-Espagne et droits sociaux des nouveaux résidents.',
+            img: 'area-laboral.jpg',
+          },
+          {
+            slug: 'carte-sante-espagnole',
+            title: 'Accès aux soins et carte de santé espagnole',
+            intro: 'Tarjeta sanitaria, couverture publique et articulation avec la carte européenne.',
+            img: 'carte-de-sante-espagnole.jpg',
+          },
+        ],
       },
       {
         slug: 'accompagnement-bancaire',
@@ -103,6 +143,26 @@ export const silos: Silo[] = [
         intro: 'Accompagnement fiscal local pour particuliers et entreprises dans la région de Valence.',
         img: 'area-fiscal.jpg',
         legacy: 'services-conseils-fiscaux',
+        children: [
+          {
+            slug: 'tva-iva-espagne',
+            title: 'La TVA (IVA) en Espagne',
+            intro: 'Taux, obligations déclaratives et fonctionnement de l’IVA pour les entreprises.',
+            img: 'area-fiscal.jpg',
+          },
+          {
+            slug: 'regime-autonomo-espagne',
+            title: 'Devenir autónomo (travailleur indépendant) en Espagne',
+            intro: 'Inscription, cotisations et obligations fiscales du régime de l’autónomo.',
+            img: 'area-fiscalidad.jpg',
+          },
+          {
+            slug: 'declaration-irpf-espagne',
+            title: 'La déclaration de revenus (IRPF) en Espagne',
+            intro: 'Qui doit déclarer, calendrier et particularités pour les résidents étrangers.',
+            img: 'area-mercantil.jpg',
+          },
+        ],
       },
     ],
   },

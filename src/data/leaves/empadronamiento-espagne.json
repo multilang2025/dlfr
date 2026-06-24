@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Le certificat d’empadronamiento : rôle, pièces à fournir et démarche auprès de l’ayuntamiento.",
+  "heroNote": "Nous vous guidons dans votre inscription à la mairie, étape clé de votre installation.",
+  "heroImage": "expatriation-en-espagne.jpg",
+  "sections": [
+    {
+      "heading": "Qu’est-ce que l’empadronamiento ?",
+      "body": [
+        "L’empadronamiento est l’inscription au registre de la population de la commune (padrón municipal) où vous résidez. Le certificat correspondant (certificado de empadronamiento) atteste de votre domicile en Espagne.",
+        "Ce document est demandé pour de nombreuses démarches : obtention du TIE, inscription au système de santé, scolarisation des enfants, immatriculation d’un véhicule ou accès à certains services publics locaux.",
+        "S’inscrire est une formalité gratuite, mais les pièces exactes varient d’une commune à l’autre."
+      ],
+      "bullets": [],
+      "image": "area-extranjeria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Comment s’inscrire ?",
+      "body": [
+        "L’inscription se fait auprès de la mairie (ayuntamiento) de votre lieu de résidence. Les justificatifs habituellement demandés sont :"
+      ],
+      "bullets": [
+        "une pièce d’identité ou passeport (et le NIE si disponible),",
+        "un justificatif de domicile (contrat de location, acte de propriété, facture…),",
+        "le formulaire d’inscription propre à la commune."
+      ],
+      "image": "area-inmobiliario.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "L’empadronamiento est-il obligatoire ?",
+      "a": "Toute personne résidant dans une commune est en principe tenue de s’y inscrire. Le certificat est par ailleurs exigé pour de nombreuses démarches administratives."
+    },
+    {
+      "q": "Faut-il un titre de propriété pour s’inscrire ?",
+      "a": "Non, un justificatif de domicile suffit généralement (bail, facture, attestation). Les pièces acceptées varient selon la mairie."
+    },
+    {
+      "q": "Combien de temps le certificat reste-t-il valable ?",
+      "a": "Certaines démarches exigent un certificat récent (souvent de moins de trois mois). Il peut être redemandé à tout moment auprès de la mairie."
+    }
+  ]
+}
