@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Pratiques déloyales, protection de votre activité et actions possibles.",
+  "heroNote": "Nous défendons votre activité contre les pratiques de concurrence déloyale en Espagne.",
+  "heroImage": "area-extranjeria.jpg",
+  "sections": [
+    {
+      "heading": "Se protéger de la concurrence déloyale",
+      "body": [
+        "La concurrence déloyale recouvre des pratiques contraires aux usages honnêtes du marché : dénigrement, imitation créant la confusion, détournement de clientèle, violation de secrets d’affaires.",
+        "Le droit espagnol sanctionne ces comportements et offre des actions pour faire cesser le trouble et, le cas échéant, obtenir réparation.",
+        "Notre cabinet évalue la situation et met en œuvre la stratégie la plus efficace, amiable ou judiciaire."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Pratiques visées et actions",
+      "body": [
+        "Sont notamment concernés :"
+      ],
+      "bullets": [
+        "le dénigrement et les actes de confusion ou d’imitation déloyale,",
+        "le détournement de clientèle et le débauchage abusif,",
+        "la violation de secrets d’affaires,",
+        "les actions pour faire cesser la pratique et obtenir réparation."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu’est-ce que la concurrence déloyale ?",
+      "a": "Ce sont des pratiques contraires aux usages honnêtes du marché (dénigrement, confusion, détournement de clientèle, atteinte aux secrets). Elles sont sanctionnées par la loi."
+    },
+    {
+      "q": "Que puis-je faire face à un concurrent déloyal ?",
+      "a": "Selon les cas, une mise en demeure, une action en cessation et une demande de réparation sont possibles. Une analyse préalable des preuves est essentielle."
+    },
+    {
+      "q": "La simple imitation est-elle interdite ?",
+      "a": "Pas toujours : tout dépend si elle crée un risque de confusion ou exploite indûment la réputation d’autrui. L’appréciation est au cas par cas."
+    }
+  ]
+}

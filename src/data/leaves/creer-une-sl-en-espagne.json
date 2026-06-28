@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Étapes, capital minimum et formalités de constitution de la société à responsabilité limitée.",
+  "heroNote": "Nous constituons votre SL en Espagne, de la dénomination à l’inscription au registre du commerce.",
+  "heroImage": "restructuration-entreprise-en-espagne.jpg",
+  "sections": [
+    {
+      "heading": "La SL, forme reine en Espagne",
+      "body": [
+        "La Sociedad de Responsabilidad Limitada (SL) est la forme sociale la plus répandue en Espagne pour les PME et les projets entrepreneuriaux. Elle limite la responsabilité des associés au montant de leurs apports.",
+        "Sa constitution suit des étapes encadrées : obtention de la dénomination sociale, NIF provisoire, ouverture d’un compte et apport du capital, signature des statuts devant notaire, puis inscription au Registre du commerce.",
+        "Notre cabinet pilote l’ensemble de la procédure et adapte les statuts à votre projet."
+      ],
+      "bullets": [],
+      "image": "onboardin-empresa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les étapes de constitution",
+      "body": [
+        "La création d’une SL passe généralement par :"
+      ],
+      "bullets": [
+        "la certification de la dénomination sociale (nom de la société),",
+        "l’obtention du NIF provisoire et l’apport du capital social,",
+        "la signature de l’acte de constitution et des statuts devant notaire,",
+        "l’inscription au Registre du commerce (Registro Mercantil) et le NIF définitif."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel est le capital minimum d’une SL ?",
+      "a": "La loi prévoit un capital social minimal pour la SL ; des règles récentes permettent des montants réduits sous conditions. Nous vérifions le cadre applicable à votre cas."
+    },
+    {
+      "q": "Faut-il un notaire pour créer une SL ?",
+      "a": "Oui, l’acte de constitution est signé devant notaire, puis la société est inscrite au Registre du commerce."
+    },
+    {
+      "q": "Combien de temps pour créer une SL ?",
+      "a": "Les délais dépendent de la dénomination, du notaire et du registre. Un dossier bien préparé accélère sensiblement la procédure."
+    }
+  ]
+}

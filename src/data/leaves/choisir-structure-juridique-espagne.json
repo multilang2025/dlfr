@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "SL, SA ou autónomo : comparer les statuts selon votre projet, votre risque et votre fiscalité.",
+  "heroNote": "Nous vous aidons à choisir la structure la plus adaptée à votre activité et à vos objectifs.",
+  "heroImage": "onboardin-empresa.jpg",
+  "sections": [
+    {
+      "heading": "Quelle structure pour votre projet ?",
+      "body": [
+        "Le choix de la structure juridique conditionne votre responsabilité, votre fiscalité, vos obligations comptables et votre crédibilité commerciale. En Espagne, les options principales sont l’autónomo (indépendant), la SL et la SA.",
+        "Chaque forme a ses avantages : l’autónomo est simple et rapide à lancer ; la SL protège le patrimoine et convient à la plupart des projets ; la SA répond à des besoins de capital plus importants.",
+        "Notre cabinet analyse votre situation pour recommander la structure optimale."
+      ],
+      "bullets": [],
+      "image": "restructuration-entreprise-en-espagne.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Critères de décision",
+      "body": [
+        "Le bon choix dépend notamment de :"
+      ],
+      "bullets": [
+        "le niveau de risque et la protection du patrimoine personnel,",
+        "la fiscalité (impôt sur les sociétés vs IRPF de l’autónomo),",
+        "les besoins de capital et l’image vis-à-vis des partenaires,",
+        "les obligations comptables et administratives associées."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Autónomo ou SL ?",
+      "a": "L’autónomo est plus simple et économique au lancement ; la SL protège le patrimoine et devient souvent plus avantageuse au-delà d’un certain niveau de revenus. Une analyse personnalisée est recommandée."
+    },
+    {
+      "q": "Quand choisir une SA plutôt qu’une SL ?",
+      "a": "La SA s’adresse à des projets nécessitant un capital important ou une ouverture à de nombreux actionnaires. Pour la majorité des projets, la SL suffit."
+    },
+    {
+      "q": "Peut-on changer de structure plus tard ?",
+      "a": "Oui, des évolutions sont possibles (transformation, apport en société), mais elles ont un coût. Bien choisir dès le départ évite des opérations ultérieures."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Distribution, agence et franchise : encadrer vos réseaux commerciaux en Espagne.",
+  "heroNote": "Nous structurons et sécurisons vos contrats de distribution et d’agence en Espagne.",
+  "heroImage": "developpement-des-reseaux-de-franchise.jpg",
+  "sections": [
+    {
+      "heading": "Développer son réseau commercial en Espagne",
+      "body": [
+        "Pour vendre en Espagne, plusieurs schémas contractuels existent : distribution, agence commerciale, franchise ou commission. Chacun a des conséquences juridiques distinctes, notamment en fin de contrat.",
+        "Le contrat d’agence commerciale, en particulier, est encadré par des règles protectrices de l’agent (dont une éventuelle indemnité de fin de contrat) qu’il faut anticiper.",
+        "Notre cabinet vous aide à choisir le schéma adapté et à rédiger des contrats équilibrés."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Choisir le bon schéma",
+      "body": [
+        "Le choix dépend de votre stratégie :"
+      ],
+      "bullets": [
+        "la distribution : le distributeur achète et revend en son nom,",
+        "l’agence commerciale : l’agent négocie pour le compte du mandant (statut protecteur),",
+        "la franchise : transmission d’un concept et d’une marque,",
+        "les clauses clés : exclusivité, territoire, objectifs, fin de contrat."
+      ],
+      "image": "area-extranjeria.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelle différence entre distributeur et agent commercial ?",
+      "a": "Le distributeur achète et revend à son compte ; l’agent négocie pour le compte du mandant et bénéficie d’un statut protecteur, avec une éventuelle indemnité de fin de contrat."
+    },
+    {
+      "q": "L’agent a-t-il droit à une indemnité de fin de contrat ?",
+      "a": "Le statut de l’agence commerciale prévoit, sous conditions, une indemnité à la cessation du contrat. Il faut l’anticiper dès la rédaction."
+    },
+    {
+      "q": "Peut-on prévoir une exclusivité territoriale ?",
+      "a": "Oui, sous réserve du droit de la concurrence. Les clauses d’exclusivité et de territoire doivent être encadrées avec soin."
+    }
+  ]
+}

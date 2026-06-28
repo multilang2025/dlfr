@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Rédiger des CGV conformes et opposables pour vendre biens et services en Espagne.",
+  "heroNote": "Nous rédigeons vos conditions générales de vente adaptées au marché espagnol.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Des CGV solides pour vendre en Espagne",
+      "body": [
+        "Les conditions générales de vente (CGV) encadrent vos relations avec vos clients : prix, paiement, livraison, garanties et responsabilité. Elles sont un outil essentiel de sécurisation commerciale.",
+        "Pour être opposables, elles doivent être portées à la connaissance du client et acceptées, et respecter les règles applicables, notamment en matière de protection des consommateurs.",
+        "Notre cabinet rédige des CGV adaptées à votre activité et conformes au droit espagnol."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ce que doivent prévoir vos CGV",
+      "body": [
+        "Des CGV efficaces traitent notamment :"
+      ],
+      "bullets": [
+        "les prix, modalités et délais de paiement,",
+        "la livraison, le transfert de risque et les garanties,",
+        "la limitation de responsabilité et la gestion des litiges,",
+        "les mentions spécifiques en cas de vente aux consommateurs."
+      ],
+      "image": "developpement-des-reseaux-de-franchise.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Les CGV sont-elles obligatoires ?",
+      "a": "Elles ne sont pas toujours obligatoires, mais fortement recommandées : elles sécurisent la relation et préviennent les litiges. Pour les ventes aux consommateurs, certaines mentions s’imposent."
+    },
+    {
+      "q": "Mes CGV françaises sont-elles valables en Espagne ?",
+      "a": "Pas nécessairement : elles doivent être adaptées au droit espagnol et, idéalement, traduites. Une simple traduction ne suffit pas toujours."
+    },
+    {
+      "q": "Comment rendre mes CGV opposables ?",
+      "a": "Le client doit en avoir connaissance et les accepter avant la commande. Les modalités d’acceptation doivent être prévues et documentées."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Clauses essentielles, droit applicable et garanties pour vos contrats en Espagne.",
+  "heroNote": "Nous rédigeons et négocions vos contrats commerciaux pour sécuriser vos opérations en Espagne.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Sécuriser ses contrats commerciaux",
+      "body": [
+        "Le contrat est le socle de toute relation d’affaires. En contexte franco-espagnol, une rédaction précise du droit applicable, de la juridiction compétente et des obligations de chacun évite bien des litiges.",
+        "Qu’il s’agisse de vente, de prestation de services, de distribution ou de partenariat, chaque contrat doit être adapté à l’opération et aux risques propres au marché espagnol.",
+        "Notre cabinet rédige, révise et négocie vos contrats, en français et en espagnol."
+      ],
+      "bullets": [],
+      "image": "onboardin-empresa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les clauses à ne pas négliger",
+      "body": [
+        "Une attention particulière doit être portée à :"
+      ],
+      "bullets": [
+        "le droit applicable et la juridiction (ou l’arbitrage) compétente,",
+        "les obligations, délais et conditions de paiement,",
+        "les garanties, la responsabilité et les pénalités,",
+        "les conditions de résiliation et la gestion des litiges."
+      ],
+      "image": "area-social-corporativa.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel droit choisir pour un contrat franco-espagnol ?",
+      "a": "Les parties peuvent souvent choisir le droit applicable et la juridiction. Ce choix a des conséquences importantes ; il doit être réfléchi dès la rédaction."
+    },
+    {
+      "q": "Un contrat en français est-il valable en Espagne ?",
+      "a": "Un contrat peut être rédigé en français, mais une version espagnole (ou bilingue) est souvent utile pour son exécution et en cas de litige local."
+    },
+    {
+      "q": "Pouvez-vous négocier nos contrats ?",
+      "a": "Oui, nous intervenons en rédaction et en négociation, en veillant à protéger vos intérêts."
+    }
+  ]
+}

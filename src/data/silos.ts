@@ -178,6 +178,26 @@ export const silos: Silo[] = [
         intro: 'Choix de la structure, constitution et formalités pour créer votre société en Espagne.',
         img: 'area-sucesiones.jpg',
         legacy: 'creation-entreprise-espagne',
+        children: [
+          {
+            slug: 'creer-une-sl-en-espagne',
+            title: 'Créer une SL (Sociedad Limitada) en Espagne',
+            intro: 'Étapes, capital minimum et formalités de constitution de la société à responsabilité limitée.',
+            img: 'restructuration-entreprise-en-espagne.jpg',
+          },
+          {
+            slug: 'choisir-structure-juridique-espagne',
+            title: 'Choisir sa structure juridique en Espagne',
+            intro: 'SL, SA ou autónomo : comparer les statuts selon votre projet, votre risque et votre fiscalité.',
+            img: 'onboardin-empresa.jpg',
+          },
+          {
+            slug: 'constitution-societe-capital-statuts-espagne',
+            title: 'Constitution d’une société : capital, statuts, notaire',
+            intro: 'NIF de société, statuts, apport du capital et inscription au registre du commerce.',
+            img: 'area-mercantil.jpg',
+          },
+        ],
       },
       {
         slug: 'droit-des-affaires',
@@ -185,6 +205,26 @@ export const silos: Silo[] = [
         intro: 'Sécurisez vos contrats et vos opérations commerciales en Espagne.',
         img: 'area-extranjeria.jpg',
         legacy: 'droit-des-affaires-espagne',
+        children: [
+          {
+            slug: 'contrats-commerciaux-espagne',
+            title: 'Rédiger et sécuriser ses contrats commerciaux',
+            intro: 'Clauses essentielles, droit applicable et garanties pour vos contrats en Espagne.',
+            img: 'area-mercantil.jpg',
+          },
+          {
+            slug: 'pacte-associes-espagne',
+            title: 'Le pacte d’associés (pacto de socios)',
+            intro: 'Gouvernance, entrée/sortie d’associés et prévention des conflits entre associés.',
+            img: 'onboardin-empresa.jpg',
+          },
+          {
+            slug: 'responsabilite-dirigeant-espagne',
+            title: 'La responsabilité du dirigeant (administrador)',
+            intro: 'Obligations et risques de responsabilité du gérant d’une société espagnole.',
+            img: 'area-social-corporativa.jpg',
+          },
+        ],
       },
       {
         slug: 'droit-commercial',
@@ -192,6 +232,26 @@ export const silos: Silo[] = [
         intro: 'Conseil en droit commercial pour vos activités dans la région de Valence.',
         img: 'area-social-corporativa.jpg',
         legacy: 'droit-commercial',
+        children: [
+          {
+            slug: 'conditions-generales-vente-espagne',
+            title: 'Conditions générales de vente (CGV) en Espagne',
+            intro: 'Rédiger des CGV conformes et opposables pour vendre biens et services en Espagne.',
+            img: 'area-mercantil.jpg',
+          },
+          {
+            slug: 'contrats-distribution-agence-espagne',
+            title: 'Contrats de distribution et d’agence commerciale',
+            intro: 'Distribution, agence et franchise : encadrer vos réseaux commerciaux en Espagne.',
+            img: 'developpement-des-reseaux-de-franchise.jpg',
+          },
+          {
+            slug: 'concurrence-deloyale-espagne',
+            title: 'La concurrence déloyale en Espagne',
+            intro: 'Pratiques déloyales, protection de votre activité et actions possibles.',
+            img: 'area-extranjeria.jpg',
+          },
+        ],
       },
     ],
   },
