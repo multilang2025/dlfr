@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Relance, injonction de paiement (proceso monitorio) et recouvrement judiciaire de vos impayés.",
+  "heroNote": "Nous recouvrons vos créances en Espagne, de la mise en demeure à l’exécution, en français.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Recouvrer une créance en Espagne",
+      "body": [
+        "Un impayé d’un client ou d’un partenaire espagnol peut rapidement fragiliser votre trésorerie. Le droit espagnol offre plusieurs voies de recouvrement, amiables puis judiciaires, qu’il convient d’actionner dans le bon ordre.",
+        "La phase amiable (mise en demeure, négociation d’un échéancier) est souvent la plus rapide et la moins coûteuse. En cas d’échec, des procédures judiciaires spécifiques permettent d’obtenir un titre exécutoire.",
+        "Notre cabinet vous accompagne à chaque étape, en coordination avec vos interlocuteurs en France si nécessaire."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les procédures à votre disposition",
+      "body": [
+        "Selon le montant et la nature de la créance, plusieurs procédures peuvent être mobilisées :"
+      ],
+      "bullets": [
+        "le proceso monitorio (injonction de paiement), adapté aux créances justifiées par des documents,",
+        "la voie judiciaire ordinaire pour les créances contestées ou complexes,",
+        "les mesures d’exécution une fois le titre obtenu (saisies, etc.)."
+      ],
+      "image": "restructuration-entreprise-en-espagne.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu’est-ce que le proceso monitorio ?",
+      "a": "C’est une procédure d’injonction de paiement espagnole, adaptée aux créances justifiées par des documents (factures, bons de livraison…). Elle permet d’obtenir rapidement un titre si le débiteur ne s’oppose pas."
+    },
+    {
+      "q": "Faut-il d’abord tenter un recouvrement amiable ?",
+      "a": "C’est souvent recommandé : une mise en demeure et une négociation peuvent suffire, à moindre coût. En cas d’échec, la voie judiciaire prend le relais."
+    },
+    {
+      "q": "Peut-on recouvrer depuis la France ?",
+      "a": "Oui. Des mécanismes européens facilitent le recouvrement transfrontalier. Nous coordonnons la procédure entre la France et l’Espagne selon votre situation."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Successions franco-espagnoles, réserve héréditaire et conflits entre héritiers.",
+  "heroNote": "Nous vous accompagnons dans les successions et litiges d’héritage entre la France et l’Espagne.",
+  "heroImage": "litige-de-succession.jpg",
+  "sections": [
+    {
+      "heading": "Successions franco-espagnoles : un terrain de conflits",
+      "body": [
+        "Le décès d’un proche détenant des biens en Espagne soulève des questions juridiques et fiscales souvent complexes, en particulier lorsque la famille réside en France. Les différences entre droit français et droit espagnol peuvent être source de désaccords entre héritiers.",
+        "Le règlement européen sur les successions permet, sous conditions, de choisir la loi applicable à sa succession, ce qui a un impact direct sur la dévolution et la réserve héréditaire. À défaut d’anticipation, des conflits peuvent naître sur le partage ou la validité des dispositions.",
+        "Notre cabinet intervient tant en conseil (anticipation, testament) qu’en cas de litige successoral déjà ouvert."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Nos interventions",
+      "body": [
+        "Nous vous accompagnons notamment pour :"
+      ],
+      "bullets": [
+        "déterminer la loi applicable à la succession et ses conséquences,",
+        "régler les aspects fiscaux de la succession en Espagne (impôt sur les successions),",
+        "résoudre les conflits entre héritiers (partage, réserve, contestation)."
+      ],
+      "image": "area-social-corporativa.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelle loi s’applique à une succession avec des biens en Espagne ?",
+      "a": "Le règlement européen sur les successions fixe des règles de rattachement et permet, sous conditions, de choisir la loi de sa nationalité. Le résultat dépend de votre situation ; une analyse est nécessaire."
+    },
+    {
+      "q": "L’impôt sur les successions est-il dû en Espagne ?",
+      "a": "Un impôt sur les successions existe en Espagne, avec des règles propres à chaque communauté autonome. L’articulation avec la fiscalité française doit être anticipée."
+    },
+    {
+      "q": "Que faire en cas de conflit entre héritiers ?",
+      "a": "Selon les cas, la médiation ou la voie judiciaire permettent de régler le partage ou de contester une disposition. Nous évaluons la stratégie adaptée à votre dossier."
+    }
+  ]
+}

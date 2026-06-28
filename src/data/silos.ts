@@ -271,6 +271,26 @@ export const silos: Silo[] = [
         intro: 'Médiation, négociation et représentation pour régler vos litiges en Espagne.',
         img: 'area-social-corporativa.jpg',
         legacy: 'resolution-de-litiges-espagne',
+        children: [
+          {
+            slug: 'recouvrement-de-creances-espagne',
+            title: 'Recouvrement de créances en Espagne',
+            intro: 'Relance, injonction de paiement (proceso monitorio) et recouvrement judiciaire de vos impayés.',
+            img: 'area-mercantil.jpg',
+          },
+          {
+            slug: 'litiges-commerciaux-contractuels-espagne',
+            title: 'Litiges commerciaux et contractuels en Espagne',
+            intro: 'Désaccords avec un partenaire, fournisseur ou client : négociation et contentieux.',
+            img: 'restructuration-entreprise-en-espagne.jpg',
+          },
+          {
+            slug: 'litiges-succession-heritage-espagne',
+            title: 'Litiges de succession et d’héritage en Espagne',
+            intro: 'Successions franco-espagnoles, réserve héréditaire et conflits entre héritiers.',
+            img: 'litige-de-succession.jpg',
+          },
+        ],
       },
     ],
   },

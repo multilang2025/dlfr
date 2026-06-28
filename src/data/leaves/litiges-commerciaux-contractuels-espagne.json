@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Désaccords avec un partenaire, fournisseur ou client : négociation et contentieux.",
+  "heroNote": "Nous défendons vos intérêts dans vos litiges commerciaux en Espagne, de la négociation au tribunal.",
+  "heroImage": "restructuration-entreprise-en-espagne.jpg",
+  "sections": [
+    {
+      "heading": "Gérer un litige commercial en Espagne",
+      "body": [
+        "Les relations d’affaires en Espagne peuvent donner lieu à des différends : inexécution d’un contrat, défauts de qualité, retards de paiement, rupture des relations commerciales. Une réaction rapide et structurée protège vos intérêts.",
+        "Avant tout contentieux, l’analyse du contrat, des échanges et du droit applicable permet d’évaluer vos chances et d’arrêter une stratégie : négociation, mise en demeure, médiation ou action judiciaire.",
+        "Notre cabinet vous conseille et vous représente, en privilégiant la solution la plus efficace au regard de vos enjeux."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Nos domaines d’intervention",
+      "body": [
+        "Nous intervenons notamment sur :"
+      ],
+      "bullets": [
+        "les désaccords contractuels (qualité des prestations, délais, garanties),",
+        "les ruptures de relations commerciales et litiges entre associés,",
+        "les conflits avec fournisseurs, clients ou distributeurs, en particulier dans le commerce international et les services B2B."
+      ],
+      "image": "area-social-corporativa.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel droit s’applique à mon litige ?",
+      "a": "Cela dépend du contrat (clause de droit applicable et de juridiction) et des règles internationales. Une analyse préalable est indispensable pour déterminer le for compétent et la loi applicable."
+    },
+    {
+      "q": "La médiation est-elle préférable au tribunal ?",
+      "a": "Souvent, oui : elle est plus rapide, plus discrète et préserve la relation d’affaires. Elle n’est toutefois pas toujours adaptée ; nous évaluons la voie la plus efficace selon votre dossier."
+    },
+    {
+      "q": "Pouvez-vous coordonner avec un avocat en France ?",
+      "a": "Oui. Grâce à nos partenariats, nous assurons un accompagnement coordonné des deux côtés de la frontière lorsque le litige a une dimension franco-espagnole."
+    }
+  ]
+}
