@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Gouvernance, entrée/sortie d’associés et prévention des conflits entre associés.",
+  "heroNote": "Nous rédigeons votre pacte d’associés pour organiser la gouvernance et prévenir les conflits.",
+  "heroImage": "onboardin-empresa.jpg",
+  "sections": [
+    {
+      "heading": "Le pacte d’associés (pacto de socios)",
+      "body": [
+        "Le pacte d’associés complète les statuts en réglant, de manière souvent confidentielle, les relations entre associés : gouvernance, prise de décision, entrée et sortie du capital.",
+        "Il est particulièrement utile lorsque plusieurs associés s’engagent ensemble, ou lors d’une levée de fonds, pour anticiper les situations de blocage et les départs.",
+        "Notre cabinet rédige un pacte adapté à votre projet et cohérent avec les statuts."
+      ],
+      "bullets": [],
+      "image": "area-social-corporativa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ce que le pacte peut prévoir",
+      "body": [
+        "Un pacte d’associés encadre fréquemment :"
+      ],
+      "bullets": [
+        "les règles de gouvernance et de majorité,",
+        "les clauses d’entrée et de sortie (préemption, agrément, sortie conjointe),",
+        "la résolution des situations de blocage,",
+        "les engagements de non-concurrence et de confidentialité."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Pacte d’associés ou statuts ?",
+      "a": "Les statuts sont publics et s’imposent à tous ; le pacte est généralement confidentiel et règle les relations entre associés. Les deux sont complémentaires."
+    },
+    {
+      "q": "Le pacte est-il obligatoire ?",
+      "a": "Non, mais il est fortement recommandé dès qu’il y a plusieurs associés, pour prévenir les conflits et les blocages."
+    },
+    {
+      "q": "Que se passe-t-il en cas de conflit entre associés ?",
+      "a": "Un pacte bien rédigé prévoit des mécanismes de sortie et de déblocage. À défaut, le conflit peut paralyser la société et finir en contentieux."
+    }
+  ]
+}

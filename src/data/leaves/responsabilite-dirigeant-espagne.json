@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Obligations et risques de responsabilité du gérant d’une société espagnole.",
+  "heroNote": "Nous conseillons les dirigeants sur leurs obligations et la limitation de leur responsabilité.",
+  "heroImage": "area-social-corporativa.jpg",
+  "sections": [
+    {
+      "heading": "La responsabilité de l’administrador",
+      "body": [
+        "Le dirigeant (administrador) d’une société espagnole assume des obligations légales dont le manquement peut engager sa responsabilité, civile voire personnelle, envers la société, les associés ou les tiers.",
+        "Les situations à risque incluent notamment la gestion en période de difficultés, le non-respect des obligations comptables et fiscales, ou l’absence de mesures en cas de pertes importantes.",
+        "Notre cabinet conseille les dirigeants pour prévenir ces risques et sécuriser leur mandat."
+      ],
+      "bullets": [],
+      "image": "onboardin-empresa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Prévenir les risques",
+      "body": [
+        "La vigilance s’impose en particulier sur :"
+      ],
+      "bullets": [
+        "le respect des obligations comptables, fiscales et sociales,",
+        "les mesures à prendre en cas de pertes ou d’insolvabilité,",
+        "la documentation des décisions de gestion,",
+        "les conflits d’intérêts et les opérations avec la société."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quand la responsabilité du dirigeant est-elle engagée ?",
+      "a": "Notamment en cas de manquement à ses obligations légales, de faute de gestion ou d’absence de mesures en situation de difficulté. L’analyse dépend des faits."
+    },
+    {
+      "q": "Le dirigeant répond-il sur son patrimoine ?",
+      "a": "Dans certaines situations, sa responsabilité personnelle peut être engagée. Une gestion rigoureuse et documentée limite ce risque."
+    },
+    {
+      "q": "Comment se protéger ?",
+      "a": "Par le respect des obligations, la documentation des décisions et, le cas échéant, une assurance de responsabilité des dirigeants. Nous vous conseillons sur ces points."
+    }
+  ]
+}

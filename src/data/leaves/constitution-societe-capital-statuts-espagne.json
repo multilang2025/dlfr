@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "NIF de société, statuts, apport du capital et inscription au registre du commerce.",
+  "heroNote": "Nous sécurisons la constitution de votre société et la rédaction de statuts adaptés.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Constituer une société en Espagne",
+      "body": [
+        "Au-delà du choix de la forme, la constitution d’une société suppose de réunir plusieurs éléments : les associés et leurs apports, le capital social, l’objet social, l’organe de gestion et les statuts.",
+        "Les statuts sont la loi interne de la société : ils fixent son fonctionnement, les règles de décision et les pouvoirs du dirigeant. Une rédaction soignée prévient de nombreux conflits.",
+        "Notre cabinet rédige des statuts sur mesure et coordonne les formalités notariales et registrales."
+      ],
+      "bullets": [],
+      "image": "restructuration-entreprise-en-espagne.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les éléments clés",
+      "body": [
+        "La constitution repose notamment sur :"
+      ],
+      "bullets": [
+        "la dénomination sociale et l’objet social,",
+        "le capital social et la répartition entre associés,",
+        "la désignation du ou des administrateurs,",
+        "les statuts et l’inscription au Registre du commerce."
+      ],
+      "image": "onboardin-empresa.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "À quoi servent les statuts ?",
+      "a": "Ils définissent le fonctionnement de la société : objet, capital, organes, règles de décision et pouvoirs du dirigeant. Ils s’imposent aux associés."
+    },
+    {
+      "q": "Qu’est-ce que le NIF de société ?",
+      "a": "C’est le numéro d’identification fiscale de la société, obtenu lors de la constitution (d’abord provisoire, puis définitif après inscription)."
+    },
+    {
+      "q": "Peut-on personnaliser les statuts ?",
+      "a": "Oui, dans le cadre légal. Des clauses adaptées (gouvernance, cession de parts) sécurisent la relation entre associés."
+    }
+  ]
+}
