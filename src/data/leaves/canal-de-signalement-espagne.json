@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Obligation de canal interne d’alerte : entreprises visées et mise en place.",
+  "heroNote": "Nous mettons en place votre canal de signalement conforme à la loi espagnole.",
+  "heroImage": "compliance-travail-mise-en-conformite.jpg",
+  "sections": [
+    {
+      "heading": "Le canal de signalement (canal de denuncias)",
+      "body": [
+        "La législation espagnole, transposant le droit européen sur la protection des lanceurs d’alerte, impose à de nombreuses entreprises de mettre en place un canal interne de signalement.",
+        "Ce canal doit garantir la confidentialité, permettre le suivi des signalements et protéger les personnes qui signalent de bonne foi contre les représailles.",
+        "Notre cabinet vous aide à déployer un dispositif conforme et à rédiger la politique associée."
+      ],
+      "bullets": [],
+      "image": "compliance-travail-politiques-internes.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Mise en conformité",
+      "body": [
+        "Un dispositif conforme suppose notamment :"
+      ],
+      "bullets": [
+        "un canal accessible et confidentiel,",
+        "une procédure de traitement et de suivi des signalements,",
+        "la désignation d’un responsable du système,",
+        "l’information des salariés et la protection contre les représailles."
+      ],
+      "image": "compliance-travail-audit-conformite.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelles entreprises sont concernées ?",
+      "a": "L’obligation vise les entreprises à partir d’un certain effectif et divers organismes. Le seuil et les modalités doivent être vérifiés au cas par cas."
+    },
+    {
+      "q": "Le canal doit-il être anonyme ?",
+      "a": "Il doit au minimum garantir la confidentialité. La possibilité de signalements anonymes et leurs modalités dépendent du dispositif retenu."
+    },
+    {
+      "q": "Qui gère les signalements ?",
+      "a": "Un responsable du système doit être désigné, avec une procédure de traitement encadrée et des délais à respecter."
+    }
+  ]
+}

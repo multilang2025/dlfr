@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Virements France-Espagne, change et bonnes pratiques pour limiter les frais.",
+  "heroNote": "Nous vous conseillons sur vos transferts internationaux et leurs implications déclaratives.",
+  "heroImage": "area-mercantil.jpg",
+  "sections": [
+    {
+      "heading": "Transférer des fonds entre la France et l’Espagne",
+      "body": [
+        "Un projet d’installation ou d’investissement implique souvent des transferts de fonds entre la France et l’Espagne : apport pour un achat immobilier, capital d’une société, virements réguliers.",
+        "Au sein de la zone euro, les virements sont facilités, mais des questions de frais, de justification de l’origine des fonds et d’obligations déclaratives peuvent se poser pour les montants importants.",
+        "Notre cabinet vous conseille sur les bonnes pratiques et les implications fiscales et déclaratives."
+      ],
+      "bullets": [],
+      "image": "area-fiscalidad.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Points d’attention",
+      "body": [
+        "Pour des transferts sereins :"
+      ],
+      "bullets": [
+        "anticiper la justification de l’origine des fonds,",
+        "vérifier les obligations déclaratives liées aux montants importants,",
+        "optimiser les frais et le change le cas échéant,",
+        "articuler ces flux avec vos obligations fiscales (dont le Modèle 720)."
+      ],
+      "image": "area-fiscal.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Les virements France-Espagne sont-ils taxés ?",
+      "a": "Un virement en lui-même n’est pas un impôt, mais l’origine et la destination des fonds peuvent avoir des implications fiscales et déclaratives à anticiper."
+    },
+    {
+      "q": "Dois-je déclarer des transferts importants ?",
+      "a": "Des obligations de déclaration peuvent s’appliquer au-delà de certains montants ou pour certains actifs détenus à l’étranger. Nous vous indiquons les règles applicables."
+    },
+    {
+      "q": "Comment limiter les frais ?",
+      "a": "Selon les montants et la fréquence, différentes solutions existent. Nous vous orientons vers les bonnes pratiques."
+    }
+  ]
+}

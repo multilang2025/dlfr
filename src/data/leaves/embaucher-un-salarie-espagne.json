@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Affiliation, déclaration préalable et obligations de l’employeur à l’embauche.",
+  "heroNote": "Nous gérons vos formalités d’embauche en Espagne, de l’affiliation à la déclaration.",
+  "heroImage": "seleccion-personal-e1663750241966.jpg",
+  "sections": [
+    {
+      "heading": "Recruter et déclarer un salarié",
+      "body": [
+        "Embaucher en Espagne suppose d’accomplir des formalités préalables auprès de la sécurité sociale et de respecter les obligations de l’employeur dès le premier jour.",
+        "L’employeur doit notamment affilier le salarié, communiquer l’embauche avant le début du travail et établir un contrat conforme à la convention collective.",
+        "Notre cabinet prend en charge ces démarches et vous conseille sur le statut et le coût employeur."
+      ],
+      "bullets": [],
+      "image": "onboardin-empresa.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Vos obligations d’employeur",
+      "body": [
+        "À l’embauche, l’employeur doit en particulier :"
+      ],
+      "bullets": [
+        "obtenir un code de compte de cotisation et affilier le salarié à la sécurité sociale,",
+        "déclarer l’embauche avant la prise de poste (alta),",
+        "remettre un contrat écrit et respecter la convention collective,",
+        "mettre en place la couverture en matière de prévention des risques."
+      ],
+      "image": "area-laboral.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quand déclarer l’embauche ?",
+      "a": "L’affiliation et la déclaration (alta) doivent en principe être effectuées avant le début effectif du travail du salarié."
+    },
+    {
+      "q": "Faut-il une structure espagnole pour embaucher ?",
+      "a": "Embaucher en Espagne suppose en général d’y disposer d’une immatriculation comme employeur. Nous vous orientons selon votre situation."
+    },
+    {
+      "q": "Quel est le coût employeur ?",
+      "a": "Au salaire s’ajoutent les cotisations patronales. Le coût total dépend du salaire et de la convention applicable ; nous l’estimons avec vous."
+    }
+  ]
+}

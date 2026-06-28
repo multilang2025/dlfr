@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Diagnostic de vos pratiques sociales et plan de mise en conformité.",
+  "heroNote": "Nous auditons vos pratiques sociales et établissons un plan de mise en conformité priorisé.",
+  "heroImage": "compliance-travail-audit-conformite.jpg",
+  "sections": [
+    {
+      "heading": "L’audit social",
+      "body": [
+        "L’audit social (ou audit de conformité du travail) consiste à examiner les pratiques de l’entreprise au regard du droit du travail et de la sécurité sociale espagnols.",
+        "Il permet d’identifier les écarts (contrats, paie, temps de travail, obligations de compliance) et de prioriser les actions correctives avant un éventuel contrôle de l’Inspection du travail.",
+        "Notre cabinet réalise ce diagnostic et vous propose un plan de mise en conformité concret."
+      ],
+      "bullets": [],
+      "image": "compliance-travail-mise-en-conformite.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ce que couvre l’audit",
+      "body": [
+        "Le diagnostic porte notamment sur :"
+      ],
+      "bullets": [
+        "la régularité des contrats et des affiliations,",
+        "la paie et les cotisations,",
+        "le temps de travail et son enregistrement,",
+        "les obligations de compliance (plan d’égalité, canal de signalement)."
+      ],
+      "image": "compliance-travail-politiques-internes.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Pourquoi réaliser un audit social ?",
+      "a": "Pour identifier et corriger les non-conformités avant un contrôle, limiter les risques de sanctions et fiabiliser la gestion du personnel."
+    },
+    {
+      "q": "Quand le réaliser ?",
+      "a": "À l’implantation, lors d’une croissance des effectifs, en cas de doute sur la conformité, ou en prévention d’un contrôle de l’Inspection du travail."
+    },
+    {
+      "q": "Que se passe-t-il après l’audit ?",
+      "a": "Nous remettons un diagnostic priorisé et un plan d’action, et pouvons accompagner sa mise en œuvre."
+    }
+  ]
+}

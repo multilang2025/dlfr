@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Prêts, lignes de crédit et financement de votre activité ou de votre société.",
+  "heroNote": "Nous vous accompagnons dans la recherche et la sécurisation de votre financement professionnel en Espagne.",
+  "heroImage": "area-fiscalidad.jpg",
+  "sections": [
+    {
+      "heading": "Financer son activité en Espagne",
+      "body": [
+        "Lancer ou développer une activité en Espagne nécessite souvent un financement : prêt professionnel, ligne de crédit, financement d’équipement ou de trésorerie.",
+        "Les banques espagnoles évaluent la solidité du projet, les garanties et l’historique de l’entreprise. Un dossier structuré augmente les chances d’obtention et améliore les conditions.",
+        "Notre cabinet vous aide à préparer le dossier, comparer les offres et sécuriser les contrats de financement."
+      ],
+      "bullets": [],
+      "image": "area-mercantil.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Les points à préparer",
+      "body": [
+        "Avant de solliciter un financement :"
+      ],
+      "bullets": [
+        "un plan d’affaires et des prévisions financières solides,",
+        "une analyse des garanties demandées,",
+        "la comparaison des taux, frais et conditions,",
+        "la vérification des clauses des contrats de prêt."
+      ],
+      "image": "developpement-des-reseaux-de-franchise.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Une société étrangère peut-elle se financer en Espagne ?",
+      "a": "Oui, mais les conditions dépendent de l’implantation locale, des garanties et de l’historique. Un dossier solide est déterminant."
+    },
+    {
+      "q": "Quelles garanties sont demandées ?",
+      "a": "Cela varie selon le montant et le projet (caution, nantissement, garantie réelle). Nous analysons les exigences avant signature."
+    },
+    {
+      "q": "Aidez-vous à comparer les offres ?",
+      "a": "Oui, nous vous aidons à comparer taux, frais et clauses, et à sécuriser le contrat retenu."
+    }
+  ]
+}

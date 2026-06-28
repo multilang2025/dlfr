@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Types de contrats, CDD/CDI, période d’essai et mentions obligatoires.",
+  "heroNote": "Nous rédigeons et sécurisons vos contrats de travail conformes au droit espagnol.",
+  "heroImage": "onboardin-empresa.jpg",
+  "sections": [
+    {
+      "heading": "Le contrat de travail espagnol",
+      "body": [
+        "Le contrat de travail (contrato de trabajo) encadre la relation entre l’employeur et le salarié en Espagne. Sa qualification et sa rédaction déterminent les droits de chacun et conditionnent la conformité de l’entreprise.",
+        "Depuis la réforme du travail, le contrat à durée indéterminée (indefinido) est devenu la règle, les contrats temporaires étant limités à des cas précis. Le choix du type de contrat doit donc être justifié.",
+        "Notre cabinet vous aide à choisir et rédiger le contrat adapté, en intégrant la convention collective applicable à votre secteur."
+      ],
+      "bullets": [],
+      "image": "seleccion-personal-e1663750241966.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Points de vigilance",
+      "body": [
+        "Plusieurs éléments doivent être correctement encadrés :"
+      ],
+      "bullets": [
+        "le type de contrat et sa justification (indefinido, temporaire, formation…),",
+        "la période d’essai, dont la durée dépend de la convention collective,",
+        "la classification professionnelle, le salaire et le temps de travail,",
+        "le respect de la convention collective de branche."
+      ],
+      "image": "area-laboral.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Le CDI est-il obligatoire en Espagne ?",
+      "a": "Le contrat indefinido est désormais la règle ; les contrats temporaires ne sont admis que dans des cas précis et justifiés. Une analyse du besoin permet de choisir le contrat conforme."
+    },
+    {
+      "q": "Quelle est la durée de la période d’essai ?",
+      "a": "Elle dépend principalement de la convention collective applicable et de la qualification du poste. À défaut, des durées maximales légales s’appliquent."
+    },
+    {
+      "q": "La convention collective s’impose-t-elle ?",
+      "a": "Oui, la convention collective de branche fixe de nombreux droits (salaire minimum, congés, classification). Le contrat doit la respecter."
+    }
+  ]
+}
