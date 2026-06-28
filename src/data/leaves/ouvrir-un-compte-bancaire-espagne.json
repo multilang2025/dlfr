@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Compte résident ou non-résident : pièces requises et démarches d’ouverture.",
+  "heroNote": "Nous facilitons l’ouverture de votre compte bancaire en Espagne, particulier ou professionnel.",
+  "heroImage": "ouvrir-un-compte-bancaire-en-Espagne.jpg",
+  "sections": [
+    {
+      "heading": "Ouvrir un compte en Espagne",
+      "body": [
+        "Disposer d’un compte bancaire espagnol est indispensable pour la plupart des démarches : percevoir un salaire, payer ses impôts, régler les charges d’un bien ou domicilier un prêt.",
+        "Les banques distinguent le compte résident du compte non-résident, avec des pièces et des conditions différentes. Le NIE est généralement requis.",
+        "Notre cabinet vous oriente vers la solution adaptée et vous assiste dans la constitution du dossier."
+      ],
+      "bullets": [],
+      "image": "area-fiscalidad.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Résident ou non-résident ?",
+      "body": [
+        "Le type de compte dépend de votre situation :"
+      ],
+      "bullets": [
+        "compte non-résident : avant l’installation, avec un justificatif de non-résidence,",
+        "compte résident : une fois votre résidence établie en Espagne,",
+        "pièces habituelles : passeport/pièce d’identité, NIE, justificatifs de domicile et de revenus."
+      ],
+      "image": "area-mercantil.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Faut-il un NIE pour ouvrir un compte ?",
+      "a": "Le NIE est généralement demandé, surtout pour un compte résident. Certaines banques ouvrent un compte non-résident avec un justificatif spécifique."
+    },
+    {
+      "q": "Compte résident ou non-résident ?",
+      "a": "Cela dépend de votre statut de résidence. Le compte non-résident convient avant l’installation ; le compte résident une fois domicilié en Espagne."
+    },
+    {
+      "q": "Pouvez-vous nous aider à distance ?",
+      "a": "Oui, nous préparons le dossier et coordonnons l’ouverture avec la banque, y compris pour les non-résidents."
+    }
+  ]
+}

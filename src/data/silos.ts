@@ -95,6 +95,26 @@ export const silos: Silo[] = [
         intro: "Ouverture de compte, financement et gestion bancaire pour votre projet espagnol.",
         img: 'area-fiscalidad.jpg',
         legacy: 'accompagnement-bancaire-et-financier-en-espagne',
+        children: [
+          {
+            slug: 'ouvrir-un-compte-bancaire-espagne',
+            title: 'Ouvrir un compte bancaire en Espagne',
+            intro: 'Compte résident ou non-résident : pièces requises et démarches d’ouverture.',
+            img: 'ouvrir-un-compte-bancaire-en-Espagne.jpg',
+          },
+          {
+            slug: 'financement-professionnel-espagne',
+            title: 'Financement professionnel en Espagne',
+            intro: 'Prêts, lignes de crédit et financement de votre activité ou de votre société.',
+            img: 'area-fiscalidad.jpg',
+          },
+          {
+            slug: 'transferts-internationaux-change-espagne',
+            title: 'Transferts internationaux et change',
+            intro: 'Virements France-Espagne, change et bonnes pratiques pour limiter les frais.',
+            img: 'area-mercantil.jpg',
+          },
+        ],
       },
     ],
   },
@@ -207,6 +227,26 @@ export const silos: Silo[] = [
         intro: 'Embauche, contrats de travail et relations sociales conformes au droit espagnol.',
         img: 'area-fiscal.jpg',
         legacy: 'droit-du-travail-et-recrutement-en-espagne',
+        children: [
+          {
+            slug: 'contrat-de-travail-espagne',
+            title: 'Le contrat de travail en Espagne',
+            intro: 'Types de contrats, CDD/CDI, période d’essai et mentions obligatoires.',
+            img: 'onboardin-empresa.jpg',
+          },
+          {
+            slug: 'licenciement-espagne',
+            title: 'Le licenciement en Espagne',
+            intro: 'Motifs, procédure, indemnités et risques de licenciement abusif (improcedente).',
+            img: 'area-laboral.jpg',
+          },
+          {
+            slug: 'embaucher-un-salarie-espagne',
+            title: 'Embaucher un salarié en Espagne',
+            intro: 'Affiliation, déclaration préalable et obligations de l’employeur à l’embauche.',
+            img: 'seleccion-personal-e1663750241966.jpg',
+          },
+        ],
       },
       {
         slug: 'ressources-humaines',
@@ -214,6 +254,26 @@ export const silos: Silo[] = [
         intro: 'Gestion RH, paie et accompagnement de vos collaborateurs en Espagne.',
         img: 'area-laboral.jpg',
         legacy: 'conseil-en-ressources-humaines',
+        children: [
+          {
+            slug: 'paie-nomina-espagne',
+            title: 'La paie (nómina) en Espagne',
+            intro: 'Bulletin de paie, cotisations sociales et retenues d’IRPF des salariés.',
+            img: 'formacion-laboral.jpg',
+          },
+          {
+            slug: 'conges-absences-temps-de-travail-espagne',
+            title: 'Congés, absences et temps de travail',
+            intro: 'Congés payés, jours fériés, horaires et registre du temps de travail.',
+            img: 'gestion-tiempo-empleados-e1663748879652.jpg',
+          },
+          {
+            slug: 'externaliser-gestion-rh-espagne',
+            title: 'Externaliser la gestion RH en Espagne',
+            intro: 'Paie, administration du personnel et conformité confiées à un partenaire local.',
+            img: 'onboardin-empresa.jpg',
+          },
+        ],
       },
       {
         slug: 'compliance-du-travail',
@@ -221,6 +281,26 @@ export const silos: Silo[] = [
         intro: 'Mise en conformité de vos pratiques sociales avec la réglementation espagnole.',
         img: 'compliance-travail-audit-conformite.jpg',
         legacy: 'compliance-du-travail',
+        children: [
+          {
+            slug: 'plan-egalite-espagne',
+            title: 'Le plan d’égalité (plan de igualdad) en Espagne',
+            intro: 'Entreprises concernées, contenu obligatoire et enregistrement du plan.',
+            img: 'compliance-travail-politiques-internes.jpg',
+          },
+          {
+            slug: 'canal-de-signalement-espagne',
+            title: 'Canal de signalement (canal de denuncias)',
+            intro: 'Obligation de canal interne d’alerte : entreprises visées et mise en place.',
+            img: 'compliance-travail-mise-en-conformite.jpg',
+          },
+          {
+            slug: 'audit-social-conformite-espagne',
+            title: 'Audit social et mise en conformité',
+            intro: 'Diagnostic de vos pratiques sociales et plan de mise en conformité.',
+            img: 'compliance-travail-audit-conformite.jpg',
+          },
+        ],
       },
     ],
   },

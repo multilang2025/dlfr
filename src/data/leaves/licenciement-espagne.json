@@ -1,0 +1,48 @@
+{
+  "draft": true,
+  "heroSub": "Motifs, procédure, indemnités et risques de licenciement abusif (improcedente).",
+  "heroNote": "Nous sécurisons vos licenciements et défendons vos intérêts en cas de contentieux prud’homal.",
+  "heroImage": "area-laboral.jpg",
+  "sections": [
+    {
+      "heading": "Licencier en Espagne : motifs et procédure",
+      "body": [
+        "Le licenciement (despido) en Espagne obéit à des règles strictes. Le motif (disciplinaire, objectif, collectif) détermine la procédure à suivre et le niveau d’indemnisation.",
+        "Une procédure mal conduite expose l’employeur à un licenciement déclaré « improcedente » (abusif), avec des conséquences financières importantes. La rédaction de la lettre de licenciement et le respect des formes sont essentiels.",
+        "Notre cabinet vous accompagne pour sécuriser la procédure ou contester un licenciement injustifié."
+      ],
+      "bullets": [],
+      "image": "gestion-tiempo-empleados-e1663748879652.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Indemnités et risques",
+      "body": [
+        "Selon la qualification du licenciement, les conséquences diffèrent :"
+      ],
+      "bullets": [
+        "licenciement objectif : indemnité légale calculée selon l’ancienneté,",
+        "licenciement disciplinaire justifié : sans indemnité, sous conditions strictes,",
+        "licenciement déclaré improcedente : indemnité majorée ou réintégration."
+      ],
+      "image": "area-fiscal.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu’est-ce qu’un licenciement « improcedente » ?",
+      "a": "C’est un licenciement déclaré injustifié par le juge. L’employeur doit alors verser une indemnité majorée ou, dans certains cas, réintégrer le salarié."
+    },
+    {
+      "q": "Quelle indemnité de licenciement en Espagne ?",
+      "a": "Elle dépend du motif et de l’ancienneté, selon des barèmes légaux. Un calcul précis suppose d’examiner le contrat et la convention collective."
+    },
+    {
+      "q": "Faut-il une lettre de licenciement ?",
+      "a": "Oui, une notification écrite et motivée est requise. Son contenu et sa forme sont déterminants pour la validité du licenciement."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Entreprises concernées, contenu obligatoire et enregistrement du plan.",
+  "heroNote": "Nous élaborons et enregistrons votre plan d’égalité conforme à la réglementation espagnole.",
+  "heroImage": "compliance-travail-politiques-internes.jpg",
+  "sections": [
+    {
+      "heading": "Le plan d’égalité (plan de igualdad)",
+      "body": [
+        "Le plan d’égalité est un ensemble de mesures visant à garantir l’égalité de traitement entre femmes et hommes dans l’entreprise. Il est obligatoire au-delà d’un certain effectif, et dans d’autres cas prévus par la loi.",
+        "Il suppose un diagnostic préalable, la négociation avec la représentation du personnel, puis l’enregistrement officiel du plan.",
+        "Notre cabinet vous accompagne à chaque étape pour sécuriser votre conformité."
+      ],
+      "bullets": [],
+      "image": "compliance-travail-mise-en-conformite.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Contenu et obligations",
+      "body": [
+        "Un plan d’égalité comporte notamment :"
+      ],
+      "bullets": [
+        "un diagnostic de situation et un audit des rémunérations,",
+        "des objectifs et des mesures concrètes,",
+        "un suivi et une évaluation périodiques,",
+        "l’enregistrement du plan auprès de l’autorité compétente."
+      ],
+      "image": "compliance-travail-audit-conformite.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelles entreprises doivent avoir un plan d’égalité ?",
+      "a": "L’obligation s’applique à partir d’un certain effectif, et dans d’autres cas prévus par la loi ou la convention collective. Une vérification est nécessaire."
+    },
+    {
+      "q": "Faut-il négocier le plan ?",
+      "a": "Oui, le plan se négocie avec la représentation des travailleurs et doit ensuite être enregistré officiellement."
+    },
+    {
+      "q": "Que risque-t-on en l’absence de plan ?",
+      "a": "Le défaut de plan obligatoire expose l’entreprise à des sanctions et peut conditionner l’accès à certains marchés ou aides."
+    }
+  ]
+}

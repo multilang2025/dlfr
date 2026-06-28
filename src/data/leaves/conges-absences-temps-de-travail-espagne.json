@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Congés payés, jours fériés, horaires et registre du temps de travail.",
+  "heroNote": "Nous vous aidons à gérer le temps de travail de vos équipes en conformité avec la loi espagnole.",
+  "heroImage": "gestion-tiempo-empleados-e1663748879652.jpg",
+  "sections": [
+    {
+      "heading": "Temps de travail et congés",
+      "body": [
+        "La gestion du temps de travail en Espagne est encadrée par la loi et les conventions collectives : durée maximale, repos, congés payés et jours fériés.",
+        "Les salariés bénéficient d’un nombre minimal de jours de congés payés par an, auxquels s’ajoutent les jours fériés nationaux, régionaux et locaux.",
+        "Notre cabinet vous aide à mettre en place une organisation conforme et à gérer les absences."
+      ],
+      "bullets": [],
+      "image": "formacion-laboral.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Obligations à respecter",
+      "body": [
+        "Parmi les points clés :"
+      ],
+      "bullets": [
+        "le registre obligatoire du temps de travail (registro de jornada),",
+        "le respect des durées maximales et des repos,",
+        "la gestion des congés payés et des jours fériés applicables localement,",
+        "le traitement des absences (maladie, congés spéciaux)."
+      ],
+      "image": "area-laboral.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Le registre du temps de travail est-il obligatoire ?",
+      "a": "Oui, l’enregistrement quotidien de la journée de travail est en principe obligatoire pour les salariés. Son absence expose l’entreprise à des sanctions."
+    },
+    {
+      "q": "Combien de jours de congés payés ?",
+      "a": "La loi fixe un minimum annuel, que la convention collective peut améliorer. Les jours fériés s’y ajoutent."
+    },
+    {
+      "q": "Les jours fériés varient-ils selon la région ?",
+      "a": "Oui. Aux jours fériés nationaux s’ajoutent des jours régionaux et locaux, variables selon la communauté autonome et la commune."
+    }
+  ]
+}

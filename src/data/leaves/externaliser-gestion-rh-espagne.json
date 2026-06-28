@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Paie, administration du personnel et conformité confiées à un partenaire local.",
+  "heroNote": "Nous prenons en charge votre administration RH en Espagne pour vous concentrer sur votre activité.",
+  "heroImage": "onboardin-empresa.jpg",
+  "sections": [
+    {
+      "heading": "Externaliser sa gestion RH en Espagne",
+      "body": [
+        "Pour une entreprise étrangère implantée en Espagne, externaliser la gestion RH permet de sécuriser la conformité sans interniser une fonction administrative complexe.",
+        "L’externalisation couvre généralement la paie, l’administration du personnel, le suivi des obligations sociales et la veille sur les conventions collectives.",
+        "Notre cabinet assure cet accompagnement, en français, et fait l’interface avec les administrations espagnoles."
+      ],
+      "bullets": [],
+      "image": "areas-auditoria.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ce que nous prenons en charge",
+      "body": [
+        "Notre accompagnement RH inclut notamment :"
+      ],
+      "bullets": [
+        "l’établissement des paies et des déclarations sociales,",
+        "la gestion des entrées/sorties et des contrats,",
+        "le suivi de la conformité (convention collective, temps de travail),",
+        "le conseil sur les évolutions réglementaires."
+      ],
+      "image": "area-laboral.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "À qui s’adresse l’externalisation RH ?",
+      "a": "Surtout aux entreprises étrangères ou aux PME qui n’ont pas de fonction RH locale et veulent sécuriser leur conformité en Espagne."
+    },
+    {
+      "q": "Gérez-vous la relation avec les administrations ?",
+      "a": "Oui, nous faisons l’interface avec la sécurité sociale et l’administration fiscale pour les obligations liées au personnel."
+    },
+    {
+      "q": "L’accompagnement est-il en français ?",
+      "a": "Oui. Nous échangeons en français, anglais ou russe, tout en assurant la conformité au droit espagnol."
+    }
+  ]
+}

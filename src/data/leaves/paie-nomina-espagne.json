@@ -1,0 +1,49 @@
+{
+  "draft": true,
+  "heroSub": "Bulletin de paie, cotisations sociales et retenues d’IRPF des salariés.",
+  "heroNote": "Nous gérons la paie de vos salariés en Espagne, en conformité avec la convention applicable.",
+  "heroImage": "formacion-laboral.jpg",
+  "sections": [
+    {
+      "heading": "La paie en Espagne (nómina)",
+      "body": [
+        "La nómina est le bulletin de paie espagnol. Elle détaille le salaire brut, les cotisations sociales à la charge du salarié et de l’employeur, ainsi que la retenue d’IRPF.",
+        "Le calcul dépend de la convention collective, du type de contrat et de la situation personnelle du salarié. Des erreurs de paie exposent l’entreprise à des régularisations et à des litiges.",
+        "Notre cabinet établit et contrôle vos bulletins de paie et sécurise vos obligations sociales et fiscales."
+      ],
+      "bullets": [],
+      "image": "area-fiscal.jpg",
+      "alt": false,
+      "rev": false
+    },
+    {
+      "heading": "Ce que recouvre la paie",
+      "body": [
+        "Une paie conforme suppose de gérer :"
+      ],
+      "bullets": [
+        "le salaire brut et les compléments prévus par la convention,",
+        "les cotisations sociales (salariales et patronales),",
+        "la retenue d’IRPF adaptée à la situation du salarié,",
+        "les paies supplémentaires (pagas extraordinarias) propres à l’Espagne."
+      ],
+      "image": "area-fiscalidad.jpg",
+      "alt": true,
+      "rev": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu’est-ce que les « pagas extraordinarias » ?",
+      "a": "Ce sont des paies supplémentaires (souvent deux par an) prévues par la loi et les conventions collectives, parfois réparties mensuellement (prorrateadas)."
+    },
+    {
+      "q": "Comment est calculée la retenue d’IRPF sur salaire ?",
+      "a": "Elle dépend du niveau de rémunération et de la situation personnelle du salarié. Un calcul correct évite les régularisations en fin d’année."
+    },
+    {
+      "q": "Pouvez-vous gérer notre paie ?",
+      "a": "Oui, nous établissons et contrôlons les nóminas et gérons les obligations sociales associées."
+    }
+  ]
+}
